@@ -19,3 +19,4 @@ resoutce "aws_instance" "app_server" {
     instance_type = "t2-micro"
     key_name = "iac-alura"
 }
+## continuando a aplicação;
