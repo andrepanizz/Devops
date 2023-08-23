@@ -1,0 +1,25 @@
+-----------------------------Devops---------------------------------------
+
+Shift_Left:
+Modelo Cascata;
+- Planejamento, Analise, Codificação. Testes, Deployment
+Modelo manifesto Agil;
+
+conceito:
+A ideia seria dar um deslocamento a esquerda, os ultimos ciclos de trabalho que estão gerando problemas
+ - como serão os Testes
+ - Parte de Segurança
+ - Deployment
+
+ Na fase de Planejamento e bom discutir:
+ Testes Automatizados
+ Realização dos deployments
+ Segurança da Infra-estrutura
+ --------------------------------------------------------------------------------
+ Vantagens da utilização do Shift-Shift_Left:
+  - Colaboração entre as Equipes/Equipes
+  - Planejamento previo das etapas de testes, Segurança e entrega
+  - Agiliza a entrega do Software
+  - Evita gargalos no processo de desenvolvimento
+  - Evita o retrabalho do time
+  ------------------------------------------------------------------------------
