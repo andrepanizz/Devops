@@ -21,4 +21,6 @@ resoutce "aws_instance" "app_server" {
 }
 ## continuando a aplicação;
 ## date: 23/08/2023 ##
+#############################finished################################
+
 
