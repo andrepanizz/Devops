@@ -1,4 +1,4 @@
------------------------------Devops---------------------------------------
+-----------------------------------Devops---------------------------------------
 
 Shift_Left:
 Modelo Cascata;
@@ -17,9 +17,11 @@ A ideia seria dar um deslocamento a esquerda, os ultimos ciclos de trabalho que 
  Segurança da Infra-estrutura
  --------------------------------------------------------------------------------
  Vantagens da utilização do Shift-Shift_Left:
+
   - Colaboração entre as Equipes/Equipes
   - Planejamento previo das etapas de testes, Segurança e entrega
   - Agiliza a entrega do Software
   - Evita gargalos no processo de desenvolvimento
   - Evita o retrabalho do time
   ------------------------------------------------------------------------------
+fim do arquivo.txt
