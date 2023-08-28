@@ -1,4 +1,8 @@
-1 - Ingra-estrutura como codigo, o que e?:
+1 - Infra-estrutura como codigo, o que e?:
 Introdução:
-##
+Modelos de utilização, com o terraform provisionando todo sua infra como codigo e subindo de forma automatizada.
+necessitamos ainda de ter nossa acess key e secret key do provedor (AWS) como por exemplo.
+
+2 - Estilo e Documentação
+
 
