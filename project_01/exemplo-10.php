@@ -11,6 +11,9 @@
 
 <?php
 /** @param Utilizando o Parent dentro das classes */
+
+
+
 class Pai {
     protected $caneta = "azul";
 
@@ -20,6 +23,8 @@ class Pai {
     }
     
 }
+
+
 class Filha extends Pai {
     public function recovery()
     {
