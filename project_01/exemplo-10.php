@@ -11,8 +11,25 @@
 
 <?php
 /** @param Utilizando o Parent dentro das classes */
+class Pai {
+    protected $caneta = "azul";
 
+    public function getPen(){
+        return $this->caneta;
+        
+    }
+    
+}
+class Filha extends Pai {
+    public function recovery()
+    {
+        echo parent::getPen();
+        # ou Pai::getPen();
+        
+    }
+}
 
+// exemplo pratico;
 
 ?>
     
