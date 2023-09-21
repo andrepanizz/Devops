@@ -12,6 +12,9 @@
     <?php
     /* exemplo de classe abstrata em PHP:
     @param  */
+    // @param
+    echo "teste";
+    
 
 
 
