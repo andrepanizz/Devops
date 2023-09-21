@@ -10,9 +10,18 @@
     <br>
 
     <?php
+
+interface Maritimos {
+    public function setSecurity($item1,$item2);
+    public function getSecurity();
+    public function listAllItems();
+ }
+
     /** @param Exemplo de herança de classe transportes
      * 
      */
+
+     
     class Veiculos {
         /** @param O encapsulamento protected permite que o acesso venha de herança e acesso a classe */
         
@@ -60,12 +69,45 @@
           
     } #end class Veiculo:
     
-class Barcos extends Veiculos {
-/** @param Veiculos Maritimos  */
+    
+class navios implements Maritimos  {
 
+    public static $a = array("Boia salva-vidas","Barco reserva");
+    public static $b = array("Extintor-Incendio","Colete-Salva-Vidas");
 
+    public function setSecurity($item1,$item2){
+        $msg = "Adicionado mais um item de segurança";
+    /*    --- Adicionando items no final do array ---
+    $stack = array("orange", "banana");
+    array_push($stack, "apple", "raspberry");
+    print_r($stack);
+
+    result:
+    Array
+    (
+        [0] => orange
+        [1] => banana
+        [2] => apple
+        [3] => raspberry
+    )
+    Source Code PHP Documentation;   
+    */
+         
+        array_push($this->a,$item1); 
+        array_push($this->b,$item2);
+        $this->a = $item1;
+        $this->b = $item2;
+        
+        return $msg;
+        
+    }
+    public function getSecurity() {
+
+    }
+    public function listAllItems(){
+
+    } 
 }
-
 
 $a = "1.6";
 $b = "Disco";
@@ -74,10 +116,8 @@ $d = 2006;
 $e = "Vermelho";
 $f = "Ford";
 
-$objeto = new  Veiculos($a,$b,$c,$d,$e,$f);
-print_r($objeto->view());
-echo "<br>";
-
+$carros = new Veiculos($a,$b,$c,$d,$e,$f);
+var_dump($carros->view());
 
 
 ?>

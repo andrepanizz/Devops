@@ -13,6 +13,7 @@
 /** @param Exemplo pratico de Interfaces. */
 
 interface Veiculo {
+
     public function acelerar($velocidade);
     public function frenar($velocidade);
     public function trocarMarcha($marcha);
@@ -37,6 +38,7 @@ class Civic implements Veiculo {
 }
 
 $carro = new Civic();
+
 $carro->trocarMarcha(1);
 echo "<br>";
 $carro->frenar(100);
