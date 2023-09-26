@@ -8,7 +8,7 @@
 # Temos que criar tambem um arquivo com o nome da classe automovel;
 class Delrey extends automovel {
     public function Empurrar(){
-        echo "O veiculo Delrey foi empurrado ao engatar a marcha ré! <br>";
+        echo ucfirst("<b> O veiculo Delrey foi empurrado ao engatar a marcha ré! </b><br>");
     }
 
 ?>
