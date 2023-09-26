@@ -10,30 +10,31 @@
  */
 
  // vamos criar uma função pra incluir classes ()
-
- function incluirClasse($nomeClasse){
+function incluir($nomeClasse){
     if(file_exists($nomeClasse . ".php") === true){
-        require_once($nomeClasse."php");
+        
+        require_once($nomeClasse .".php");
+        require_once("Automovel.php");
+    }else{
+        return throw new Exception("Não foi encontrado o arquivo!");
+        exit();
+    }
+}
+
+function incluir2($nomeClasse2){
+    if(file_exists($nomeClasse2) === true){
+        require_once("abstratas".DIRECTORY_SEPARATOR. $nomeClasse2. ".php");
+        require_once("abstratas".DIRECTORY_SEPARATOR.$nomeClasse2.".php");
+
     }
 
- }
-
-/** @param use Desta forma aqui fizemos dos dois jeitos, tanto declarando uma function e usando
- * uma function anonima */ 
-
-// note que utilizamos tambem o DIRECTORY_SEPARATOR (/) para separa o diretorio;
-
-spl_autoload_register("incluirClasse");
-spl_autoload_register(function($nomeClasse){
-    if(file_exists("abstratas".DIRECTORY_SEPARATOR.$nomeClasse.".php") === true){
-        require_once("abstratas".DIRECTORY_SEPARATOR.$nomeClasse.".php");
-    }
-});
+}
 
 
-$carro = new DelRey();
+spl_autoload_register("incluir");
+$carro = new Delrey();
 $carro->acelerar(80);
-
+?>
 
 
 ?>
