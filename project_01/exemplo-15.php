@@ -14,6 +14,7 @@ A função autoload carrega todas as classes assim quando definimos
 <?php
 /** @param use como utilizar as classes: Automovel.php, Delrey.php */
 
+$carro = new Delrey();
 
 
 
