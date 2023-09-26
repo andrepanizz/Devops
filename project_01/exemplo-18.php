@@ -8,17 +8,15 @@
 <body>
     <?php
     /** @param Variaveis de Sessão: */
-session_start();
-// podemos tambem fazer um require_once de um arquivo chamado config.php
+require_once("./config.php");
 
+session_unset($_SESSION['nome']); //Limpa variaveis de Sessão;
 
-$_SESSION["nome"] = "Teste de Session";
+echo $_SESSION['nome'];
 
-    
+session_destroy(); // limpa a variavel e remove o usuario;
 
-
-
-    ?>
+?>
    
 </body>
 </html>
