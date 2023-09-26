@@ -10,9 +10,9 @@
     /** @param Variaveis de Sessão: */
 require_once("./config.php");
 
-session_unset($_SESSION['nome']); //Limpa variaveis de Sessão;
+session_unset($_SESSION["nome"]); //Limpa variaveis de Sessão;
 
-echo $_SESSION['nome'];
+echo $_SESSION["nome"];
 
 session_destroy(); // limpa a variavel e remove o usuario;
 
