@@ -11,7 +11,7 @@
 /*Note que e importante o arquivo ter o mesmo nome da classe;
 A função autoload carrega todas as classes assim quando definimos
 */
-<?php
+
 
 /** @param use como utilizar as classes: Automovel.php, Delrey.php */
     //temos uma função do PHP que vai receber um parametro:
