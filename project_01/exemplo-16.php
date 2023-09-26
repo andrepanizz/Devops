@@ -13,7 +13,7 @@
 
  function incluirClasse($nomeClasse){
     if(file_exists($nomeClasse . ".php") === true){
-        require_once($nomeClasse);
+        require_once($nomeClasse."php");
     }
 
  }
