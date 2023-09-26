@@ -12,9 +12,22 @@
 A função autoload carrega todas as classes assim quando definimos
 */
 <?php
-/** @param use como utilizar as classes: Automovel.php, Delrey.php */
 
-$carro = new Delrey();
+/** @param use como utilizar as classes: Automovel.php, Delrey.php */
+    //temos uma função do PHP que vai receber um parametro:
+    // ela vai receber um parametro que e o nome da classe que foi chamada:
+
+    function __autoload($nomeClasse){
+        require_once($nomeClasse);
+        //var_dump($nomeClasse);
+    }
+
+//instanciamos a classe:
+
+$carro = new DelRey();
+// chamamos o metodo: 
+
+$carro->acelerar(80);
 
 
 
