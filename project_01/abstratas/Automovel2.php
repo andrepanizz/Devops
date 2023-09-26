@@ -5,7 +5,7 @@ interface Veiculo {
   public function trocarMarcha($marcha);
 }
 
-Abstract class Automovel implements Veiculo {
+Abstract class Automovel2 implements Veiculo {
 
     public function acelerar($velocidade)
     {
