@@ -20,10 +20,13 @@
 
 /** @param use Desta forma aqui fizemos dos dois jeitos, tanto declarando uma function e usando
  * uma function anonima */ 
+
+// note que utilizamos tambem o DIRECTORY_SEPARATOR (/) para separa o diretorio;
+
 spl_autoload_register("incluirClasse");
 spl_autoload_register(function($nomeClasse){
-    if(file_exists("abstratas".$nomeClasse.".php") === true){
-        require_once($nomeClasse.".php");
+    if(file_exists("abstratas".DIRECTORY_SEPARATOR.$nomeClasse.".php") === true){
+        require_once("abstratas".DIRECTORY_SEPARATOR.$nomeClasse.".php");
     }
 });
 
