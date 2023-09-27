@@ -11,6 +11,7 @@
 require_once("./config.php");
 
 session_unset($_SESSION["nome"]); //Limpa variaveis de Sessão;
+////////////////////////////////////////////////////////////////
 
 echo $_SESSION["nome"];
 
