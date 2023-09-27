@@ -19,7 +19,9 @@ echo $_SESSION["nome"];
 
 session_destroy(); // limpa a variavel e remove o usuario;
 
-echo "eu te amo meu amor vidinha";
+echo "eu te amo andre";
+echo "eu acho que quero estudar psicologia";
+
 
     ?>>
    
