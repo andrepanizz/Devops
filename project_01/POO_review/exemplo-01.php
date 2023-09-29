@@ -1,6 +1,7 @@
 <?php
-/**
- * Fazendo o Review de POO:
+ /**
+ *
+ * Fazendo o Review de POO :
  * Esta parte e importante para se familiarizar com o Data_Acess_Object;
  *  - exemplo - classe cliente, cadastro;
  *  - utilizaremos o extends, emcapsulamento: public, protected, private;
