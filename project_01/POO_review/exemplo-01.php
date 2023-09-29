@@ -8,8 +8,4 @@
  *  -  Vamos adicionar mais parametros: verificaremos como e o INSERT, UPDATE, E O DELETE.
  */
 
-
-
-
-
 ?>
