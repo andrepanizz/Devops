@@ -11,5 +11,21 @@ if($conn == mysqli_connect_error() && mysqli_connect_errno()) {
 
 }
 
+$stmt = $conn->prepare("DELETE FROM tb_usuarios WHERE idusuario = :ID");
+
+/*$login = "jose";
+$password = "1234567890" ;
+*/
+
+$id = 1;
+
+// $stmt->bindParam(":LOGIN",$login);
+// $stmt->bindParam(":PASSWORD",$password);
+$stmt->bindParam(":ID", $id);
+
+$stmt->execute();
+echo ucwords("Dados da Tabela Deletados com sucesso");
+echo "<br>";
 
 ?>
+
