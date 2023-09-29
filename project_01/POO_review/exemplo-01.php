@@ -1,19 +1,4 @@
 <?php
- /**
- *
- * Fazendo o Review de POO :
- * Esta parte e importante para se familiarizar com o Data_Acess_Object;
- *  - exemplo - classe cliente, cadastro;
- *  - utilizaremos o extends, emcapsulamento: public, protected, private;
- *  - Na parte de Dao, foi criado uma tabela chamada tb_usuarios, poderiamos criar outras (clientes), campos: End. Documento. Cpf.
- *  -  Vamos adicionar mais parametros: verificaremos como e o INSERT, UPDATE, E O DELETE.
- * variaveis - se chamaram Atributos -> Emcapsulados [public, protected, private]
- * funções - se chamaram  Metodos    -> Os metodos podem ser chamados normalmente e podem ser emcapsulados [public, protected, private]
- * classes - São assuntos que criamos para organizar -> ganhamos variaveis e funções que são chamadas de atributos e metodos;
- * Objeto -  Instanciamento - Guando efetivamente vou usar esta classe -> o objeto pode executar os metodos ex: $object->acelerar();
- * 
- * 
- */
 /**
  * Fazendo o Review de POO:
  * Estas parte e importante para se familiarizar com o Data_Acess_Object;
@@ -128,21 +113,35 @@ $objeto->setNasc("<b><center> 01".DIRECTORY_SEPARATOR."03".DIRECTORY_SEPARATOR."
 
 // retornando os valores todos com o metodo exibe:
 print_r($objeto->viewInfo()) . "<br>";
+echo "<br>";
 
 
-
-// tentando criar uma classe com um metodo que retorna as linhas e colunas para ficar mais organizado
 class mostrar extends Cliente {
-    public static function format($variavel)
+    public function Details()
     {
-        var_dump($variavel);
-        foreach ($variavel as $row){
-            foreach($row as $colluns){
-                echo $row . " " . $colluns . "<br>";
-            }
-        }
+        /** @param exemplo de to_string PHP 8.2:
+         * 
+         */
+        /*// Declara uma classe simples
+class TestClass
+{
+    public $foo;
+
+    public function __construct($foo)
+    {
+        $this->foo = $foo;
+    }
+
+    public function __toString()
+    {
+        return $this->foo;
     }
 }
 
+$class = new TestClass('Hello');
+echo $class;*/
+
+    }
+}
 
 ?>
