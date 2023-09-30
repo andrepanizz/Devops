@@ -12,9 +12,9 @@ class Hello {
     }
 }
  
-$class = new Hello('Rafael Wendel Pinheiro');
+$class = new Hello('Andre Panizza dos Santos');
 echo $class;
-//Escreverá "Hello Rafael Wendel Pinheiro"
+//Escreverá "Andre Panizza dos Santos"
 
 
 ?>
