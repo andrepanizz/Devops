@@ -12,6 +12,9 @@ Class Documento {
       $this->numero = $numero;
     }
 
+//Aqui vai o Method Static de Validação do cpf:
+
+
 }
   
 $cpf = new Documento();
