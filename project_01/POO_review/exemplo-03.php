@@ -16,5 +16,8 @@ Class Documento {
   
 $cpf = new Documento();
 $cpf->setNumero("2165486548518");
+var_dump($cpf->getNumero());
+//ira me mostrar: string() "13476784894
+
 
 ?>
