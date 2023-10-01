@@ -1,0 +1,7 @@
+<?php
+//Exemplo de Foreach:
+
+
+
+
+?>
