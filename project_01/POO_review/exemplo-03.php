@@ -14,6 +14,7 @@ Class Documento {
 
 }
   
-$objeto = new Documento();
+$cpf = new Documento();
+$cpf->setNumero("2165486548518");
 
 ?>
