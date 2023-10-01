@@ -5,10 +5,16 @@
 3º Utilizamos o Operador de incremento ou decremento ++ ou -- para ele ir percorrendo:
 
 */
-for($i=0;$ < 10; $i++){
+for($i=0; $ < 10; $i++){
   echo $i . "<br>";
 }
 
+echo "<br>";
+
+for($i=0; $i < 1000; $i+=5){
+    echo $i . "<br>";
+}
+// Exemplo utilizando um IF dentro do For;
 
 
 ?>
