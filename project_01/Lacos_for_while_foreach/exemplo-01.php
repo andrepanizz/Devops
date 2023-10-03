@@ -11,8 +11,36 @@
     <br><br>
     <hr>
     <?php
-    /** @param Exemplo de laço de repetição utilizando o FOR 01: */
-    
+     /** @param Exemplo de laço de repetição utilizando o FOR 01: */
+    /* $i enquanto o $i for menor que 10 por exemplo. */
+    for($i = 0; $i < 10; $i++){
+
+        // o que vamos repetir:
+        echo " " . $i . "<br>";
+    }
+    // Isto irá resultar: 0 até 9;
+    echo "<hr>";
+    echo "<br>";
+    ///////////////////////////////////////////////////////////////////
+
+    for($i = 0; $i < 1000; $i+=5){
+        echo " " . $i . "<br>";
+    }
+    // Imprimira na tela 5 em 5
+    ///////////////////////////////////////////////////////////////////
+    //Exemplo com break e continue;
+    echo "------------------------------------------------------------------ <br>";
+    for($i = 0; $i < 1000; $i+=5):
+        if($i > 200 && $i < 800)continue;
+            echo " " . $i . "<br>";
+        endfor;
+    ///////////////////////////////////////////////////////////////////
+    // brecar o for se ele for igual a 900;
+    for($i = 0; $i < 1000; $i+=5):
+        if($i === 900)break;
+        echo " " . $i . "<br>";
+    endfor;
+    ///////////////////////////////////////////////////////////////////   
 
 
     ?>
