@@ -12,6 +12,22 @@
     <hr>
     <?php
     /**@param Exemplo de Laço Foreach */
+    /**@param Exemplo de Laço Foreach */
+    $meses = array(
+        ucwords("Janeiro"),ucwords("fevereiro"),ucwords("Março"),
+        ucwords("Abril"),ucwords("Maio"),ucwords("Junho"),ucwords("Julho"),
+        ucwords("Agosto"),ucwords("Setembro"),ucwords("Outubro"),ucwords("novembro"),
+        ucwords("Dezembro")
+    );
+    // Para cada: Foreach:
+    // 1° No foreach a primeira variavel que ele espera como parametro e nosso array Alvo: $meses;
+    // 2° Cada item que ele encontrar o foreach vai criar uma variavel pra esse item que ele encontrou 
+    // 3° Dentro das chavés vamos querer exibir o conteudo; 
+    foreach($meses as $mes):
+        echo "O mês e:  " . $mes . "<br>";
+    endforeach;
+
+
 
 
 
