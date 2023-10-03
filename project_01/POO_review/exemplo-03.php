@@ -49,7 +49,8 @@ public static function validarCpf($cpf):bool{
   $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT); 
   //Verifica se o numero que digitamos informado e igual a 11
     if(strlen($cpf) != 11) { //se o tamanho da variavel $cpf for diferente de 11 retorna falso pra mim
-      return false;
+    echo 'length';  
+    return false;
       //Verifica se nenhuma das sequencias invalidas abaixo
     //foi digitada . Caso afirmativo . retorna false;
 
