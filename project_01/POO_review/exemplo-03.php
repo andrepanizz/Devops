@@ -45,7 +45,7 @@ public static function validarCpf($cpf):bool{
   //verfica se um numero foi informado:
     if(empty($cpf)) return false;
   //Elimina possivel Mascara:
-  $cpf = preg_replace('[^0-9]','',$cpf); 
+  $cpf = preg_replace('/[^0-9]/','',$cpf); 
   $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT); 
   //Verifica se o numero que digitamos informado e igual a 11
     if(strlen($cpf) != 11) { //se o tamanho da variavel $cpf for diferente de 11 retorna falso pra mim
