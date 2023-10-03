@@ -11,8 +11,8 @@
     <br><br>
     <hr>
     <?php
-    /**@param Exemplo de Laço Foreach */
-    /**@param Exemplo de Laço Foreach */
+
+     /**@param Exemplo de Laço Foreach */
     $meses = array(
         ucwords("Janeiro"),ucwords("fevereiro"),ucwords("Março"),
         ucwords("Abril"),ucwords("Maio"),ucwords("Junho"),ucwords("Julho"),
@@ -26,11 +26,40 @@
     foreach($meses as $mes):
         echo "O mês e:  " . $mes . "<br>";
     endforeach;
+    echo "-------------------------------------------------- <br>";
 
+    //agora se quisermos saber em qual posição do array essa informação esta:
+        foreach($meses as $index => $mes):
+            echo ucwords("<strong> Indice </strong>") . $index . "<br>";
+            echo ucwords("<i> O mês e: </i>") . $mes . "<br>";
+        endforeach;
+    echo "------------------------------------------------- <br>";
+    echo "<hr>";
+    ////////////////////////////////////////////////////////////////////////////////
+    ?>
+    <form>
+        <!-- Como não coloquei o action o padrão será Get -->
+        
+        <input type="text" name="nome">
+        <input type="date" name="nascimento">
+        <input type="submit" value="Enviar">
 
+    </form>
 
-
-
+    <?php
+    //vamos validar pois o Get ainda não vai pegar:
+        if(isset($_GET)):
+    /** @param vamos fazer um foreach dentro do nosso $_GET[""] */
+    // Qual será a chave [Key] será todos os campos que tem no nosso formulario 'name = Nome' 
+    // E o que a pessoa digitou em cada um desses campos vai vir em Value [Value]  
+    foreach($_GET as $key => $value):
+    echo ucwords("<strong>Nome do Campo:</strong>") . $key . "<br>";
+    echo ucwords("<strong>Valor do Campo:</strong>") . $value . "<br>";
+    echo "<hr>";
+    endforeach;
+        endif;
+    ?>
+   
     ?>
     
 </body>
