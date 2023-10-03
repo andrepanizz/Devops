@@ -1,96 +1,105 @@
 <?php
-// entendendo Metodos Estaticos em POO:
-Class Documento {
-  protected string $msg = "Não e Possivel Validar este CPF!";
-  private string $numero;
+interface Valida {
+  public function getNumero();
+  public function setNumero($numero);
+  public static function validarCPF($cpf);
+  public static function getError();
 
-  public function getNumero():int
-    {
-      return $this->numero;
-    }
-
-    public function retMsg()
-    {
-  
-  $aviso = strval($this->msg);
-  return $aviso . "<br>";
-    }
-
-  public function setNumero($numero)
-    {
-      /* if($resultado == false):
-          return throw new Exception();
-      endif;
-      try {
-        $resultado == NULL;
-      }catch (Exception $e) {
-        echo 'Exceção capturada: ', $e->getMessage(), "\n";
-      }*/
-
-      //quando formos setar um novo numero de cpf:
-      $resultado = Documento::validarCpf($numero);
-        if($resultado == false):
-                   
-          return throw new Exception(self::retMsg());
-            
-        endif;
-      
-      $this->numero = $numero;
-    }
-// function que retorna uma função para uma msg de erro personalizada:
-
-// Aqui vai o metodo magico de validação do cpf:
-public static function validarCpf($cpf):bool{
-
-  //verfica se um numero foi informado:
-    if(empty($cpf)) return false;
-  //Elimina possivel Mascara:
-  $cpf = preg_replace('/[^0-9]/','',$cpf); 
-  $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT); 
-  //Verifica se o numero que digitamos informado e igual a 11
-    if(strlen($cpf) != 11) { //se o tamanho da variavel $cpf for diferente de 11 retorna falso pra mim
-    echo 'length';  
-    return false;
-      //Verifica se nenhuma das sequencias invalidas abaixo
-    //foi digitada . Caso afirmativo . retorna false;
-
-    }else if ($cpf == '00000000000' ||
-              $cpf == '11111111111'||
-              $cpf == '22222222222'||
-              $cpf == '33333333333'||
-              $cpf == '44444444444'||
-              $cpf == '55555555555'||
-              $cpf == '66666666666'||
-              $cpf == '77777777777'||
-              $cpf == '88888888888'||
-              $cpf == '99999999999') {
-                return false;
-      //Caucula quantos digitos verificadores para verificar  se o
-      //Cpf é valido:
-      }else{
-         /** @param $t inicializa com 09, enquanto $t for menor que 11, Incrementa de 1 em 1 pra mim */
-        for($t = 9; $t < 11; $t++) {            
-            for($d = 0, $c = 0; $c < $t; $c++){
-              /** @param $d inicia com 0. $c inicia com 0 enquanto $c = 0; for menor que $t = 9; incrementa o $c de 1 em 1 */
-                $d + $d = $cpf[$c] * (($t + 1) - $c);
-                  //var_dump($d);
-              }
-              //fora do segundo FOR temos:
-                $d = ((10 * $d) % 11) % 10; //O valor de $d precedencia de operador 10 multiplicado por $d e o resto da divisão de 11 e 10
-              // Se o cpf com $c for diferente de $d; realizarei a conta pra saber qual o valor final de $d, retorna false pra mim
-              if($cpf[$c] != $d):
-                return false;
-              endif;
-           } //fim do loop do for;
-
-       }
-  }
-        
 }
-  
+class Documento {
+
+    private $numero;
+
+    public static function getError(){
+
+      $msg = "Não foi possivel verificar o CPF informado";
+      if($msg == gettype("string")):
+        strval($msg); //converta em string;
+      return $msg;   //retorna
+      endif;
+
+    }
+
+    public function getNumero(){
+
+        return $this->numero;
+
+    }
+
+    public function setNumero($numero){
+
+        $resultado = Documento::validarCPF($numero);
+
+        if ($resultado === false) {
+
+            throw new Exception(Documento::getError(), 1);
+
+        }
+
+        $this->numero = $numero;
+
+    }
+
+    public static function validarCPF($cpf):bool{
+
+        if(empty($cpf)) {
+            return false;
+        }
+     
+        $cpf = preg_match('/[0-9]/', $cpf)?$cpf:0;
+    
+        $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT);
+         
+        
+        if(strlen($cpf) != 11) {
+          return false;
+        }
+        
+        else if ($cpf == '00000000000' || 
+            $cpf == '11111111111' || 
+            $cpf == '22222222222' || 
+            $cpf == '33333333333' || 
+            $cpf == '44444444444' || 
+            $cpf == '55555555555' || 
+            $cpf == '66666666666' || 
+            $cpf == '77777777777' || 
+            $cpf == '88888888888' || 
+            $cpf == '99999999999') {
+            return false;
+    
+         } else {   
+             
+            for ($t = 9; $t < 11; $t++) {
+                 
+                for ($d = 0, $c = 0; $c < $t; $c++) {
+                    $d += $cpf[$c] * (($t + 1) - $c);
+                }
+                $d = ((10 * $d) % 11) % 10;
+                if ($cpf[$c] != $d) {
+                    return false;
+                }
+            }
+     
+            return true;
+        }
+
+    }
+
+}
+
+
 $cpf = new Documento();
-$cpf->setNumero("12345678999");
-var_dump($cpf->getNumero());
+$cpf->setNumero(ucwords("87867147241"));
+echo "O numero do CPF e: ".$cpf->getNumero()."<br>";
+echo "<hr>";
+//Segunda
+
+switch($cpf === true){
+  case true: "O Cpf e verdadeiro" . var_dump(Documento::validarCPF("87867147241"));
+  break;
+  case false: "O Cpf e Falso" . var_dump(Documento::getError());
+  break;
+}
 
 /*Nota sobre a function str_pad(string $string,int $length,string $pad_string = " ",int $pad_type = STR_PAD_RIGHT) 
 -----------------------------------------------------------------------------------------------------------------
