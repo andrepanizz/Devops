@@ -1,6 +1,10 @@
 <?php
 // metodos magicos:
+/* interface Validar {
 
+ 
+}
+*/
 class Cadastro {
    
     private string $logradouro;
