@@ -5,7 +5,7 @@
  
 }
 */
-class Cadastro {
+abstract class Cadastro {
    
     private string $logradouro;
     protected string $numero;
@@ -44,7 +44,7 @@ class Cadastro {
     //Getters and Setters:
     public function setNumberDocument($numero)
     {   
-        Valida::validarCPF($numero);
+        Valida::validarCPF($numero); //chamando a function da classe Valida;
 
         $this->numero = $numero;
 
