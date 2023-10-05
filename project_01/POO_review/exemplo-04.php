@@ -66,6 +66,7 @@ class Validacao extends Cadastro {
 
     public static function validarCpf($cpf)
     {
+        //aqui vai a validação do cpf;
 
     }
 
