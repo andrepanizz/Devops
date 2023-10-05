@@ -40,13 +40,15 @@ class Cadastro {
     //Getters and Setters:
     public function setNumberDocument($numero)
     {
-        return $this->numero;
+        $this->numero = $numero;
 
     }
 
     
 
     public function getNumberDocument(){
+
+        return $this->numero;
 
     }
 
