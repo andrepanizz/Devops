@@ -33,7 +33,7 @@ class Cadastro {
 
     public function __toString()
     {
-        echo $this->logradouro . "<br>" . $this->cidade . "<br>";
+        echo $this->logradouro . "<br>" . $this->cidade . "<br>" . $this->estado . "<br>"
         
     }
 
