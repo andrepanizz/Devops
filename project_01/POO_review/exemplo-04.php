@@ -35,6 +35,8 @@ class Cadastro {
     {
         echo $this->logradouro . "<br>" . $this->cidade . "<br>" . $this->estado . "<br>" . $this->complemento . "<br>";
         echo "<hr>";
+        ///////////////////////////////////
+        
         
     }
 
