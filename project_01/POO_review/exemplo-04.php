@@ -33,13 +33,16 @@ class Cadastro {
 
     public function __toString()
     {
+        echo $this->logradouro . "<br>" . $this->cidade . "<br>";
         
     }
 
     
     //Getters and Setters:
     public function setNumberDocument($numero)
-    {
+    {   
+        Valida::validarCPF($numero);
+
         $this->numero = $numero;
 
     }
@@ -62,6 +65,8 @@ class Validacao extends Cadastro {
     {
 
     }
+
+    
 
 }
 
