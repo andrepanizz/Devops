@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emcapsulamento em PHP</title>
+    <title> noçoes de Emcapsulamento em PHP </title>
 </head>
 <body>
     <h2> Emcapsulamento </h2>
@@ -16,6 +16,7 @@
         public $nome = "Rasmus Lardof";
         private $idade = 48;
         protected $senha = "123456";
+        protected $password = "24569";
 
         /** Testando o Modificadores de acesso de acordo com Emcapsulamente */
 
