@@ -35,6 +35,7 @@ class CalcController {
 
         //selecione todos aqueles que encontrar
         let buttons = document.querySelectorAll();
+        //iniciando;
 
 
     }
@@ -85,7 +86,7 @@ class CalcController {
     set currentDate(value){
         return this._currentDate = value;
     }
-    //finalizado os getters and setters;]
+    //finalizado os getters and setters;
       
 
 } //fim da classe;
