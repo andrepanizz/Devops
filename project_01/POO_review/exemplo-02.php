@@ -10,7 +10,7 @@ class define {
         $this->b = $value2;
                 
     }
-    //getters:
+    //adicionando getters:
 
     public function getLetra_A():string
     {

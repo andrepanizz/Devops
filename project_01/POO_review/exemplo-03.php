@@ -31,7 +31,7 @@ class Documento {
         $resultado = Documento::validarCPF($numero);
 
         if ($resultado === false) {
-
+            // metodo com try catch{}
             throw new Exception(Documento::getError(), 1);
 
         }
