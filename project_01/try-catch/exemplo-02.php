@@ -1,5 +1,5 @@
 <?php
-/** Try catch com PHP: */
+/** @param Try catch com PHP: */
 
 
 
