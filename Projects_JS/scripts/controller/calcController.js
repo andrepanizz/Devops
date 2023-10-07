@@ -36,6 +36,7 @@ class CalcController {
         //selecione todos aqueles que encontrar
         let buttons = document.querySelectorAll();
         //iniciando;
+        addEventListener('buttons'); //adicionando;
 
 
     }
