@@ -20,7 +20,7 @@
     };
     
     try {
-        echo dividir(5,0)."<br/>";
+        echo dividir(2,0)."<br/>";
     } catch (Exception $e) {
         echo 'Exceção capturada: ',  $e->getMessage(), "\n";
     }
