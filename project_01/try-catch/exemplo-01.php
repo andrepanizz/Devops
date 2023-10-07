@@ -27,10 +27,9 @@
 
     //exemplo pratico da documentação do PHP:
     
-
-    
-
     ?>
-    
+
+<script src=""></script>
+<script src=""></script>    
 </body>
 </html>
