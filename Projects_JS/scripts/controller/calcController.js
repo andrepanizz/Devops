@@ -34,7 +34,7 @@ class CalcController {
         //trabalhando com enventos oneclick();
 
         //selecione todos aqueles que encontrar
-        let buttons = document.querySelectorAll();
+        let buttons = document.querySelectorAll('#buttons, g');
         //iniciando;
         //addEventListener('buttons'); //adicionando;
 
