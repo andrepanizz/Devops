@@ -31,7 +31,20 @@ class Documento {
         $resultado = Documento::validarCPF($numero);
 
         if ($resultado === false) {
-            // metodo com try catch{}
+            /*
+            function dividir($x, $y) {
+            if ($y == 0) {
+             throw new Exception('é uma divisão por zero.');
+             }
+                 $resultado = $x / $y;
+                  return $resultado;
+          };
+            try {
+                  echo dividir(5,0)."<br/>";
+                } catch (Exception $e) {
+                   echo 'Exceção capturada: ',  $e->getMessage(), "\n";
+            }            
+            */
             throw new Exception(Documento::getError(), 1);
 
         }
