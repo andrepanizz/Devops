@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    /** @param exemplo5:  */
+    /** @param exemplo5: exemplos praticos  */
 
     ?>
     
