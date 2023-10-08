@@ -43,7 +43,7 @@ class CalcController {
     //getters and setters (como recuperamos e como setamos valores)
     //podemos amarrar o innerHTML direto na nossa propriedade;
     /* Vamos criar o Set agora para o displayDate e o Time: */
-       
+    //metodo set displayDateTime();
     setDisplayDateTime(){
 
         this.displayDime = this.currentDate.toLocaleDateString(this._locale, {
@@ -51,7 +51,7 @@ class CalcController {
             month: "long",
             year: "numeric"
         });
-        //
+        //metodo display
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
     }
 
