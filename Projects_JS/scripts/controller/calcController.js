@@ -51,6 +51,7 @@ class CalcController {
             month: "long",
             year: "numeric"
         });
+        //
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
     }
 
