@@ -9,7 +9,8 @@
     <title> Exemplo de Emcapsulamento 02 </title>
 </head>
 <body>
-    <!-- Inicio da Classe -->
+    <!-- Inicio da Classe 
+    ** html 5 with linked Css-->
     <?php
     // Exemplo de Emcapsulamento:
 
