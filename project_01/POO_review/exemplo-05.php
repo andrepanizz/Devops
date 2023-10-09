@@ -26,7 +26,7 @@
     }
 
 $objeto = new Pessoa();
-echo $objeto->nome . "<br/>"
+echo $objeto->idade . "<br/>";
 
     ?>
     
