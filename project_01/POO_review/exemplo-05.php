@@ -29,6 +29,10 @@ $objeto = new Pessoa();
 echo $objeto->nome . "<br/>";
 //echo $objeto->idade . "<br/>";
 //echo $objeto->senha . "<br/>;
+echo "<br>";
+
+// vamos chamar o metodo verDados();
+$objeto->verDados();
 
     ?>
     
