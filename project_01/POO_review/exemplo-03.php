@@ -6,7 +6,7 @@ interface Valida {
   public static function getError();
 
 }
-class Documento {
+class implements Documento {
 
     private $numero;
 
