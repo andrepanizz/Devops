@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    //metodos magicos PHP
+    //metodos magicos PHP:
 
 
 
