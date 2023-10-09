@@ -9,6 +9,7 @@
     <title> Exemplo de Emcapsulamento 02 </title>
 </head>
 <body>
+    <!-- Inicio da Classe -->
     <?php
     // Exemplo de Emcapsulamento:
 
@@ -30,7 +31,7 @@ echo $objeto->nome . "<br/>";
 //echo $objeto->idade . "<br/>";
 //echo $objeto->senha . "<br/>;
 echo "<br>";
-///////////////////////////////////////////////////
+
 // vamos chamar o metodo verDados();
 $objeto->verDados();
 
