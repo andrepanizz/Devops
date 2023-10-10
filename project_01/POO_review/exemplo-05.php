@@ -10,9 +10,9 @@
 </head>
 <body>
     <!-- Inicio da Classe 
-    ** html 5 with linked Css-->
+    ** html 5 with linked Css -->
     <?php
-    // Exemplo de Emcapsulamento:
+    // Exemplo de Emcapsulamento pratico:
 
     class Pessoa {
         public $nome = "Ramus Lerdorf";
