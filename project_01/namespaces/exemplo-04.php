@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-    // exemplo de Namespaces exemplo 04 
+    // exemplo de Namespaces exemplo 04...
 
 
 
