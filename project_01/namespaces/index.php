@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../logo/php.png">
     <link rel="stylesheet" type="text/css" href="/Alura-Devops/php7/css/style.css" media="screen"/> 
-    <title><h2>Index PHP utilizando Namespaces</h2></title>
+    <title> Index PHP </title>
+    <h2> Index PHP utilizando Namespaces </h2>
+    <br>
+    <hr>
 </head>
 <body>
     <?php
