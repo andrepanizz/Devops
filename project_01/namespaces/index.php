@@ -13,14 +13,19 @@
 </head>
 <body>
     <?php
-
-    require_once("./class/Cadastro.php");
+  
+    require("./class/Cadastro.php");
+    // para apontar o Namespace colocamos a pasta Cliente\Cadastro
+    
+    use Clientes\Cadastro;
     // vamos criar um objeto da classe Cadastro:
 
     $cad = new Cadastro();
     $cad->setNome("Djalma Sindeaux");
     $cad->setEmail("djalmahcode.com.br");
     $cad->setSenha("123456");
+    //Agora teremos o Metodo registrarVenda funcionando normalmente();
+    $cad->registrarVenda(); 
 
     //testamos: O echo não consegue mostrar um testo
     echo $cad; //magicamente o ToString sera invocado aqui:
@@ -30,3 +35,8 @@
 
 
     ?>
+
+
+<script src=""></script>    
+</body>
+</html>
