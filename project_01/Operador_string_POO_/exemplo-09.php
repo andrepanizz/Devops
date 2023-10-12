@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title> Interfaces </title>
 </head>
 <body>
@@ -23,7 +24,7 @@ interface Veiculo {
 }
 /** @param Ok agora vamos criar uma classe Implementando essa interface Veiculo: */
 
-class Civic implements Veiculo {
+class Civic {
     
     public function acelerar($velocidade){
         echo strtoupper("<b> O veiculo acelerou a: </b>" . $velocidade . "<b> KM/h </b><br>");

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
+    <link rel="icon" href="../css/style.css"/>
     <title> Exemplo em PHP - 01 </title>
 </head>
 <body>
@@ -98,6 +100,6 @@ echo "<br>";
 
 
 ?>
-    
+<script src=""></script>    
 </body>
 </html>

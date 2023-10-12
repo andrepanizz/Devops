@@ -1,4 +1,17 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../css/style.css"/>
+    <title>Exemplo de conexão com a base de dados</title>
+</head>
+<body>
+    <h2>Exemplo de Conexão base de dados </h2>
+    <br>
+    <hr>
+
+    <?php
 /** @param realizando a conexão com banco de dados utilizando MySQLi */
 $servername = "localhost";
 $database = "databasename";
@@ -36,3 +49,9 @@ mysqli_close($conn);
  * }
  */
 ?>
+<script src=""></script>
+</body>
+</html>
+
+
+
