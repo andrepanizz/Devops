@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../css/style.css"/>
     <title>Variaveis de Sessions</title>
 </head>
 <body>
     <h2><center> Variaveis de Sessions </center></h2>
-    <br>
+    <br><br>
+    <hr>
     <?php
     /** @param Variaveis de Sessão: */
 require_once("./config.php");
@@ -22,6 +24,6 @@ session_destroy(); // limpa a variavel e remove o usuario;
 
 
     ?>>
-   
+<script src=""></script>   
 </body>
 </html>
