@@ -1,5 +1,19 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../css/style.css"/>
+    <title>exemplo 07 em PHP</title>
+</head>
+<body>
+    <br>
+        
+</body>
+</html>
 
+
+<?php
 
 /** @param trabalhando com herança
  * exemplo pratico de utilização:

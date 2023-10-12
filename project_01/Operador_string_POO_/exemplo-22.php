@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title> Exemplo 22 em PHP </title>
 <h2><center> Exemplo 22 em PHP </center></h2>
-<br>
+<br><br>
 </head>
 <body>
 <?php

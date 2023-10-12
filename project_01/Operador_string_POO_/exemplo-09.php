@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../css/style.css"/>
     <title> Interfaces </title>
 </head>
 <body>
     <h2> Interfaces </h2>
-    <br>
+    <br><br>
+    <hr>
 
 <?php
 /** @param Exemplo pratico de Interfaces. */
