@@ -6,6 +6,7 @@
     <link rel="icon" href="../logo/php.png"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Mysqli_connected()</title>
+    <!-- estrutura de conexão -->
 </head>
 <body>
     
