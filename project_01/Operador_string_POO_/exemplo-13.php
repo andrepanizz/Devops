@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Polimorfismo</title>
 </head>
+<!-- Exemplo Pratico de Polimorfismo em PHP exemplo-13.php -->
 <body>
     <h2>Exemplo de Polimorfismo</h2>
     <br>

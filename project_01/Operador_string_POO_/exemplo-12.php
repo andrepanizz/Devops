@@ -6,7 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Classe Abstrata</title>
-    <!-- Exemplo -->
+    <!-- Exemplo Pratico de Classe Abstrata -->
 </head>
 <body>
     <h2> Classe Abstrata em PHP </h2>
