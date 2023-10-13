@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Variaveis de Sessions</title>
+    <!--Exemplos de Variaveis de Sessions[] = "text"; -->
 </head>
 <body>
     <h2><center> Variaveis de Sessions </center></h2>
