@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Exemplo-20</title>
+    <!-- exemplo de Session_regenerate_ID -->
 </head>
 <body>
     <br>
