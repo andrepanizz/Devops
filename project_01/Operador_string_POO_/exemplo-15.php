@@ -7,6 +7,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>AutoLoad em PHP</title>
+    <!-- Exemplo de Auto-Load -->
 </head>
 <body>
     <?php
