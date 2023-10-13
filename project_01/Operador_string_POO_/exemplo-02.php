@@ -10,6 +10,7 @@
 <body>
 <center> <h3> Metodos ou Atributos Estaticos </h3> </center>
 <br>
+<!--Estrutura de POO -->
 <?php
 //Metodos e Atributos Estaticos:
 # O codigo original estava dentro de uma classe;
