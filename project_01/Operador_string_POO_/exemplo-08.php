@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Heranca de Classe</title>
+    <!--Exemplo Pratico de Herança em PHP exemplo-08.php -->
     
 </head>
 <body>

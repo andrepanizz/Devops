@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title> Interfaces </title>
+    <!--Exemplo Pratico de Interfaces no exemplo-09.php -->
 </head>
 <body>
     <h2> Interfaces </h2>

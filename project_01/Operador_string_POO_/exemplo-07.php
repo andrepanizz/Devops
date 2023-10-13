@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>exemplo 07 em PHP</title>
+    <!--Exemplo pratico em PHP Numero: 07 -->
 </head>
 <body>
     <br>
