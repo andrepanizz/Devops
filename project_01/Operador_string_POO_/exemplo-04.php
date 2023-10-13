@@ -12,6 +12,7 @@
 <br>
 <?php
 /** @param metodos staticos*
+ * static method
  * 
  */
 class Documento {

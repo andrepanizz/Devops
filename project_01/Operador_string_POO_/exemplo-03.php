@@ -9,7 +9,7 @@
 </head>
 <body>
     <center><h2> Simplificando um Switch Case </h2></center>
-
+    <!--Simplificando um switch Case com exemplo da internet! -->
     <?php
     /** @param Aqui temos um switch Case que somente verifica true ou false */
 /*
