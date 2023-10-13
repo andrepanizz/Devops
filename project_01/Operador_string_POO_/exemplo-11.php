@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../css/style.css"/>
   <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
-  <title> Exemplo-11 </title>
+  <title> Exemplo-11 Pratico </title>
+  <!--Exemplo de metodo de emcapsulamento retirado do site DEV Media.com.br -->
   <br>
 </head>
 <body>

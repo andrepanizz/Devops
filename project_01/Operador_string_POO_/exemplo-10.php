@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Utilização do Parent</title>
+    <!-- Exemplo de Parent utilizando Classe PAI no PHP, exemplo-10.php -->
     <br>
 </head>
 <body>
