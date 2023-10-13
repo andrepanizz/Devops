@@ -6,6 +6,8 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Auto-Load</title>
+    <!--Exemplo pratico de Auto_Load ou a function spl_autoload_register();
+      e uma function() anonima(); --> 
 </head>
 <body>
     <h2> Autoload com PHP </h2>
