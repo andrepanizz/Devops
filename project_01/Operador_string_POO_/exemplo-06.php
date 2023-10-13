@@ -6,6 +6,7 @@
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title> noçoes de Emcapsulamento em PHP </title>
+    <!-- noçoes de Emvapsulamento em PHP -->
 </head>
 <body>
     <h2> Emcapsulamento </h2>

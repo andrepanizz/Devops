@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <link rel="icon" href="../css/style.css">
     <title>Metodos Magicos em PHP Exemplo-01</title>
+    <!-- metodos Magicos em PHP -->
 </head>
 <body>
     <h2>Metodos Magicos em PHP</h2>
