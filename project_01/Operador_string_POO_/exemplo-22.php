@@ -9,10 +9,11 @@
 <h2><center> Exemplo 22 em PHP </center></h2>
 <br><br>
 </head>
+<!-- Exemplo 22 em PHP -->
 <body>
 <?php
-//exemplo 22 em PHP:
-//////////////////////////////////////////////////////////////////////
+
+
 
 
 
