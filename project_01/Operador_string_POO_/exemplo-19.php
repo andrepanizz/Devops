@@ -20,3 +20,7 @@ require_once("config.php");
 echo session_id();
 
 ?>
+
+<script src=""></script>
+</body>
+</html>
