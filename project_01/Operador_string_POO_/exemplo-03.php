@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
-    <title> Simplificando o Codigo </title>
+    <title> Simplificando o Codigo.. </title>
 </head>
 <body>
     <center><h2> Simplificando um Switch Case </h2></center>
@@ -76,7 +76,8 @@ if($FileType::isImage($a)){
 /** @param finalizamos a aplicação */
 
 
-    ?>
-    
+?>
+
+<script src=""></script>    
 </body>
 </html>

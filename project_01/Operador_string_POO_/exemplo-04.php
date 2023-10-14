@@ -8,11 +8,14 @@
     <title> Exemplo-04 - Metodos Estaticos 02 </title>
 </head>
 <body>
-    <h2><center> Metodos Estaticos Exemplo - 02</center></h2>
+    <h2><center> Metodos Estaticos Exemplo: - 02</center></h2>
+    <!-- exemplo pratico realizado em Aula -->
 <br>
 <?php
 /** @param metodos staticos*
  * static method
+ * public static function(){
+ * }
  * 
  */
 class Documento {
@@ -102,5 +105,6 @@ var_dump($cpf->getNumero());
 var_dump(Documento::validarCpf("35784894846"));
 
 ?>
+<script src=""></script>
 </body>
 </html>
