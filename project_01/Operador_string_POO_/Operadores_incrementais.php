@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Incrementais e Decrementais</title>
+</head>
+<body>
 <?php
 // Operadores Incrementais e Decrementais:
 ############################################################################
@@ -17,3 +25,7 @@ echo ++$a;
 echo --$a;
 ############################################################################
 ?>
+<script src=""></script>
+</body>
+</html>
+
