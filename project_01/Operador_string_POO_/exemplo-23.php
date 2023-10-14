@@ -10,8 +10,7 @@
 <!-- Exemplo 23 em PHP -->
 <body>
 <?php
-
-//Exemplo de function anoniams em PHP
+//Exemplo de function anoniams em PHP..
 
 
 
