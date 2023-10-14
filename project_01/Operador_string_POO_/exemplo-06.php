@@ -12,6 +12,9 @@
     <h2> Emcapsulamento </h2>
     <br>
     <?php
+
+    // exemplo de arquivo para verificar tipos de acesso com emcapsulamento!
+    
     /** @param Encapsulamento aula */
     /** @param criando uma classe basica pessoa apenas para exibir os dados */
 

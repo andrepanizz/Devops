@@ -6,7 +6,8 @@
      <link rel="icon" href="../css/style.css"/>
      <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
      <title> Exemplo-16 </title>
-     <!-- exemplo 16 em PHP -->
+     <!-- exemplo 16 em PHP file exemplo-16.php -->
+     
 </head>
 <body>
      
