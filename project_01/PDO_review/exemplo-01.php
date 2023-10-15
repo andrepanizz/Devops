@@ -9,7 +9,7 @@
 <body>
     <?php
 
-// a função mysqli:
+// a função mysqli_connect:
 
     
 
