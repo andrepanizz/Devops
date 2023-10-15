@@ -8,6 +8,9 @@
 </head>
 <body>
     <?php
+
+// a função mysqli:
+
     
 
 
