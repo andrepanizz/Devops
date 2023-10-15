@@ -1,21 +1,16 @@
-
-<?php
-$conn = new mysqli("localhost","root","","dbphp7");
-if($conn->connect_error){
-
-    echo ucwords("Error: ") . $conn->connect_errno;
-    exit();
-}
-$stmt = $conn->query("");
-$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(? , ?)");
-
-//exemplo com bind_param;
-$stmt->bind_param("ss","user","12456");
-// comando execulte;
-$stmt->execute();
-
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Mysqli_connected</title>
+</head>
+<body>
+    <?php
+    
 
 
 ?>
-
+</body>
+</html>
