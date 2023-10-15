@@ -9,7 +9,7 @@ if($conn->connect_error){
 $stmt = $conn->query("");
 $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(? , ?)");
 
-
+//exemplo com bind_param;
 $stmt->bind_param("ss","user","12456");
 $stmt->execute();
 
