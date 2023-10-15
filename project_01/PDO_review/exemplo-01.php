@@ -11,6 +11,7 @@ $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(? , 
 
 //exemplo com bind_param;
 $stmt->bind_param("ss","user","12456");
+// comando execulte;
 $stmt->execute();
 
 
