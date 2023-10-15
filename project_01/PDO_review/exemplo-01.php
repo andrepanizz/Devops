@@ -7,7 +7,7 @@ if($conn->connect_error){
     exit();
 }
 
-$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin,dessenha) VALUES()");
+$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin,dessenha) VALUES(? , ?)");
 
 
 ?>
