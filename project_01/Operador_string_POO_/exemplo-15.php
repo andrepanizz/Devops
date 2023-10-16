@@ -10,6 +10,8 @@
     <!-- Exemplo de Auto-Load -->
 </head>
 <body>
+    <br>
+    <h2>Exemplo de Auto load</h2>
     <?php
 /*Note que e importante o arquivo ter o mesmo nome da classe;
 A função autoload carrega todas as classes assim quando definimos
