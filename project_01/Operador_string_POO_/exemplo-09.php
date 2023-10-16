@@ -9,7 +9,7 @@
     <!--Exemplo Pratico de Interfaces no exemplo-09.php -->
 </head>
 <body>
-    <h2> Interfaces </h2>
+    <h2> Interfaces exemplo pratico </h2>
     <br><br>
     <hr>
 
