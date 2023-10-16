@@ -9,6 +9,8 @@
     <!--Exemplos de Variaveis de Sessions[] = "text"; -->
 </head>
 <body>
+    <br>
+    <hr>
     <h2><center> Variaveis de Sessions </center></h2>
     <br><br>
     <hr>
