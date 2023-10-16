@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>função Mysqli connected() </title>
     <hr>
-    <br>
+    <br><br>
 </head>
 <body>
     
@@ -17,6 +17,7 @@
 <?php
 // criar uma variavél de conexão:
 // Se fosse na nuvem, me forneceriam o IP ou o endereço deste servidor.
+/////////////////////////////////////////////////////////////////////////////
 
 $conn = new mysqli("localhost","root","","dbphp7");
 
