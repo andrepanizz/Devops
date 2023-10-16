@@ -127,12 +127,14 @@ function OpenConnection()
         }
         catch(Exception $e)
         {
-            echo("Error!");
+            echo("Error!!!");
         }
     }
 */
+/////////////////////////////////////////////////////////////////////
+
 ?>
-<!-- Fim do Arquivo da web -->
+<!-- Fim do Arquivo da web! -->
 <script src="../JavaScript-Model/model.js"></script>
 </body>
 </html>
