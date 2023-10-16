@@ -9,7 +9,7 @@
     <!-- metodos Magicos em PHP -->
 </head>
 <body>
-    <h2>Metodos Magicos em PHP</h2>
+    <h2><center> Metodos Magicos em PHP </center></h2>
     <br>
 <?php
 class Endereco {
