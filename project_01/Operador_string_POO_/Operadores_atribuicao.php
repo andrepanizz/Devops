@@ -6,6 +6,8 @@
     <title>Operadores aritimetricos e atribuição</title>
 </head>
 <body>
+    <br>
+    <hr>
 <?php
 # Operadores de Atribuição:
 $nome = "Hcode"; # Operador de atribuição
