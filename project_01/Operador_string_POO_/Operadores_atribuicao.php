@@ -14,7 +14,7 @@ $nome.= "Treinamentos"; #Eu to falando que minha variavel vai ter o valor "Hcode
 echo $nome;
 echo "<br/>";
 ?>
-    
+<script src=""></script>    
 </body>
 </html>
 
