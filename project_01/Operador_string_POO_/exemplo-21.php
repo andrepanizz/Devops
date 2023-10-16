@@ -32,8 +32,10 @@ switch(session_status()){
   case PHP_SESSION_ACTIVE:
   echo "se as sessões estiverem habilitadas, e uma existir.";
   break;
-  
+/////////////////////////////////////////////////////////////////////
+
   
 }
+exit();
 
 ?>
