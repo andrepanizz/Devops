@@ -14,7 +14,7 @@ provider "aws" {
     region = "us-west-2"
 }
 # agora abaixo passaremos informações sobre o recurso que iremos utilizar:
-resoutce "aws_instance" "app_server" {
+resource "aws_instance" "app_server" {
     ami         = "ami-08a52ddb321b32a8c"
     instance_type = "t2-micro"
     key_name = "iac-alura"
