@@ -6,11 +6,13 @@
     <title> Exemplo 23 em PHP </title>
 <h2><center>Functions anonimas em PHP </center></h2>
 <br><br>
+<hr>
 </head>
 <!-- Exemplo 23 em PHP -->
 <body>
 <?php
-//Exemplo de function anoniams em PHP..
+//Exemplo de function anoniams em PHP...
+/////////////////////////////////////////////////////
 
 
 
