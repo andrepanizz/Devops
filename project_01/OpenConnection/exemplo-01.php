@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../css/style.css"/>
-    <title>Exemplo de Trasactions </title>
+    <title> Exemplo de Trasactions </title>
 </head>
 <body>
 
@@ -132,7 +132,7 @@ function OpenConnection()
     }
 */
 ?>
-<!-- Fim do Arquivo -->
+<!-- Fim do Arquivo da web -->
 <script src="../JavaScript-Model/model.js"></script>
 </body>
 </html>
