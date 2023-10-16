@@ -12,6 +12,7 @@
 <!-- Exemplo 22 em PHP -->
 <body>
 <?php
+// exemplo em PHP:
 
 
 
