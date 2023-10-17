@@ -8,11 +8,13 @@
     <title> Exemplo em PHP - 01 </title>
 </head>
 <body>
-<center> <h3>Exemplo da aula 01 em PHP </h3></center>
+<center> <h3>Exemplo da aula 01 em PHP: </h3></center>
 <br>
 <!-- Estrutura de orientação a objetos -->
 <?php 
 # init class:
+// inicialização da classe:
+
 
 class carros {
     
