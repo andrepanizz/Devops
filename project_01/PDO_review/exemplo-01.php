@@ -12,8 +12,12 @@
 // a função mysqli_connect:
 ///////////////////////////////////////////////////////////////////////////////////
 $host = "localhost";
+$dbname = "dbphp7";
+$user = "root";
+$senha = "";
 
-$conection = mysqli_connect();
+$conection = mysqli_connect($host, $dbname, $user, $senha);
+
 
 
     
