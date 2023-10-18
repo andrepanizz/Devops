@@ -1,8 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de String em PHP t</title>
+</head>
+<body>
+  
+</body>
+</html>
+
 <?php
 // Strings no PHP, formatação:
 #variavel:
 $frase = "esta e uma nova frase!";
-frase1 = ucwords($frase);
+$frase1 = ucwords($frase);
 if(isset($frase1)):
   echo $frase . "<br>";
   echo "<hr>";
