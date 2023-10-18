@@ -6,10 +6,6 @@
   <title>Exemplo de String em PHP t</title>
 </head>
 <body>
-  
-</body>
-</html>
-
 <?php
 // Strings no PHP, formatação:
 #variavel:
@@ -39,3 +35,8 @@ if(isset($frase4)):
 endif;
 /////////////////////////////////////////////////////////
 ?>
+
+  
+</body>
+</html>
+
