@@ -17,6 +17,11 @@ $user = "root";
 $senha = "";
 
 $conection = mysqli_connect($host, $dbname, $user, $senha);
+if(isset($conection)):
+    echo "conexão estabelecida com sucesso!";
+endif;
+
+
 
 
 
