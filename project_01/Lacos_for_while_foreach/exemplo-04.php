@@ -9,7 +9,7 @@
     <title>Exemplo de Laço Foreach </title>
 </head>
 <body>
-    <h2><center><strong><i> Exemplo de Foreach  </i></strong></center></h2>
+    <h2><center><strong><i> Exemplo de Foreach 1  </i></strong></center></h2>
     <br><br>
     <hr>
     <?php

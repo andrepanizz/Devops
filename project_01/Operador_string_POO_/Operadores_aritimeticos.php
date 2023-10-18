@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-//Exemplo de operadores Aritimeticos em PHP
+//Exemplo de operadores Aritimeticos em PHP:
 // Contas basicas:
 
 $a = 10;

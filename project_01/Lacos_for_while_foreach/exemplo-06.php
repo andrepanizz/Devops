@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../logo/php.png"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
-    <title> Exemplo do DO WHILE </title>
+    <title> Exemplo do DO WHILE 2 </title>
 </head>
 <body>
     <!-- Exemplo do DO While -->
-    <h2> <center>Exemplo Pratico do While </center></h2>
+    <h2> <center>Exemplo Pratico do While 2 </center></h2>
     <br><hr>
     <?php
     $total = 150;

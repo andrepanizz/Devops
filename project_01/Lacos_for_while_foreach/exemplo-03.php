@@ -9,12 +9,13 @@
     <title>Exemplo de Laço While </title>
 </head>
 <body>
-    <h2><center><strong><i> Exemplo de Laço While </i></strong></center></h2>
+    <h2><center><strong><i> Exemplo de Laço While() </i></strong></center></h2>
     <br><br>
     <hr>
     <?php
   
     /** @param Exemplo 02 de Laço While */
+///////////////////////////////////////////////////////////////////
     
     //Neste exemplo pratico de laço:
     // vamos pegar os ultimos 100 anos;

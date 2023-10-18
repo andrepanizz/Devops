@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operadores Incrementais e Decrementais</title>
+    <title>Operadores Incrementais e Decrementais aula 01</title>
 </head>
 <body>
 <?php
@@ -15,7 +15,7 @@ $a = 10;
 echo $a++;
 // $a Inicialmente valia 10.: 10
 echo "<br>";
-// Mostra pra mim o valor de A e mostra pra mim: 11
+// Mostra pra mim o valor de A e mostra pra mim: 11;
 echo $a;
 // podemos colocar o operador de incremento antes da variavel:
 echo ++$a;
