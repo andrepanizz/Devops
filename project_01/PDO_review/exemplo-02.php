@@ -7,5 +7,11 @@ $user = "";
 $senha = "";
 $dbname = "";
 $conn = new mysqli($host, $user, $senha, $dbname);
+$stmt = $conn;
+$stmt->prepare("");
+$stmt->query("");
+///////////////////////////////////////////////////////////
+
+
 
 ?>

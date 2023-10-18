@@ -21,11 +21,7 @@ if(isset($conection)):
     echo "conexão estabelecida com sucesso!";
 endif;
 
-
-
-
-
-    
+  
 
 
 ?>
