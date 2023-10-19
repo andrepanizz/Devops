@@ -11,6 +11,7 @@ $conn = new mysqli($hostname, $usuario, $password, $dbname, $port, $socket);
 # condicional para conexão!
 if($conn->connect_error):
     echo strtoupper("Não foi Possivel conectar ao  Banco de Dados <br/>") . $conn->connect_errno;
+    exit or die();
 endif;
 echo "<br/>";
 echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></i>");
