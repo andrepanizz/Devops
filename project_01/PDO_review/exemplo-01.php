@@ -8,7 +8,7 @@ $port = "3306";
 $socket = NULL;
 # Objeto de conexão com o banco de dados;
 $conn = new mysqli($hostname, $usuario, $password, $dbname, $port, $socket);
-
+# condicional para conexão!
 if($conn->connect_error):
     echo strtoupper("Não foi Possivel conectar ao  Banco de Dados <br/>") . $conn->connect_errno;
 endif;
