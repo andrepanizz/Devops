@@ -14,6 +14,8 @@ if($conn->connect_error):
 endif;
 echo "<br/>";
 echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></i>");
+echo "<hr/>";
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //$stmt = $conn->prepare(""); //aqui faremos nossos Insert, Update, e Delete 
