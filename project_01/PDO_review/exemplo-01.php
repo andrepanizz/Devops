@@ -16,7 +16,6 @@ echo "<br/>";
 echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></i>");
 echo "<hr/>";
 
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //$stmt = $conn->prepare(""); //aqui faremos nossos Insert, Update, e Delete 
 // aqui faremos o Bind_Param();
