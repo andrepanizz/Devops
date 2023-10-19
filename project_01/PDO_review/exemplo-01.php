@@ -1,12 +1,12 @@
 <?php
-# variavais:
+# variaveis de conexão:
 $hostname = "localhost";
 $usuario = "root";
 $password = "";
 $dbname = "dbphp7";
 $port = "3306";
 $socket = NULL;
-
+#
 $conn = new mysqli($hostname, $usuario, $password, $dbname, $port, $socket);
 
 if($conn->connect_error):
