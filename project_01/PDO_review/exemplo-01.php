@@ -18,7 +18,8 @@ echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></
 echo "<hr/>";
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-//$stmt = $conn->prepare(""); //aqui faremos nossos Insert, Update, e Delete 
+$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha)VALUES (?, ?)"); //aqui faremos nossos Insert, Update, e Delete 
+$stmt->bind_param("ss",""); //ele espera os tipos de dados das interrogações;
 // aqui faremos o Bind_Param();
 //$stmt->bind_param("ss","?, ?");
 ?>
