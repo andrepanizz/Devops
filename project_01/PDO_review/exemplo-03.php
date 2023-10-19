@@ -1,6 +1,7 @@
 <?php
 
 //conectando com PDO;
+///////////////////////////////////////////////////
 $db = "mysql:dbname=dbphp7";
 $hostname = "host=localhost";
 $user = "root";
@@ -19,4 +20,4 @@ $stmt->execute();
 
 //conseguimos fazer o fetch_array();
 $stmt->fetchAll();
-
+/////////////////////////////////////////////////////
