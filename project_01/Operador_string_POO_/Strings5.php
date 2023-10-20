@@ -10,11 +10,7 @@
 <?php
 // Exemplo de Strings com PHP exemplo:
 ///////////////////////////////////////////////
-
-
-
-
 ?>
-    
+<script src=""></script>
 </body>
 </html>
