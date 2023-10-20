@@ -33,6 +33,10 @@ if(isset($frase4)):
   echo $fraser4 . "<br>";
   echo "<hr>";
 endif;
+$frase5 = "texto de exemplo <br/>";
+echo $frase1 ." " . $frase2 ." " . $frase3 . " " . $frase4 . " ". $frase5 . "<br/>";
+echo "<hr>";
+
 /////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 ?>
