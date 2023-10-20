@@ -6,12 +6,14 @@
     <title>Strings5</title>
 </head>
 <body>
-    
-</body>
-</html>
+
 <?php
+// Exemplo de Strings com PHP exemplo:
 
 
 
 
 ?>
+    
+</body>
+</html>
