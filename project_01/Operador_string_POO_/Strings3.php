@@ -10,9 +10,6 @@
 <?php
 // Tipos de formatadores de Strings:
 
-
-
-
 ?>
 <script src=""></script>    
 </body>
