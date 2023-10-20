@@ -15,7 +15,9 @@
       $texto1 = ucwords("texto de exemplo para caixa alta primeira letra");
       $texto2 = ucfirst("texto de exemplo strubgs4.php");
       $texto3 = strtoupper("texto de exemplo caixa Uppercase()");
-      
+      $texto4 = strtolower("texto de caixa baixa");
+      echo "<hr>";
+
 
     ?>
 </body>
