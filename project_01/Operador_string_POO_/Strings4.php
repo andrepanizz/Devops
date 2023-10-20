@@ -16,6 +16,7 @@
       $texto2 = ucfirst("texto de exemplo strubgs4.php");
       $texto3 = strtoupper("texto de exemplo caixa Uppercase()");
       $texto4 = strtolower("texto de caixa baixa");
+      $texto5 = substr($texto1, 4, 5);
       echo "<hr>";
 
 
