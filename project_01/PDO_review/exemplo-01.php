@@ -6,7 +6,7 @@ $password = "";
 $dbname = "dbphp7";
 $port = "3306";
 $socket = NULL;
-
+//////////////////////////////////////////////////////
 $conn = new mysqli($hostname, $usuario, $password, $dbname, $port, $socket);
 
 if($conn->connect_error):
@@ -24,7 +24,7 @@ $stmt->bind_param("ss",$user, $senha); //ele espera os tipos de dados das interr
 
 $user = "user";
 $senha = "123456";
-
+/////////////////////////////////////////////////////////////////////
 $stmt->execute();
 // aqui faremos o Bind_Param();
 //$stmt->bind_param("ss","?, ?");
