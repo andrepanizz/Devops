@@ -11,6 +11,10 @@
     echo "<br>";
     echo "texto de string2 para formatação";
     //colocando tudo dentro de variaveis;
+      $texto = "texto de strings";
+      $texto1 = ucwords("texto de exemplo para caixa alta primeira letra");
+      $texto2 = ucfirst("texto de exemplo strubgs4.php");
+      $texto3 = strtoupper("texto de exemplo caixa Uppercase()");
       
 
     ?>
