@@ -8,6 +8,10 @@
 <body>
     <?php
     echo "texto de string de exemplo para formatação";
+    echo "<br>";
+    echo "texto de string2 para formatação";
+    //colocando tudo dentro de variaveis;
+      
 
     ?>
 </body>
