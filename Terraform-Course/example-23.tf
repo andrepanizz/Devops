@@ -6,4 +6,4 @@ resource "aws_codestarconnections_connection" "example" {
 }
 
 # resources;
-# 
+#  ARGUMENTS AND REFERENCES:
