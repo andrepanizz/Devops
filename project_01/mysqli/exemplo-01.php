@@ -19,6 +19,9 @@
 // Se fosse na nuvem, me forneceriam o IP ou o endereço deste servidor.
 /////////////////////////////////////////////////////////////////////////////
 
+
+/** @param Objeto de conexão: */
+
 $conn = new mysqli("localhost","root","","dbphp7");
 
 if($conn->connect_error) {
