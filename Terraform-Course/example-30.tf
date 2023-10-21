@@ -34,3 +34,5 @@ resource "aws_codeartifact_repository_permissions_policy" "example" {
   domain          = aws_codeartifact_domain.example.domain
   policy_document = data.aws_iam_policy_document.example.json
 }
+
+/////////////////////////////////////////////////////////////////////////

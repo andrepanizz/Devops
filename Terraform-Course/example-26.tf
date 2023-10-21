@@ -39,3 +39,5 @@ resource "aws_codestarnotifications_notification_rule" "commits" {
     address = aws_sns_topic.notif.arn
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////

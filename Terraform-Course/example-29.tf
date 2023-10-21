@@ -29,3 +29,6 @@ resource "aws_codeartifact_domain_permissions_policy" "test" {
   domain          = aws_codeartifact_domain.example.domain
   policy_document = data.aws_iam_policy_document.test.json
 }
+
+
+//////////////////////////////////////////////////////////////////////]
