@@ -1,4 +1,4 @@
-# Resource: aws_codepipeline_webhook
+# Resource: aws_codepipeline_webhook:
 
 resource "aws_codepipeline" "bar" {
   name     = "tf-test-pipeline"
