@@ -20,10 +20,15 @@
         public function __construct($model, $marc, $port, $fuel, $Year)
         {
             // adicionando:
-            
-            
+            $this->modelo = $model;
+            $this->marca = $marc;
+            $this->portas = $port;
+            $this->combustivel = $fuel;
+            $this->ano = $Year;
         }
 
+        // Criação de Getters and Setters:
+        
 
 
 
