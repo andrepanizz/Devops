@@ -51,7 +51,29 @@
         {
             $this->portas = $portas;
         }
+
+        public function setCombustivel($comb)
+        {
+            $this->combustivel = $comb;
+        }
         
+        public function getComb()
+        {
+            return $this->combustivel;
+        }
+
+        public function setAno($ano)
+        {
+            $this->ano = $ano;
+        }
+
+        public function viewAll()
+        {
+            return array(
+                ""=>""
+            );
+        }
+
 
     }// fim da classe
 
