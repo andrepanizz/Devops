@@ -105,7 +105,7 @@
     $conn = new PDO("mysql:dbname=dbphp7;host=localhost", "root", "");
     $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, desenha) VALUES()");
 
-    $conn->query("SELECT * FROM tb_usuarios GROUP BY idusuarios");
+    $conn->query("SELECT * FROM tb_usuarios GROUP BY deslogin");
     //$stmt->query();
     $stmt->bindParam("","");
     $stmt->execute();
