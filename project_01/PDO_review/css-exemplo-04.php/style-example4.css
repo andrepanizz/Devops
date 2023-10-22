@@ -8,5 +8,11 @@ h3 {
     color:red;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: auto;
+
+}
+
+title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
     
 }

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../logo/php.png">
     <link rel="stylesheet" href="../PDO_review/css-exemplo-04.php/style-example4.css">
-    <title>Getters and Setters and constructor</title>
+    <title> Getters and Setters Bulding </title>
 </head>
 <body>
     <br>
-    <h3> Exemplo de Construtor e Pagina </h3>
+    <h3> Exemplo de Construtor e Pagina Web </h3>
     <br>
     <hr>
 
