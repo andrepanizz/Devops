@@ -9,7 +9,7 @@
 
     <?php
     //atributes:
-    class Documento {
+    class Automovel {
         public string $modelo;
         public string $marca;
         public string $portas;
@@ -69,10 +69,17 @@
 
         public function viewAll()
         {
+            //traz todos os dado pra mim:
+
             return array(
-                ""=>""
+                ucwords("modelo_veiculo: ")=>$this->modelo,
+                ucwords("marca_do_Veiculo: ")=>$this->marca,
+                ucwords("Quantidade_Portas: ")=>$this->portas,
+                ucwords("Tipo de Combustivel: ")=>$this->combustivel,
+                ucwords("Ano do Veiculo: ")=>$this->ano
             );
         }
+        
 
 
     }// fim da classe
