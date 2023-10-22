@@ -119,6 +119,16 @@
 
         }
 
+        public function escavar()
+        {
+            return ucfirst("<i><center>O trator Tirou terra do terreno</i></center>");
+            echo "<br/>";
+        }
+
+        public function viewTrator()
+        {
+            //criando um array com as caracteristicas do trator();
+        }
         
     }
 
