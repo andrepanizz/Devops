@@ -9,6 +9,18 @@
 
     <?php
     //atributes:
+    class Documento {
+
+
+
+
+
+
+    }// fim da classe
+
+    //instanciamento do Objeto
+
+    // Chamada dos Metodos criados:
     
 
 
