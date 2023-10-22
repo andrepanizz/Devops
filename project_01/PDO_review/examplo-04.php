@@ -28,9 +28,30 @@
         }
 
         // Criação de Getters and Setters:
+        public function getModelo(){
+            return $this->modelo;
+        }
         
+        public function setMarca($marca)
+        {
+            $this->marca = $marca;
+        }
 
+        public function getMarca()
+        {
+            return $this->marca;
+        }
 
+        public function getPortas()
+        {
+            return $this->portas;
+        }
+
+        public function setPortas($portas)
+        {
+            $this->portas = $portas;
+        }
+        
 
     }// fim da classe
 
