@@ -79,15 +79,42 @@
                 ucwords("Ano do Veiculo: ")=>$this->ano
             );
         }
-        
+
 
 
     }// fim da classe
 
     //instanciamento do Objeto
+    $objeto = new Automovel();
 
     // Chamada dos Metodos criados:
 
+
+    // conexão com o banco de dados:
+
+    // variaveis de conexão:
+    $host = "";
+    $user = "";
+    $password = "";
+    $db = "";
+    $port = "";
+    
+
+
+    $conn = new PDO();
+    $stmt = $conn->prepare("");
+
+    if($conn->connect_error):
+        echo strtoupper("Não foi Possivel conectar ao  Banco de Dados <br/>") . $conn->connect_errno;
+        exit or die();
+    endif;
+    echo "<br/>";
+    echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></i>");
+    echo "<br/>";
+    echo "<hr>";
+
+    $stmt->bindParam();
+    
 
 
 
