@@ -9,8 +9,16 @@
 <body>
 
     <?php
+    //interface: 
+    interface especificar {
+        public function viewAll():array;
+        
+
+    }
+
+
     //atributes:
-    class Automovel {
+    class Automovel implements especificar {
         public string $modelo;
         protected string $marca;
         public int $portas;
@@ -106,7 +114,7 @@
         //atributos de um trator():
         protected $pneu_dimension;
         protected $diametro_pistol;
-        protected $escavadeira;
+        protected $tam_escavadeira;
         
         /**
          * O tipo de emcapsulamento da propriedade Protected a propria classe e a Herança que pode 
@@ -125,9 +133,16 @@
             echo "<br/>";
         }
 
-        public function viewTrator()
+        //criar metodos gettears and setters para o trator:
+
+
+
+        public function viewTrator():array
         {
             //criando um array com as caracteristicas do trator();
+            return array(
+                ucwords("Tipo de Pistão");
+            );
         }
         
     }
@@ -141,6 +156,6 @@
 
 
     ?>
-    
+<script src="../JavaScript-Model/model.js"></script>    
 </body>
 </html>
