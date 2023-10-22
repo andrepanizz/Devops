@@ -12,7 +12,7 @@
     //atributes:
     class Automovel {
         public string $modelo;
-        public string $marca;
+        protected string $marca;
         public int $portas;
         public string $combustivel;
         public int $ano;
@@ -94,23 +94,39 @@
 
     //instanciamento do Objeto: // passando: modelo, marca, portas, combustivel, ano;
     $objeto = new Automovel("Onix Plus","Chevrolet",4,"Gasolina",2006);
+    /*
+    //aqui podemos chamar os metodos getters and setters, alem do metodo ViewAll();
 
-    // Chamada dos Metodos criados:
+    
+    */
 
+    // trabalhando com herança:
+    class trator extends Automovel {
 
+        //atributos de um trator():
+        protected $pneu_dimension;
+        protected $diametro_pistol;
+        protected $escavadeira;
+        
+        /**
+         * O tipo de emcapsulamento da propriedade Protected a propria classe e a Herança que pode 
+         * acessar o atributo;
+         */
+        public function moverTrator():string
+        {
+            return strtoupper("O trator se Movel <br/>") . "do modelo da: " . $this->getModelo();
+            echo "<br/>"; 
+
+        }
+
+        
+    }
+
+    
+
+    
     // conexão com o banco de dados:
-
-    
-    
-    $conn = new PDO("mysql:dbname=dbphp7;host=localhost", "root", "");
-    $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, desenha) VALUES()");
-
-    $conn->query("SELECT * FROM tb_usuarios GROUP BY deslogin");
-    //$stmt->query();
-    $stmt->bindParam("","");
-    $stmt->execute();
-
-
+    // crição de um novo banco de dados para conexão e armazenamento das caracteristicas:
 
 
 
