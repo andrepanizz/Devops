@@ -12,9 +12,9 @@
     class Automovel {
         public string $modelo;
         public string $marca;
-        public string $portas;
+        public int $portas;
         public string $combustivel;
-        public string $ano;
+        public int $ano;
         
         //Metodo construtor __Construct();
         public function __construct($model, $marc, $port, $fuel, $Year)
@@ -28,7 +28,8 @@
         }
 
         // Criação de Getters and Setters:
-        public function getModelo(){
+        public function getModelo():string
+        {
             return $this->modelo;
         }
         
@@ -37,12 +38,12 @@
             $this->marca = $marca;
         }
 
-        public function getMarca()
+        public function getMarca():string
         {
             return $this->marca;
         }
 
-        public function getPortas()
+        public function getPortas():int
         {
             return $this->portas;
         }
@@ -57,7 +58,7 @@
             $this->combustivel = $comb;
         }
         
-        public function getComb()
+        public function getComb():string
         {
             return $this->combustivel;
         }
@@ -67,7 +68,7 @@
             $this->ano = $ano;
         }
 
-        public function viewAll()
+        public function viewAll():array
         {
             //traz todos os dado pra mim:
 
@@ -80,41 +81,34 @@
             );
         }
 
+        //adicionando um metodo ToString():
+       public function __toString()
+       {
+        // metodo que devolve uma string();
+       }
+
 
 
     }// fim da classe
 
-    //instanciamento do Objeto
-    $objeto = new Automovel();
+    //instanciamento do Objeto: // passando: modelo, marca, portas, combustivel, ano;
+    $objeto = new Automovel("Onix Plus","Chevrolet",4,"Gasolina",2006);
 
     // Chamada dos Metodos criados:
 
 
     // conexão com o banco de dados:
 
-    // variaveis de conexão:
-    $host = "";
-    $user = "";
-    $password = "";
-    $db = "";
-    $port = "";
     
-
-
-    $conn = new PDO();
-    $stmt = $conn->prepare("");
-
-    if($conn->connect_error):
-        echo strtoupper("Não foi Possivel conectar ao  Banco de Dados <br/>") . $conn->connect_errno;
-        exit or die();
-    endif;
-    echo "<br/>";
-    echo strtoupper("<i><center> Conectado com Sucesso ao Banco de Dados!</center></i>");
-    echo "<br/>";
-    echo "<hr>";
-
-    $stmt->bindParam();
     
+    $conn = new PDO("mysql:dbname=dbphp7;host=localhost", "root", "");
+    $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, desenha) VALUES()");
+
+    $conn->query("SELECT * FROM tb_usuarios GROUP BY idusuarios");
+    //$stmt->query();
+    $stmt->bindParam("","");
+    $stmt->execute();
+
 
 
 
