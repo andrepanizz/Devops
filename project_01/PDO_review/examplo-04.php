@@ -10,8 +10,14 @@
     <?php
     //atributes:
     class Documento {
-
-
+        public string $modelo;
+        public string $marca;
+        public string $portas;
+        public string $combustivel;
+        public string $ano;
+        
+        //Metodo construtor __Construct();
+        
 
 
 
@@ -21,7 +27,7 @@
     //instanciamento do Objeto
 
     // Chamada dos Metodos criados:
-    
+
 
 
 
