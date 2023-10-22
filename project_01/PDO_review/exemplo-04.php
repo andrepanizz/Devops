@@ -12,7 +12,7 @@
     //interface: 
     interface especificar {
         public function viewAll():array;
-        
+                
 
     }
 
@@ -101,7 +101,7 @@
     }// fim da classe
 
     //instanciamento do Objeto: // passando: modelo, marca, portas, combustivel, ano;
-    $objeto = new Automovel("Onix Plus","Chevrolet",4,"Gasolina",2006);
+    $objeto = new Automovel("Onix Plus","Chevrolet", 4 ,"Gasolina",2006);
     /*
     //aqui podemos chamar os metodos getters and setters, alem do metodo ViewAll();
 
@@ -112,9 +112,9 @@
     class trator extends Automovel {
 
         //atributos de um trator():
-        protected $pneu_dimension;
-        protected $diametro_pistol;
-        protected $tam_escavadeira;
+        protected $tire_dimension;
+        protected $diameter_pistol;
+        protected $size_escavadeira;
         
         /**
          * O tipo de emcapsulamento da propriedade Protected a propria classe e a Herança que pode 
@@ -134,22 +134,52 @@
         }
 
         //criar metodos gettears and setters para o trator:
+        public function setDimesionTire($tire)
+        {
+            $this->tire_dimension = $tire;
+        }
+
+        public function getDimensionTire():float
+        {
+            return $this->tire_dimension;
+
+        }
+
+        public function setPistol($pistol)
+        {
+            $this->diameter_pistol = $pistol;
+
+        }
+
+        public function getPistol():int
+        {
+            return $this->diameter_pistol;
+        }
+
+        public function setSize_Hole($hole)
+        {
+            $this->size_escavadeira = $hole;
+        }
+
+        public function getSize_Hole():int
+        {
+            return $this->size_escavadeira;
+        }
 
 
-
-        public function viewTrator():array
+        public function viewTrator()
         {
             //criando um array com as caracteristicas do trator();
             return array(
-                ucwords("Tipo de Pistão");
+                ucwords("Tipo de Pistão: ")=>$this->getDimensionTire(),
+                ucwords("Tamanho do Pistão: ")=>$this->getPistol(),
+                ucwords("Tamanho Escavadeira: ")=>$this->getSize_Hole()
             );
         }
         
     }
 
-    
-
-    
+       
     // conexão com o banco de dados:
     // crição de um novo banco de dados para conexão e armazenamento das caracteristicas:
 
