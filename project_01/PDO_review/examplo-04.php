@@ -17,7 +17,12 @@
         public string $ano;
         
         //Metodo construtor __Construct();
-        
+        public function __construct($model, $marc, $port, $fuel, $Year)
+        {
+            // adicionando:
+            
+            
+        }
 
 
 
