@@ -14,9 +14,10 @@
     <hr>
 
     <?php
-    
+
 
 
     ?>
+    <script src="../JavaScript-Model/model.js"></script>
 </body>
 </html>
