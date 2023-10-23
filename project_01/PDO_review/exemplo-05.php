@@ -14,6 +14,8 @@
     <hr>
     <?php
     // inserindo dados na tabela e colunas:
+    // objeto de conexão:
+    
 
 
 
