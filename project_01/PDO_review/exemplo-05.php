@@ -16,9 +16,6 @@
     /** @param vamos começar criando nossa conexão: */
     $conn = new PDO("");
     
-
-
-
     ?>
     <script src="../JavaScript-Model/model.js"></script>
 </body>
