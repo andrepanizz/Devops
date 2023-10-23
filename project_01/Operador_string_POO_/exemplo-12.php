@@ -54,7 +54,9 @@
        
         
     }
-    $carro = new Delrey();
+
+   /* $carro = new Delrey();
+
     echo $carro->empurrar(10);
     echo "<br><br>";
     $carro->acelerar(100);
