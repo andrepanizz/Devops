@@ -184,18 +184,33 @@
        
     // conexão com o banco de dados:
     // crição de um novo banco de dados para conexão e armazenamento das caracteristicas:
-    $conn = new PDO("","","",NULL);
-    
-    if(isset($conn)){
+    $conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","", NULL);
+    if(isset($conn)):
         echo "<center> Conexão feita com o banco de Dados </center><br/>";
         echo "<hr>";
-    }
+    endif;
 
+    $stmt = $conn->prepare("SELECT * FROM tb_usuarios ORDER BY deslogin");
 
-    //$stmt = $conn->("SELECT * FROM tb_usuarios ORDER BY deslogin");
-    
     $stmt->execute();
-    ?>
+
+    //vamos fatiar todas as linhas:
+
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    //VAI MOSTRAR UM ARRAY:
+    foreach($result as $row){
+        foreach($row as $key => $value){
+            $strong = "<strong>";
+            $closeStrong = "</strong>";
+            echo $strong . $key . $closeStrong . $value . "<br/>";
+
+        }
+        echo "==================================================================== <br>";
+   }
+    var_dump($result);
+
+?>
 <script src="../JavaScript-Model/model.js"></script>    
 </body>
 </html>
