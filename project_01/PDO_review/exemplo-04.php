@@ -186,6 +186,7 @@
     // crição de um novo banco de dados para conexão e armazenamento das caracteristicas:
     $conn = new PDO("","","",NULL);
     $stmt;
+    $stmt->execute();
 
 
 
