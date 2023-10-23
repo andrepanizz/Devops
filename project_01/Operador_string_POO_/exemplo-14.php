@@ -15,7 +15,7 @@
     <?php
     /** @param funcão auto-load com o PHP exemplo Pratico: */
     // O auto-load e um arquivo inclui outro;
-    
+    spl_autoload_register("");
 
 
 
