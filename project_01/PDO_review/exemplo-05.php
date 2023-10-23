@@ -37,8 +37,8 @@
     //exemplo se tivermos mais parametros:
 
     $stmt = $conn->prepare("INSERT INTO tb_usuarios (idusuario, dtcadastro, deslogin, dessenha) VALUES (:IDUSUARIO, :DTCADASTEO, :LOGIN, :PASSWORD)");
-    $stmt->bindParam(":IDUSUARIO",);
-    $stmt->bindParam(":DTCADASTRO",);
+    $stmt->bindParam(":IDUSUARIO",$idusuario);
+    $stmt->bindParam(":DTCADASTRO",$dtcadastro);
     $stmt->bindParam(":LOGIN",$login);
     $stmt->bindParam(":PASSWORD",$password);
     //executando:
