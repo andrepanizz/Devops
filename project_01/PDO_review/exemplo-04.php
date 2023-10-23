@@ -186,6 +186,11 @@
     // crição de um novo banco de dados para conexão e armazenamento das caracteristicas:
     $conn = new PDO("","","",NULL);
     
+    if(isset($conn)){
+        echo "<center> Conexão feita com o banco de Dados </center><br/>";
+        echo "<hr>";
+    }
+    
 
     $stmt;
     $stmt->execute();
