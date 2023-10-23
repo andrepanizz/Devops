@@ -190,10 +190,11 @@
         echo "<center> Conexão feita com o banco de Dados </center><br/>";
         echo "<hr>";
     }
-    
+
 
     $stmt;
     $stmt->execute();
+/////////////////////////////////////////////////////////////////////////////////
 
     ?>
 <script src="../JavaScript-Model/model.js"></script>    
