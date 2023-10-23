@@ -192,10 +192,8 @@
     }
 
 
-    $stmt;
+    //$stmt = $conn->("");
     $stmt->execute();
-/////////////////////////////////////////////////////////////////////////////////
-
     ?>
 <script src="../JavaScript-Model/model.js"></script>    
 </body>
