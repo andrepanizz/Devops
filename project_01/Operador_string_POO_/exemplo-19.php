@@ -18,7 +18,7 @@ require_once("config.php");
 echo session_id();
 echo session_unset();
 ?>
-
+<!-- fim do arquivo -->
 <script src=""></script>
 </body>
 </html>
