@@ -13,10 +13,9 @@
     <br>
     <hr>
     <?php
-    // inserindo dados na tabela e colunas:
-    // objeto de conexão:
+    /** @param vamos começar criando nossa conexão: */
+    $conn = new PDO("");
     
-
 
 
 
