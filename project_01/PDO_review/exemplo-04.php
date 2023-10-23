@@ -192,7 +192,8 @@
     }
 
 
-    //$stmt = $conn->("");
+    //$stmt = $conn->("SELECT * FROM tb_usuarios ORDER BY deslogin");
+    
     $stmt->execute();
     ?>
 <script src="../JavaScript-Model/model.js"></script>    
