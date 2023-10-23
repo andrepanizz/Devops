@@ -12,8 +12,9 @@
     <h2> Exemplo de Insert com o Banco </h2>
     <br>
     <hr>
-
     <?php
+    // inserindo dados na tabela e colunas:
+
 
 
 
