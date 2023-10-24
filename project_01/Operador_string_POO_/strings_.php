@@ -1,0 +1,7 @@
+<?php
+// formatadores de strings:
+    
+
+
+
+?>
