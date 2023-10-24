@@ -75,7 +75,11 @@ while ($contador < 10) {
 
 //Como usar um Laço foreach sintaxe basica:
 
-    
+    $lista50 = ['a', 'b', 'c'];
+
+    foreach ($lista50 as $valor) {
+      echo $valor; // vai retornar: 
+    }
 
 
 ?>
