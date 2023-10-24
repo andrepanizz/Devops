@@ -164,12 +164,60 @@ echo "<hr>";
 
 // ksort Classifica um array na ordem Inversa:
 
-    $meucubo2 = array("cubo1" => 1, "cubo2" => 2, "cubo3" => 3, "cubo4" => 4, "cubo5" => 5);
-    $desordena = sort($meucubo2);
-    print_r($desordena);
-    echo "<br/>";
-    echo "<hr>";
+$meucubo2 = array("cubo1" => 1, "cubo2" => 2, "cubo3" => 3, "cubo4" => 4, "cubo5" => 5);
+$desordena = sort($meucubo2);
+print_r($desordena);
+echo "<br/>";
+echo "<hr>";
     
+// Implode Transforma um array em uma String:
+
+$meuArray_1 = array("andre"," ", "edvaldo", " ", "enrique", " ", "debora", " " , "rebecca", " ", "melissa", " ", "Neide");
+$minha_string = implode($meuArray_1);
+print_r(ucwords($minha_string)); // ele ira retornar "andre edvaldo enrique debora rebecca melissa neide" String
+echo "<br>";
+echo "<hr>";
+
+// Explode Transforma uma String em um Array():
+$meuArray_2 = array();
+$minha_string_2 = "Eu gosto de sushi e como todos os dias em um bar japones";
+$convertida = explode("|", $minha_string_2); // podemos setar delimitares aqui; no terceiro parametro;
+print_r($convertida);
+echo "<br>";
+echo "<hr>";
+
+/*  podemos usar tambem arrays associativos no PHP 7 com chave e valor: */
+
+$lista_frutas = array("melão" => "verde", "laranja" => "orange", "maça" => "vermelha");
+$list_seq = array('primeiro' => 'a', 'segundo' => 'b', 'terceiro' => 'c');
+
+$lista_frutas['melão']; // verde;
+$lista_frutas['laranja']; // orange;
+$list_seq['primeiro']; // a;
+$list_seq['segundo']; // b;
+
+/* Posuimos muitas funções uteis para Arrays Associativos:   */
+
+//array_key_exists() verifica se existe uma chave no array:
+
+
+//array_keys() obtem todas as chaves do array:
+
+
+//array_values() obtem todos os valores do array:
+
+
+// asort() Classifica um array associativo por valor:
+
+
+
+// arsort() Classifica um array associativo em ordem descrescente por valor:
+
+
+// ksort() Classifica um array associativo por chave:
+
+
+// krsort() Classifica um array associativo por ordem decrescente por chave:
 
 
 
