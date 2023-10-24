@@ -165,8 +165,8 @@ echo "<hr>";
 // ksort Classifica um array na ordem Inversa:
 
     $meucubo2 = array("cubo1" => 1, "cubo2" => 2, "cubo3" => 3, "cubo4" => 4, "cubo5" => 5);
-    $ordena = sort($meucubo2);
-    print_r($ordena);
+    $desordena = sort($meucubo2);
+    print_r($desordena);
     echo "<br/>";
     echo "<hr>";
     
