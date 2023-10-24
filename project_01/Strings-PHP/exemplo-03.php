@@ -39,7 +39,24 @@ echo "<hr>";
 
 /*  Alem do IF tambem temos a declaração do Switch: */
 
+$idade = 17;
 
+switch($idade) {
+  case 15:
+	echo 'Você tem 15';
+    break;
+  case 16:
+	echo 'Você tem 16';
+    break;
+  case 17:
+	echo 'Você tem 17';
+    break;
+  case 18:
+	echo 'Você tem 18';
+    break;
+  default:
+    echo "Você tem $idade";
+}
 
 
 
