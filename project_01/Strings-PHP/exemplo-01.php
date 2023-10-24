@@ -79,8 +79,54 @@ array_search('b', $lista5); // 1
     gettype($a); // tipo e array[];
 
 /* Aplica uma funcão de callback a cada item no array.
-
+    Normalmente usado para criar um novo array modificando os
+    valores de um array existente, sem altera-lo.
+    Aplica uma função em todos os elementos  dos arrays dados:
 */
+   function cube($n){
+
+    //passando como parametro uma variavel vazia;
+    var_dump($n);
+    // ela ira retornar:
+    return ($n * $n * $n );   // n Multiplicado em 3 X;
+
+   }
+   // criamos um array:
+   $a1 = array(1, 2, 3, 4, 5);
+   $b1 = array_map('cube', $a1); // chamamos a function 'cube()' passando o array.
+   print($b1);
+   echo "<br/>";
+   echo "<hr>";
+
+// array_filter para filtrar um array para um unico valor usando uma function de callback:
+
+   function Impar($var){
+    // retorna se o inteiro informado for Impar;
+    return $var & 1;
+   }
+
+   function Par($var){
+
+    // retorna se o inteiro informado for Par;
+
+    return $var & 2;
+   }
+
+   $array1 = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5, 'f' => 6);
+   $array2 = array(6,7,8,9,10,11,12);
+   $array3 = array(13, 14, 15, 16, 17, 18);
+
+   $mixed = ksort($array3); // a function ksort e sort ordena e desordena a ordem dos arrays
+
+
+   echo "Estes são os numeros Impares: \n" . MSG_EOF;
+   print_r(array_filter($array1, 'Impar'));
+   echo "Estes são os numeros Pares: \n" . MSG_EOF;
+   print_r(array_filter($array2, 'Pares'));
+   echo "<br>";
+   echo "<hr>";
+
+
 
 
 
