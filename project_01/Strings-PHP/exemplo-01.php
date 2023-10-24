@@ -54,7 +54,14 @@ array_search('b', $lista5); // 1
 // remove valores duplicados de um array();
     $b = array("" => "");
     array_unique($b);
+// pesquisa um valor no array e retorna a chave;
+    $c = array("cerveja" => "skol", "cerveja" => "sol", "cerveja" => "Antartica");
+    array_search("cerveja", $c); // retorna a chave:
+// Inverte um array:
+    $d = array("zero","um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez");
+    array_reverse($d); // retorna ("dez", "nove", "oito", "sete", "seis", "cinco", "quatro", "três", "dois", "um", "zero")
 // 
+
 
 
 ?>
