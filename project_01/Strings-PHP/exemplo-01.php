@@ -1,10 +1,9 @@
 <?php
-//strings em PHP formatadores:
 
 /*
 -> Funções uteis para arrays:
-
-
+-> temos varios exemplos de functions para string aqui:
+-> Melhores praticas de como usa-las:
 */
 //podemos acessos os elementos de um array desta forma:
     $lista = ['a', 'b'];
@@ -60,7 +59,29 @@ array_search('b', $lista5); // 1
 // Inverte um array:
     $d = array("zero","um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez");
     array_reverse($d); // retorna ("dez", "nove", "oito", "sete", "seis", "cinco", "quatro", "três", "dois", "um", "zero")
-// 
+// reduz um array a um unico valor usando uma function callback:
+    # este exemplo esta sendo tirado do PHP.net:
+
+    // precisamos criar a function de callback;
+    function sum($carry, $item){
+
+        $carry + $carry = $item;
+        return $carry;
+
+    }
+    //criação de um array de numeros:
+    $a = [1, 2, 3, 4, 5]; // 4 posições.
+    $b = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    $result = count($a); // 4 
+    echo "<br/>";
+    echo "<hr>";
+    var_dump(array_reduce($a, "sum")); //int(15)
+    gettype($a); // tipo e array[];
+
+/* Aplica uma funcão de callback a cada item no array.
+
+*/
+
 
 
 
