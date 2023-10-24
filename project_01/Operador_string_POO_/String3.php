@@ -7,15 +7,12 @@
 </head>
 <body>
     <br>
-    
-</body>
-</html>
-<?php
+
+    <?php
 // exemplo de formatações de strings em PHP.
 
-
-
-
-
-
 ?>
+
+<hr>    
+</body>
+</html>
