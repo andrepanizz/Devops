@@ -47,7 +47,16 @@ array_search('b', $lista5); // 1
 
 ////////////////////////////////////////////////////////////////
 
+// Verificadores de Arrays:
+    $a = array("chave" => "valor");
+    is_array($a); // verifica se a variavel e um array;
+
+// remove valores duplicados de um array();
+    $b = array("" => "");
+    array_unique($b);
+// 
 
 
+?>
 
 
