@@ -200,8 +200,33 @@ $list_seq['segundo']; // b;
 
 //array_key_exists() verifica se existe uma chave no array:
 
+    $busca_array = array("primeiro" => 1, "segundo" => 4);
+    if (array_key_exists("primeiro", $busca_array)) {
+        echo "O elemento 'primeiro' está no array!";
+    }
+    
+    $busca_array2 = array("quarto" => 4, "quinto" => 5);
+    if(array_key_exists("quinto", $busca_array2)):
+        echo "O elemento 'Quinto' esta no array: {$busca_array2[1]}";
+    endif;
+// O array_key_exists procurará pela chave na primeira dimensão apenas. chaves aninhadas em arrays
+//multidimensionais não serão encontrados;
+
+
+$search_array = array('primeiro' => null, 'segundo' => 4);
+
+// retorna false;
+isset($search_array['primeiro']); // se existir;
+
+// retorna true;
+array_key_exists('primeiro', $search_array);
 
 //array_keys() obtem todas as chaves do array:
+/*  Retorna todas as chaves ou uma parte das chaves de um array */
+$array_20 = array(0 => 100, "cor" => "vermelho");
+print_r(array_keys($array_20));
+
+
 
 
 //array_values() obtem todos os valores do array:
