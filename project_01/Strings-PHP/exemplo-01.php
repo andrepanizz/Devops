@@ -36,6 +36,16 @@ echo "<hr>";
 $lista3 = ['a','b'];
 echo count($lista3); // 2
 
+/* Ou verificar se um array contem um valor especifico */
+$lista4 = ['a','b'];
+in_array('b', $lista4); // retorna true;
+
+/* Se alem de confirmar a existencia, você precisa saber o indice, use array_search() */
+
+$lista5 = ['a', 'b'];
+array_search('b', $lista5); // 1
+
+////////////////////////////////////////////////////////////////
 
 
 
