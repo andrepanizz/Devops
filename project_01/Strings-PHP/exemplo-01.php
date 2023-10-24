@@ -120,13 +120,56 @@ array_search('b', $lista5); // 1
 
 
    echo "Estes são os numeros Impares: \n" . MSG_EOF;
-   print_r(array_filter($array1, 'Impar'));
+   print_r(array_filter($array1, 'Impar')); //retorna [a] => 1, [b] => 3, [c] => 5;
    echo "Estes são os numeros Pares: \n" . MSG_EOF;
-   print_r(array_filter($array2, 'Pares'));
+   print_r(array_filter($array2, 'Pares')); // retorna [0] => 6, [2] => 8, [4] => 10, [6] => 12;
    echo "<br>";
    echo "<hr>";
 
+// max() obtem o valor maximo contido dentro de um array:
+$array4 = array(1,2,3,4,5,6,7,8,9,10,11,12,30);
+$maximum = max($array4);
+print_r($maximum); // retorna o valor maximo do array que e 30;
 
+// min() obtem o valor minimo contido dentro de um array:
+
+$array5 = array(0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 ,12 , 30);
+$minimum = max($array5);
+print_r($minimum); // retorna o valor minimo do array que e 0;
+echo "<br>";
+echo "<hr>";
+
+// array_rand() obtem um numero aleatorio do array, parecido com a function rand();
+$array6 = array(0, 2, 4, 6, 8, 10, 11);
+$random = array_rand($array6);
+print_r($random); // retorna aleatoriamente;
+
+//array-count_values conta todos os valores no array:
+$array7 = array("um" => 1, "dois" => 2, "tres" => 3, "quatro" => 4, "cinco" => 5);
+array_count_values($array7); // isto retornara todos as contagens de array;
+echo "<br/>";
+// array_shift(), o mesmo que array_pop, mais remove o primeiro item em vez do ultimo:
+
+$meuArray = array("item1", "item2", "item3", "item4", "item5");
+$remove = array_shift($meuArray); //remove o item1;
+print_r($remove);
+echo "<br/>";
+
+// sort Ordena um array:
+$meucubo = array("cubo1" => 1, "cubo2" => 2, "cubo5" => 5, "cubo9" => 9, "cubo6" => 6);
+$ordena = sort($meucubo);
+print_r($ordena);
+echo "<br/>";
+echo "<hr>";
+
+// ksort Classifica um array na ordem Inversa:
+
+    $meucubo2 = array("cubo1" => 1, "cubo2" => 2, "cubo3" => 3, "cubo4" => 4, "cubo5" => 5);
+    $ordena = sort($meucubo2);
+    print_r($ordena);
+    echo "<br/>";
+    echo "<hr>";
+    
 
 
 
