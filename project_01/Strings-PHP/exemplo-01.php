@@ -27,9 +27,17 @@ $lista == [
 */
 $lista2 = ['b', 'c'];
 array_unshift($lista2, 'a');
-var_dump($lista2);
+array_push($lista2, 'd');
+var_dump($lista2); // ['a','b','c','d'];
 echo "<br/>";
 echo "<hr>";
+// Para contar quantos itens um array tem, voce pode usar a função interna count();
 //////////////////////////////////////////////////////////////////////////////////////////////////
+$lista3 = ['a','b'];
+echo count($lista3); // 2
+
+
+
+
 
 
