@@ -85,13 +85,7 @@ while ($contador < 10) {
     foreach ($lista51 as $value):
         echo $value . "<br/>";
     endforeach;
-
-    foreach ($lista52 as $row):
-        foreach($row as $key => $value):
-            echo "<strong>" . $key . "</strong>" . " " . $value;
-        endforeach;
-        echo "<br/>";
-    endforeach;
+//
 
 
 ?>
