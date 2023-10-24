@@ -58,6 +58,9 @@ switch($idade) {
     echo "Você tem $idade";
 }
 
+// Agora vamos aprender a usar os Laços de Loop, While, Do While e for:
+
+
 
 
 ?>
