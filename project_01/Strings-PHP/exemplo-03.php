@@ -76,10 +76,22 @@ while ($contador < 10) {
 //Como usar um Laço foreach sintaxe basica:
 
     $lista50 = ['a', 'b', 'c'];
-
+    $lista51 = ['d', 'e', 'f', 'g', 'h'];
+    $lista52 = array("um" => 'um',"dois" =>  'DOIS',"tres" =>  'TRES',"quatro" =>  'QUATRO',"cinco" =>  'CINCO');
     foreach ($lista50 as $valor) {
-      echo $valor; // vai retornar: 
+      echo $valor . "<br/>"; // vai retornar: 
     }
+// o foreach e feito para percorrer arrays;
+    foreach ($lista51 as $value):
+        echo $value . "<br/>";
+    endforeach;
+
+    foreach ($lista52 as $row):
+        foreach($row as $key => $value):
+            echo "<strong>" . $key . "</strong>" . " " . $value;
+        endforeach;
+        echo "<br/>";
+    endforeach;
 
 
 ?>

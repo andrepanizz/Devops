@@ -1,5 +1,5 @@
 <?php
-// utilizando strings:
+// utilizando strings no PHP. functions para string:
 
 
 
