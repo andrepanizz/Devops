@@ -171,6 +171,9 @@ $imprimirTeste();
 echo "<br>";
 echo "<hr>";
 
+// podemos passar parametros normalmente para a arrow function:
+
+
 ?>
 
 
