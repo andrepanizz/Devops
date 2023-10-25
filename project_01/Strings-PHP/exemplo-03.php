@@ -190,6 +190,16 @@ $multiplicador = fn() => $a1 * $b1;
 $multiplicador(); //chamo a arrow function();
 
 echo "<br>";
+echo "<hr>";
+
+/*AS Arrow Functions são superuteis quando precisa passar a function de Callback.
+  Veremos como usa-las para realizar algumas operações de arrays.
+  
+  Portanto, temos ao todo 3 tipos de functions: funções nomeadas , funções anonimas, e arrow functions
+  
+  */
+// Como fazemos um laço através de arrays com map(), reduce() e filter():
+
 
 ?>
 
