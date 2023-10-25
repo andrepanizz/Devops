@@ -282,6 +282,7 @@ class Gato {
 
 }
 // fim da classe;
+// termino do arquivo;
 
 ?>
 
