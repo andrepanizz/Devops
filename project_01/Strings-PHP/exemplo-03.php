@@ -85,7 +85,43 @@ while ($contador < 10) {
     foreach ($lista51 as $value):
         echo $value . "<br/>";
     endforeach;
-//
+// Como agem as funções no PHP as functions:
+
+// vamos definir assim:
+function enviarEmail($to){
+  // codigo para enviar email;
+
+  echo "enviar email para {$to}";
+  
+}
+
+// chamamos a function desta forma: enviarEmail();
+/* E possive passar varios argumentos e parametros para as functions
+
+-> desta forma:
+  enviarEmail('teste@teste.com', 'subjects', 'body of the email');
+-> E podemos obter estes paramentros na ordem em que eles foram definidos:
+
+  function enviarEmail($to, $subject, $body){
+    //....
+  }
+
+-> Podemos opcionalmente, definir os tipos de paramentros assim:
+*/
+
+function eviarEmail2(string $to, string $subject, string $body){
+  
+}
+/* Alem de os parametros poderem ter um valor padrão. neste caso, mesmo se forem
+omitidos quando chamados, eles ainda terão um valor;
+
+function eviarEmail($to, $subject = 'teste', $body = 'teste'){
+//.. this code any here;
+}
+enviarEmail('test@test.com.br); //passagem de parametros;
+*/
 
 
 ?>
+
+

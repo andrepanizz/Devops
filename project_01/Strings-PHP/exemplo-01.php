@@ -301,9 +301,12 @@ echo "<hr>";
 
 // krsort() Classifica um array associativo por ordem decrescente por chave:
 
-
-
-
+$carros = array("chevrolet" => "Onix", "Nissan" => "Versa", "Fiat" => "Strada", "Ford" => "Ecosport");
+krsort($carros);
+    foreach ($carros as $key => $values):
+        echo "$key = $values \n";
+    endforeach;
+    
 ?>
 
 
