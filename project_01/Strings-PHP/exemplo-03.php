@@ -121,7 +121,21 @@ function eviarEmail($to, $subject = 'teste', $body = 'teste'){
 enviarEmail('test@test.com.br); //passagem de parametros;
 */
 
+// Podemos usar uma function que retorna algo neste exemplo:
 
+function enviarEmail3($to){
+  return true;
+}
+
+$sucess = enviarEmail3('test@test.com');
+// verificarei se a variavel existe, e depois junto com sua validação: se for true;
+if(isset($sucess) && $sucess = true):
+    echo strtoupper("Email enviado com sucesso");
+else:
+    echo ucwords("erro ao enviar email");
+endif;
+
+//
 ?>
 
 
