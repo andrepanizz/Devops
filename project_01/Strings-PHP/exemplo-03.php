@@ -211,6 +211,10 @@ public function Chamar(){
   echo "chamar nome: " . $this->nome;
 }
 
+public function latir(){
+  echo $this->nome . 'latiu!';
+}
+
 /* Instanciamento do Objeto: */
 }
 
@@ -219,13 +223,11 @@ $roger = new Cachorro();
 $roger->nome = "Roger";
 $roger->idade = 10;
 $roger->cor = 'cinza';
-$roger->chamar(); // retorna: chamar nome: Roger ;
+$roger->chamar() . "<br/>"; // retorna: chamar nome: Roger ;
+$roger->latir() . "<br/>";  // retorna: Roger latiu!;
 
 echo "<br/>";
 echo "<hr>";
-
-
-
 var_dump($roger);
 
 /*
@@ -234,6 +236,11 @@ object(Cachorro)#1 (3) {
 	["idade"]=> int(10)
 	["cor"]=> string(4) "cinza"
 */
+
+// Como utilizar um metodo construtor estrutura:
+// o Construct e um metodo Magico: são 09 no total:
+
+
 ?>
 
 
