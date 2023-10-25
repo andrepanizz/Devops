@@ -119,9 +119,9 @@ array_search('b', $lista5); // 1
    $mixed = ksort($array3); // a function ksort e sort ordena e desordena a ordem dos arrays
 
 
-   echo "Estes são os numeros Impares: \n" . MSG_EOF;
+   echo "Estes são os numeros Impares: \n";
    print_r(array_filter($array1, 'Impar')); //retorna [a] => 1, [b] => 3, [c] => 5;
-   echo "Estes são os numeros Pares: \n" . MSG_EOF;
+   echo "Estes são os numeros Pares: \n";
    print_r(array_filter($array2, 'Pares')); // retorna [0] => 6, [2] => 8, [4] => 10, [6] => 12;
    echo "<br>";
    echo "<hr>";
@@ -266,20 +266,38 @@ echo "<br>";
 echo "<hr>";
 /* Podemos usar variação como outros exemplos que temos acima:
    O segundo parametro opcional flags pode ser modificado o comportamento da ordenação usando os valores; */
-$int_flag = 4;
+$int_flag0 = 4;
 $frutas1 = array("f" => "Morango", "w" => "Pera", "y" => "Carambola", "z" => "Abacaxi");
-asort($frutas1,  $int_flag = SORT_STRING);
+asort($frutas1,  $int_flag0 = SORT_STRING);
 
 foreach($frutas1 as $key => $value):
     echo "$key = $value\n";
 endforeach;
 
+/* SORT_LOCALE_STRING */
+
 
 // arsort() Classifica um array associativo em ordem descrescente por valor:
 
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+arsort($fruits);
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
+}
+echo "<br>";
+echo "<hr>";
 
 // ksort() Classifica um array associativo por chave:
+/* Nota: Se dois elementos são comparados como iguais, eles mantêm sua ordem original.
+ Antes do PHP 8.0.0, sua ordem relativa no array ordenado era indefinida. */
 
+ $fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
+ksort($fruits);
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
+}
+echo "<br/>";
+echo "<hr>";
 
 // krsort() Classifica um array associativo por ordem decrescente por chave:
 
