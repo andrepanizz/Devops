@@ -178,6 +178,19 @@ $multiplicar = fn($a, $b) => $a * $b;
 $multiplicar(2, 4); // 8;
 echo "<br>";
 echo "<hr>";
+
+/* Observe que as Arrow functions tem acesso automatico as variaveis de escopo 
+delimitador externo, sem a necessidade de use; */
+
+$a1 = 2;
+$b1 = 4;
+
+$multiplicador = fn() => $a1 * $b1;
+
+$multiplicador(); //chamo a arrow function();
+
+echo "<br>";
+
 ?>
 
 
