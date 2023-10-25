@@ -256,8 +256,24 @@ pode ser alterada usando setlocale();
 
 exemplo de utilizaçção:
 */ 
-$frutas = array("d" => "Limão", "a" => "Laranja", "b" => "Banana", "c" => "Maça") // array de [0][1][2] 3 posições;
+$frutas = array("d" => "Limão", "a" => "Laranja", "b" => "Banana", "c" => "Maça"); // array de [0][1][2] 3 posições;
+asort($frutas); // ordenação;
+// fazendo um foreach:
+    foreach ($frutas as $chave => $valor):
+        echo "$chave = $valor\n";
+    endforeach;
+echo "<br>";
+echo "<hr>";
+/* Podemos usar variação como outros exemplos que temos acima:
+   O segundo parametro opcional flags pode ser modificado o comportamento da ordenação usando os valores; */
+$int_flag = 4;
+$frutas1 = array("f" => "Morango", "w" => "Pera", "y" => "Carambola", "z" => "Abacaxi");
+asort($frutas1,  $int_flag = SORT_STRING);
 
+foreach($frutas1 as $key => $value):
+    echo "$key = $value\n";
+endforeach;
+///////////////////////////////////////////////////////////////////////////////////////
 
 // arsort() Classifica um array associativo em ordem descrescente por valor:
 
