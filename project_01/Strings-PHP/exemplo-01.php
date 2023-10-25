@@ -226,18 +226,27 @@ array_key_exists('primeiro', $search_array);
 $array_20 = array(0 => 100, "cor" => "vermelho");
 print_r(array_keys($array_20)); // 
 
-$array = array("azul", "vermelho", "verde", "azul", "azul");
-print_r(array_keys($array, "azul")); //
+$array_22 = array("azul", "vermelho", "verde", "azul", "azul");
+print_r(array_keys($array_22, "azul")); //
 
-$array = array("cor"     => array("azul", "vermelho", "verde"),
+$array_23 = array("cor"     => array("azul", "vermelho", "verde"),
                "tamanho" => array("pequeno", "medio", "grande"));
-print_r(array_keys($array)); //
+print_r(array_keys($array_23)); //
 
 //array_values() obtem todos os valores do array:
 
+$array_21 = array("tamanho" => "G", "cor" => "dourado");
+print_r(array_values ($array_21)); // retorna: array ([0] => 'G'  [1] =>  'dourado');
+echo "<br/>";
+$arrays_01 = ["tamanhos" => "P", "cor" => "amarelo"];
+print_r(array_values($arrays_01)); // retorna: array ([0] => 'P'  [1] => 'amarelo');
+echo "<br>";
+echo "<hr>";
 
 // asort() Classifica um array associativo por valor:
-
+/* 
+-> SORT_REGULAR - Compara elementos normalmente; os detalhes
+*/ 
 
 
 // arsort() Classifica um array associativo em ordem descrescente por valor:
