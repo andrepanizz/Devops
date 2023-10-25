@@ -158,7 +158,19 @@ $minhafuncao = function() use ($teste) {
 
 $minhafuncao();
 
-// outra function bem conhecida no PHP e a 
+// outra function bem conhecida no PHP e a arrow function (ou função de seta em portugues);
+// Uma arrow function e uma function anonima que e apenas uma expressão.
+// (uma linha ) e retorna implicitamente o valor dessa expressão:
+
+// Você a define assim:
+
+// fn(argumentos) => expressão;
+$imprimirTeste = fn() => 'teste';
+//chamada da arrow function:
+$imprimirTeste();
+echo "<br>";
+echo "<hr>";
+
 ?>
 
 
