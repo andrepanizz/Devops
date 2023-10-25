@@ -240,6 +240,39 @@ object(Cachorro)#1 (3) {
 // Como utilizar um metodo construtor estrutura:
 // o Construct e um metodo Magico: são 09 no total:
 
+class Gato {
+  
+  public string $nome;
+  public string $idade;
+  public string $pelagem;
+
+  // iremos passar o metodo construtor:
+  public function __construct(string $name, string $year, string $pelo)
+  {
+    // aqui vou adicionar aos parametros;
+    if(is_string($this->nome, $this->idade, $this->pelagem) == true):
+    // apos a validação iremos adicionar o valor aos parametros no metodo construtor:  
+    $this->nome = $name;
+    $this->idade = $year;
+    $this->pelagem = $pelo;
+
+    else:
+      echo strtoupper("Não e possivel adicionar os valores!");
+      exit();
+    endif;
+
+        
+  }
+  //getters and setters:
+  public function getNome(){
+    return $this->nome . "<br/>";
+    
+  }
+
+  public function getIdade(){
+    return $this->idade . "<br/>";
+  }
+}
 
 ?>
 
