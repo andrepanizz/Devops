@@ -199,8 +199,29 @@ echo "<hr>";
   
   */
 // Como fazemos um laço através de arrays com map(), reduce() e filter():
+// Vamos falar um Pouco de POO:
 
+class Cachorro {
+  public string $nome;
+  public string $idade;
+  public string $cor;
+  
+}
 
+/* Instanciamento do Objeto: */
+
+$roger = new Cachorro();
+$roger->idade = 10;
+$roger->cor = 'cinza';
+
+var_dump($roger);
+
+/*
+object(Cachorro)#1 (3) {
+  ["nome"]=> string(5) "Roger"
+	["idade"]=> int(10)
+	["cor"]=> string(4) "cinza"
+*/
 ?>
 
 
