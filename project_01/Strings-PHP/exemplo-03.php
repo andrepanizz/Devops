@@ -206,13 +206,25 @@ class Cachorro {
   public string $idade;
   public string $cor;
   
+//Utilizando Metodos:
+public function Chamar(){
+  echo "chamar nome: " . $this->nome;
 }
 
 /* Instanciamento do Objeto: */
+}
 
 $roger = new Cachorro();
+
+$roger->nome = "Roger";
 $roger->idade = 10;
 $roger->cor = 'cinza';
+$roger->chamar(); // retorna: chamar nome: Roger ;
+
+echo "<br/>";
+echo "<hr>";
+
+
 
 var_dump($roger);
 
