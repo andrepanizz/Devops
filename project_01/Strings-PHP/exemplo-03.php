@@ -264,15 +264,24 @@ class Gato {
         
   }
   //getters and setters:
-  public function getNome(){
+  public function getNome()
+  {
     return $this->nome . "<br/>";
     
   }
 
-  public function getIdade(){
+  public function getIdade()
+  {
     return $this->idade . "<br/>";
   }
+
+  public function getPelagem()
+  {
+    return $this->pelagem . "<br/>";
+  }
+
 }
+// fim da classe;
 
 ?>
 
