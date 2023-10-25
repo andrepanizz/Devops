@@ -135,7 +135,30 @@ else:
     echo ucwords("erro ao enviar email");
 endif;
 
-//
+//Exemplos praticos de function anonimas:
+
+$minha_function = function(){
+  // faz alguma coisa aqui...
+};
+
+$minha_function();
+
+/* Observe que você precisa pôr um ponto e vírgula após a definição da função,
+ e elas funcionam como funções nomeadas na questão de valores de retorno e parâmetros.
+Curiosamente, elas oferecem uma maneira de acessar uma variável definida fora da função 
+por meio do use():
+
+*/
+$teste = 'teste';
+
+$minhafuncao = function() use ($teste) {
+  echo $teste;
+  return 'ok';
+};
+
+$minhafuncao();
+
+// outra function bem conhecida no PHP e a 
 ?>
 
 
