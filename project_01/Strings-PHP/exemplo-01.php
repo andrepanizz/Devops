@@ -224,10 +224,14 @@ array_key_exists('primeiro', $search_array);
 //array_keys() obtem todas as chaves do array:
 /*  Retorna todas as chaves ou uma parte das chaves de um array */
 $array_20 = array(0 => 100, "cor" => "vermelho");
-print_r(array_keys($array_20));
+print_r(array_keys($array_20)); // 
 
+$array = array("azul", "vermelho", "verde", "azul", "azul");
+print_r(array_keys($array, "azul")); //
 
-
+$array = array("cor"     => array("azul", "vermelho", "verde"),
+               "tamanho" => array("pequeno", "medio", "grande"));
+print_r(array_keys($array)); //
 
 //array_values() obtem todos os valores do array:
 
