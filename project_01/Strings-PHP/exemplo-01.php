@@ -245,8 +245,18 @@ echo "<hr>";
 
 // asort() Classifica um array associativo por valor:
 /* 
--> SORT_REGULAR - Compara elementos normalmente; os detalhes
+-> SORT_REGULAR - Compara elementos normalmente; os detalhes são descritos na seção Operadores de comparação;
+-> SORT_NUMERIC - Compara os elementos como numerico.
+-> SORT_STRING  - Compara os elementos como strings. 
+-> SORT_LOCALE_STRING - Compara os elementos como strings, com base na localidade atual. A localidade
+pode ser alterada usando setlocale();
+-> SORT_NATURAL - Compara os elementos como Strings usando "Ordenação natural" como natsort();
+-> SORT_FLAG_CASE - Pode ser combinada (usando o operador bit a bit OR) com SORT_STRING ou
+-> SORT_NATURAL para ordenar strings sem fazer a distinção entre maiusculas e minusculas;
+
+exemplo de utilizaçção:
 */ 
+$frutas = array("d" => "Limão", "a" => "Laranja", "b" => "Banana", "c" => "Maça") // array de [0][1][2] 3 posições;
 
 
 // arsort() Classifica um array associativo em ordem descrescente por valor:
