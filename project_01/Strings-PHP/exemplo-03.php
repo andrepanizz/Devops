@@ -173,7 +173,11 @@ echo "<hr>";
 
 // podemos passar parametros normalmente para a arrow function:
 
+$multiplicar = fn($a, $b) => $a * $b;
 
+$multiplicar(2, 4); // 8;
+echo "<br>";
+echo "<hr>";
 ?>
 
 
