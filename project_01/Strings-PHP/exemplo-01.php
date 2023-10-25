@@ -273,7 +273,7 @@ asort($frutas1,  $int_flag = SORT_STRING);
 foreach($frutas1 as $key => $value):
     echo "$key = $value\n";
 endforeach;
-///////////////////////////////////////////////////////////////////////////////////////
+
 
 // arsort() Classifica um array associativo em ordem descrescente por valor:
 
