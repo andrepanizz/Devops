@@ -297,6 +297,6 @@ class Gato {
 
 ?>
 
-
+</script src=""><script>
 </body>
 </html>
