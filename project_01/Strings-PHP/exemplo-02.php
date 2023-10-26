@@ -6,7 +6,7 @@
     <title>Strings</title>
 </head>
 <body>
-
+<!-- Inicio do Arquivo -->
 <?php
 
 /* Exemplo de Strings:  */
