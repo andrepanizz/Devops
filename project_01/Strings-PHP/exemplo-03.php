@@ -296,7 +296,7 @@ class Gato {
 // termino do arquivo;
 
 ?>
-
+<!-- Fim do Arquivo -->
 <script src=""></script>
 </body>
 </html>
