@@ -11,10 +11,6 @@
 <?php
 // exemplos em PHP:
 
-
-
-
-
 ?>
 <script src=""></script>
 </body>
