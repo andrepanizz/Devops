@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../logo/php.png">
+    <title>Try Catch</title>
+</head>
+<body>
+    
 <?php
 // Exemplo de Try Catch:
 /** @param try Geralmente usamos try catch: colocamos o codigo dentro do Try
@@ -39,7 +49,7 @@ Exceção capturada: Divisão por zero.
 Segundo finally.
 Olá mundo
 */
-
-
-
 ?>
+
+</body>
+</html>
