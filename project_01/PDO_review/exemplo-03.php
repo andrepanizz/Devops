@@ -1,5 +1,13 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectando ao PDO - </title>
+</head>
+<body>
 
+<?php
 //conectando com PDO;
 ///////////////////////////////////////////////////
 $db = "mysql:dbname=dbphp7";
@@ -21,3 +29,8 @@ $stmt->execute();
 //conseguimos fazer o fetch_array();
 $stmt->fetchAll();
 /////////////////////////////////////////////////////
+?>
+<script src=""></script>    
+</body>
+</html>
+
