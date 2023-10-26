@@ -7,6 +7,8 @@
     <link rel="icon" href="../logo/php.png">
 </head>
 <body>
+    <h2> Exemplo de Strings em PHP </h2>
+    <!-- exemplo de arquivo de Strings em PHP -->
     <?php
     // Exemplos de Strings em PHP:
     // exemplo-04.php:
