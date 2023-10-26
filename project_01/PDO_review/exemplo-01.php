@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Exemplo-01t</title>
+</head>
+<body>
+
 <?php
 # variavais:
 $hostname = "localhost";
@@ -29,3 +39,7 @@ $stmt->execute();
 // aqui faremos o Bind_Param();
 //$stmt->bind_param("ss","?, ?");
 ?>
+
+    
+</body>
+</html>
