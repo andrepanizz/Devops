@@ -293,8 +293,6 @@ class Gato {
 
 }
 // fim da classe;
-// termino do arquivo;
-
 ?>
 <!-- Fim do Arquivo -->
 <script src=""></script>

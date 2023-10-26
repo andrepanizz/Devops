@@ -11,7 +11,8 @@
 </html>
 
 <?php
-// utilizando strings no PHP. functions para string:
+
+/* Exemplo de Strings:  */
 
 
 
