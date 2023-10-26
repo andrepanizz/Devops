@@ -14,6 +14,7 @@
     // exemplo-04.php:
 
     ?>
+    <!-- Fim do Arquivo -->
 <script src=""></script>    
 </body>
 </html>
