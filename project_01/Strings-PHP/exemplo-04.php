@@ -9,9 +9,9 @@
 <body>
     <?php
     // Exemplos de Strings em PHP:
-    // exemplo-04.php 
+    // exemplo-04.php:
 
     ?>
-    
+<script src=""></script>    
 </body>
 </html>

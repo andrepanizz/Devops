@@ -6,9 +6,6 @@
     <title>Strings</title>
 </head>
 <body>
-    
-</body>
-</html>
 
 <?php
 
@@ -17,3 +14,7 @@
 
 
 ?>
+    
+</body>
+</html>
+
