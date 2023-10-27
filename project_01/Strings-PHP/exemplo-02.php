@@ -126,7 +126,7 @@ $array_foo = ["ultimo", "email", "telefone"];
 var_dump(implode(",",$array_foo));
 
 // Empty String when using an empty array:
-
+var_dump(implode('hello', [])); // string(0) ""
 
 
 ?>
