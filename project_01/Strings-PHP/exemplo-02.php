@@ -169,6 +169,9 @@ echo $output;
 /////////////////////////////////////////////
 
 
+// Strireplace - 
+
+
 // esta função e compativel com dados binarios;
 
 
