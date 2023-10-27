@@ -51,7 +51,18 @@ var_dump($clean);
 $sample1 = substr('abcdef', -1);  // retorna: 'f';
 $sample2 = substr('andre', -2);   // retorna: 're';
 $sample3 = substr('abcdef',-3,1);  // retorna: 'd';
-$sample4 = substr('peixe', 0 );    // retorna: peixe
+$sample4 = substr('peixe', 0 );    // retorna: peixe;
+//---------------------------------------------------------------
+echo substr('abcdef', 1) .    "<br/>"; // retorna: 'bcdef';
+echo substr('abcdef', 1, 3) . "<br/>"; // retorna: 'bcd'; 
+echo substr('abcdef', 0, 4) . "<br/>"; // retorna: ''
+echo substr('abcdef', 0, 8) . "<br/>"; // retorna:
+echo substr() . "<br/>";
+
+// o acesso a caracteres individuais pode
+// ser feito através da indexação;
+
+
 
 // se length for dado positivo;
 
