@@ -78,8 +78,37 @@ echo "<hr>";
         cut =   E setado para true, a string e sempre quebrada na largura especificada ou antes.
         Então se você tem uma palavra que e mais larga que a largura dada, ela e sempre quebrada:
         */
-$texto_word = "O rapido marron, raposa pulou o fim do louco cachorro";
+$texto_word = "O rapido marron, raposa pulou o fim do louco cachorro.";
 $newtext = wordwrap($texto_word, 20, "<br />\n");
+echo trim($newtext);
+echo "<br>";
+echo "<hr>";
+/* O exemplo abaixo irá reproduzir:
+    "O rapido marron, raposa<br />
+    pulou o fim do louco <br /?
+    cachorro.
+
+*/
+
+//rtrim - Retira espaços em branco  (ou outros caracteres) do final da string
+// esta função retorna a string com os espaços em branco retirados do final de str:
+
+$palavras = "\t\tThese are a few words";
+$bit = "\x09Example string\x0A";
+$mundo = "Hello World";
+
+var_dump($palavras, $bit, $mundo);
+
+printf("\n");
+
+$trimmeds = rtrim($palavras);
+print($trimmeds);
+$trimmeds = rtrim($palavras, " \t");
+print($trimmeds);
+$trimmeds - rtrim($mundo, "Hdle");
+print($trimmeds);
+echo "<br>";
+echo "<hr>";
 
 
 
