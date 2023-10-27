@@ -38,6 +38,33 @@ var_dump($trimmed);
 $clean = trim($binario, "\00..\x1F");
 var_dump($clean);
 
+// Strtoupper() Transforma uma String em Maiuscula:
+
+$str = "Hoje estou super feliz com minha compra!";
+$str = strtoupper($str);
+echo $str;  // imprime: hOJE ESTOU SUPER FELIZ COM MINHA COMPRA!;
+
+// Strtolower() Transforma uma String em Minuscula
+
+$string = "Hoje estou Triste!";
+$string = strtolower($string);
+echo $string; // Imprime: hoje estou triste!;
+
+// Ucwords(): transforma os caracteres de cada texto a primeira letra em caixa alta;
+$strings1 = "hoje estou muito alegre!";
+$strings1 = ucwords($string1);
+echo $string1; // Imprime: Hoje Estou Muito Alegre!
+
+// ucfirst(): 
+$string2 = "hoje estou andando!!";
+$string2 = ucfirst($string2);
+echo $string2; //Imprime: Hoje estou andando!!;
+
+// strpos(): encontra a primeira ocorrencia de uma substring na String:
+
+
+
+
 
 // mostrar as alterações com var_dump();
 
