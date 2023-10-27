@@ -38,6 +38,25 @@ var_dump($trimmed);
 $clean = trim($binario, "\00..\x1F");
 var_dump($clean);
 
+// sbstr - retorna uma parte de uma String:
+
+/*nota sobre o uso do substr:
+   Se nos parametros Start não for negativo, a string retornanda
+   iniciará na posição start em String, começando do Zero.
+   Por Exemplo, na string 'abcdef', o caractere na posição
+    0 e 'a', o caractere na posição 2 e 'e assim por diante */
+
+// Exemplo usando um inicio Negativo:
+
+$sample1 = substr('abcdef', -1);  // retorna 'f';
+$sample2 = substr('andre', -2);   // retorna 're';
+$sample3 = substr('abcdef',-3,1)  // retorna: 'd';
+$sample4 = substr('peixe', 0 )    // retorna: peixe
+
+// se length for dado positivo;
+
+
+
 // Strtoupper() Transforma uma String em Maiuscula:
 
 $str = "Hoje estou super feliz com minha compra!";
