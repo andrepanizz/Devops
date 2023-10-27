@@ -55,16 +55,29 @@ $sample4 = substr('peixe', 0 );    // retorna: peixe;
 //---------------------------------------------------------------
 echo substr('abcdef', 1) .    "<br/>"; // retorna: 'bcdef';
 echo substr('abcdef', 1, 3) . "<br/>"; // retorna: 'bcd'; 
-echo substr('abcdef', 0, 4) . "<br/>"; // retorna: ''
-echo substr('abcdef', 0, 8) . "<br/>"; // retorna:
-echo substr() . "<br/>";
+echo substr('abcdef', 0, 4) . "<br/>"; // retorna: 'abcd'
+echo substr('abcdef', 0, 8) . "<br/>"; // retorna: 'abcdef'
+echo substr('abcdef', 1, 1) . "<br/>"; // retorna: 'f'
 
 // o acesso a caracteres individuais pode
 // ser feito através da indexação;
+$texto_sample = 'abcdef';
+echo $texto_sample[0]; // 'a';
+echo $texto_sample[3]; // 'd';
+echo $texto_sample[strlen($texto_sample)-1]; // 'f';
 
+// WordWrap - Quebra uma String em um Dado numero de caracteres;
+/*
+ * Parameters: 
+        str = A string de entrada;
+        width = A coluna da largura. O padrão e 75.
+        break = A linha e quebrada usando o parametro opcional Break. O padrão  e "\n";
+        cut =   E setado para true, a string e sempre quebrada na largura especificada ou antes.
+        Então se você tem uma palavra que e mais larga que a largura dada, ela e sempre quebrada:
+        
 
+*/
 
-// se length for dado positivo;
 
 
 
