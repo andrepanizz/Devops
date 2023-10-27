@@ -23,6 +23,22 @@ $ola = "Olá mundo";
 
 print("\n");
 
+$trimmed = trim($text);
+print("\n");
+var_dump($trimmed);
+
+$trimmed = trim("text", "\t.");
+var_dump($trimmed);
+
+$trimmed = trim($ola, "hdle");
+var_dump($trimmed);
+
+// Trim e ASCII control characteres e no começo e final do $binario;
+// de 0 para 31 inclusive
+$clean = trim($binario, "\00..\x1F");
+var_dump($clean);
+
+
 // mostrar as alterações com var_dump();
 
 
