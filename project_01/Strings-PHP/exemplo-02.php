@@ -110,7 +110,11 @@ print($trimmeds);
 echo "<br>";
 echo "<hr>";
 
+// str_pad() - 
 
+$input = "Alien";
+echo str_pad($input, 10);                      // retorna "Alien";
+echo str_pad($input, 18, "-=", STR_PAD_LEFT);; // retorna "-=-=Alien";
 
 
 // Strtoupper() Transforma uma String em Maiuscula:
