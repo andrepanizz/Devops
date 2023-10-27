@@ -84,6 +84,17 @@ $fatias = explode(" ", $pizza); // espera receber o caractere a ser adicionado p
 echo $fatias[0] . "<br>"; //pedaço1;
 echo $fatias[1] . "<br>";//padaço2;
 
+//exemplo 2:
+$dados = "foo:*1023::1000::/home/foo:/bin/bash";
+list($user,$pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $dados);
+echo $user; //imprimira foo
+echo $pass; // * 
+
+/* Note sobre a function list:
+
+*/
+
+
 
 
 
