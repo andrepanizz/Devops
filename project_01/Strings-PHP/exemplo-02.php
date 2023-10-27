@@ -131,7 +131,8 @@ var_dump(implode('hello', [])); // string(0) "";
 // o separador e Opcional na passagem de parametros:
 var_dump(implode(['a', 'b', 'c'])); // string(3) "abc";
 
-// 
+// strreplce exemplo pratico de utilização:
+
 
 
 
