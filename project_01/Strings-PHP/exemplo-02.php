@@ -151,7 +151,7 @@ $novafrase = str_replace($saudavel, $saboroso, $frase);
 $str = str_replace("ll", "", "good golly miss molly!", $count);
 echo $count; // 2
 
-// Order of replacement
+// Ordem de replacement
 $str     = "Line 1\nLine 2\rLine 3\r\nLine 4\n";
 $order   = array("\r\n", "\n", "\r");
 $replace = '<br />';
@@ -165,7 +165,8 @@ $text    = 'a p';
 $output  = str_replace($letters, $fruit, $text);
 echo $output;
 
-//
+// esta função e compativel com dados binarios;
+
 
 
 
