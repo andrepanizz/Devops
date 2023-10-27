@@ -55,7 +55,7 @@ $strings1 = "hoje estou muito alegre!";
 $strings1 = ucwords($string1);
 echo $string1; // Imprime: Hoje Estou Muito Alegre!
 
-// ucfirst(): 
+// ucfirst(): Transforma o primeiro caractere em Maiusculo!;
 $string2 = "hoje estou andando!!";
 $string2 = ucfirst($string2);
 echo $string2; //Imprime: Hoje estou andando!!;
