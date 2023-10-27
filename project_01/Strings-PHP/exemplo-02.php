@@ -75,9 +75,14 @@ else:
     unset($mystring, $findname);
     //limpo as variaveis;
 endif;
-
+echo "<br>";
+echo  "<hr>";
 // explode: Divide uma string em um array:
-
+// exemplo 01:
+$pizza = "pedaço1, pedaço2, pedaço3, pedaço4";
+$fatias = explode(" ", $pizza); // espera receber o caractere a ser adicionado para o separador;
+echo $fatias[0] . "<br>"; //pedaço1;
+echo $fatias[1] . "<br>";//padaço2;
 
 
 
