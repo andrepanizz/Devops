@@ -116,7 +116,7 @@ $input = "Alien";
 echo str_pad($input, 10);                      // retorna "Alien";
 echo str_pad($input, 10, "-=", STR_PAD_LEFT);  // retorna "-=-=Alien";
 echo str_pad($input, 10, "_", STR_PAD_BOTH);   // retorna: __Alien__;
-echo str_pad($input, 6, "___", STR_PAD_RIGHT)  // retorna: Alien__;
+echo str_pad($input, 6, "___", STR_PAD_RIGHT);  // retorna: Alien__;
 echo str_pad($input, 3, "*");    // retorna: Alien*;
 
 // Strtoupper() Transforma uma String em Maiuscula:
