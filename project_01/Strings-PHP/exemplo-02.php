@@ -65,6 +65,9 @@ $texto_sample = 'abcdef';
 echo $texto_sample[0]; // 'a';
 echo $texto_sample[3]; // 'd';
 echo $texto_sample[strlen($texto_sample)-1]; // 'f';
+echo "<br>";
+echo "<hr>";
+
 
 // WordWrap - Quebra uma String em um Dado numero de caracteres;
 /*
@@ -74,9 +77,9 @@ echo $texto_sample[strlen($texto_sample)-1]; // 'f';
         break = A linha e quebrada usando o parametro opcional Break. O padrão  e "\n";
         cut =   E setado para true, a string e sempre quebrada na largura especificada ou antes.
         Então se você tem uma palavra que e mais larga que a largura dada, ela e sempre quebrada:
-        
-
-*/
+        */
+$texto_word = "O rapido marron, raposa pulou o fim do louco cachorro";
+$newtext = wordwrap($texto_word, 20, "<br />\n");
 
 
 
