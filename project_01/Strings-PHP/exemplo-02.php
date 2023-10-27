@@ -20,6 +20,9 @@ este e um pequena lista (não abrange) para mostrar algumas possibilidades:
 $text = "\t\teste e meu amigo! :)...  ";
 $binario = "\x09Exemplo de Strings";
 $ola = "Olá mundo";
+
+print("\n");
+
 // mostrar as alterações com var_dump();
 
 
