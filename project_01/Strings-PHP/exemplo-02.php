@@ -50,7 +50,7 @@ var_dump($clean);
 
 $sample1 = substr('abcdef', -1);  // retorna: 'f';
 $sample2 = substr('andre', -2);   // retorna: 're';
-$sample3 = substr('abcdef',-3,1)  // retorna: 'd';
+$sample3 = substr('abcdef',-3,1);  // retorna: 'd';
 $sample4 = substr('peixe', 0 );    // retorna: peixe
 
 // se length for dado positivo;
