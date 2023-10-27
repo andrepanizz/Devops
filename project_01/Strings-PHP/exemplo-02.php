@@ -121,10 +121,11 @@ var_dump($bar); // NULL
 */
 
 
-
-
-
 // implode: junta elementos de um array em uma string:
+$array_foo = ["ultimo", "email", "telefone"];
+var_dump(implode(",",$array_foo));
+
+
 
 
 ?>
