@@ -62,13 +62,27 @@ echo $string2; //Imprime: Hoje estou andando!!;
 
 // strpos(): encontra a primeira ocorrencia de uma substring na String:
 
+$mystring = 'abc';
+$findname = 'a';
+$pos = strpos($mystring, $findname); // espera 2 parametros: astring a ser procurado, e o encontrado;
+if($pos == false):
+    echo "A string" . $findname . "não foi encontrado a string" . $mystring;
+elseif($pos == true):
+    echo "A string '$findname' foi encontrada" . $mystring;
+    echo "e existe a posição" . $pos;
+else:
+    echo "Nenhum parametro foi encontrado";
+    unset($mystring, $findname);
+    //limpo as variaveis;
+endif;
+
+// explode: Divide uma string em um array:
 
 
 
 
-// mostrar as alterações com var_dump();
 
-
+// implode: junta elementos de um array em uma string:
 
 
 ?>
@@ -76,4 +90,3 @@ echo $string2; //Imprime: Hoje estou andando!!;
 <script src=""></script>
 </body>
 </html>
-
