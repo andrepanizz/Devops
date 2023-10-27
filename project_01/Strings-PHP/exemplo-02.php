@@ -133,6 +133,8 @@ var_dump(implode(['a', 'b', 'c'])); // string(3) "abc";
 
 // strreplce exemplo pratico de utilização:
 
+
+
 // Fornece: <body text='black'>
 $bodytag = str_replace("%body%", "black", "<body text='%body%'>");
 
@@ -148,15 +150,15 @@ $saboroso   = array("pizza", "cerveja", "sorvete");
 $novafrase = str_replace($saudavel, $saboroso, $frase);
 
 // Uso do parâmetro count está disponível no PHP 5.0.0
-$str = str_replace("ll", "", "good golly miss molly!", $count);
+$str_2 = str_replace("ll", "", "good golly miss molly!", $count);
 echo $count; // 2
 
 // Ordem de replacement
-$str     = "Line 1\nLine 2\rLine 3\r\nLine 4\n";
-$order   = array("\r\n", "\n", "\r");
-$replace = '<br />';
+$str_2     = "Line 1\nLine 2\rLine 3\r\nLine 4\n";
+$order_2   = array("\r\n", "\n", "\r");
+$replace_2 = '<br />';
 // Processes \r\n's first so they aren't converted twice.
-$newstr = str_replace($order, $replace, $str);
+$newstr = str_replace($order_2, $replace_2, $str_2);
 
 // Outputs: apearpearle pear
 $letters = array('a', 'p');
