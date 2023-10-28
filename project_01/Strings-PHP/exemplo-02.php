@@ -144,6 +144,10 @@ if ($pos2 !== false):
     echo "foi encontrada '$findme' in '$mystring2' na posição $pos2";
 endif;
 
+// lcfirst - Torna minusculo o primeiro caractere de uma string:
+
+$foo1 = 'Ola mundo'; //or hello world;
+$foo1 = lcfirst($foo1);
 
 // Strtoupper() Transforma uma String em Maiuscula:
 
