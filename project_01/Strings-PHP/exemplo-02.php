@@ -181,6 +181,7 @@ echo $arr[1];  //   baz;
 
   aqui outro exemplo pratico de utilização:
 */
+//exemplo pratico 2 de utilização:
 
 
 
