@@ -156,7 +156,10 @@ $bar = lcfirst(strtoupper($bar));  // oLLa MUNDO;
 echo "o resultado do retorno de {$foo1} e {$bar} <br/>" . "<br>";
 echo "<hr>";
 
-// parsestr() - Converte Strings 
+// parsestr() - Converte Strings:
+// Nota: Se o segundo parametro result for informado, as variaveis serão gravadas como elementos de array
+
+
 // Strtoupper() Transforma uma String em Maiuscula:
 
 $str = "Hoje estou super feliz com minha compra!";
