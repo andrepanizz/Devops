@@ -183,6 +183,10 @@ echo $arr[1];  //   baz;
 */
 //exemplo pratico 2 de utilização:
 
+parse_str("My Value=Somethings",$result);
+echo $result['My Value']; // Somethings;
+
+/*Nota: todas as variaveis    */
 
 
 
