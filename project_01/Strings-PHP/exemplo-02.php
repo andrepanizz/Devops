@@ -175,7 +175,7 @@ echo $arr[1];  //   baz;
 
 
 /* Nota Importante ou Important Notice:
- -> 
+ -> Como as variaveis no PHP não podem conter pontos ou
 
 */
 
