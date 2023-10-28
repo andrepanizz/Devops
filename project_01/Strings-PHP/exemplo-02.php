@@ -153,6 +153,10 @@ echo $foo1 . "<br/>";
 $bar = 'OLA MUNDO';
 $bar = lcfirst($bar);
 $bar = lcfirst(strtoupper($bar));  // oLLa MUNDO;
+echo "o resultado do retorno de {$foo1} e {$bar} <br/>" . "<br>";
+echo "<hr>";
+
+// parsestr() - Converte Strings 
 // Strtoupper() Transforma uma String em Maiuscula:
 
 $str = "Hoje estou super feliz com minha compra!";
