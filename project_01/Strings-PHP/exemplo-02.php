@@ -189,7 +189,8 @@ echo $result['My Value']; // Somethings;
 /*Nota: todas as variaveis ou valores informados no array do segundo parametro,
   ja estarão automaticamente convertidos por urldecode();
   Para obter a query_string em si, você pode utilizar a variavel, $_SERVER['QUERY_STRING]. Além disso
-  
+  ler a sections sobre variaveis de fontes externas;
+
    */
 
 
