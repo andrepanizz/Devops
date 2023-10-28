@@ -186,7 +186,8 @@ echo $arr[1];  //   baz;
 parse_str("My Value=Somethings",$result);
 echo $result['My Value']; // Somethings;
 
-/*Nota: todas as variaveis    */
+/*Nota: todas as variaveis ou valores informados no array do segundo parametro,
+   */
 
 
 
