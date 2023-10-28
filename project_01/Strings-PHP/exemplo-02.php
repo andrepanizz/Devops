@@ -173,7 +173,11 @@ echo $first; // valor;
 echo $arr[0];  //  foo bar;
 echo $arr[1];  //   baz;
 
-// Nota Importante: Important Notice: 
+
+/* Nota Importante ou Important Notice:
+ -> 
+
+*/
 
 
 
