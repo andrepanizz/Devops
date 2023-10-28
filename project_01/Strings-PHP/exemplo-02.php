@@ -176,7 +176,7 @@ echo $arr[1];  //   baz;
 
 /* Nota Importante ou Important Notice:
  -> Como as variaveis no PHP não podem conter pontos ou espaços em seus nomes, estes são convertidos
-  em underlines.
+  em underlines. O mesmo se aplica aos nomes de chaves de array no caso de utilizar
 
 */
 

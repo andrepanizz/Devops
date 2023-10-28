@@ -11,6 +11,7 @@
 <?php
 
 /*
+-> exemplo praticos:
 -> Funções uteis para arrays:
 -> temos varios exemplos de functions para string aqui:
 -> Melhores praticas de como usa-las:
