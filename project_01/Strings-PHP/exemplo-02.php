@@ -146,9 +146,13 @@ endif;
 
 // lcfirst - Torna minusculo o primeiro caractere de uma string:
 
-$foo1 = 'Ola mundo'; //or hello world;
+$foo1 = 'Ola mundo'; // or hello world;
 $foo1 = lcfirst($foo1);
+echo $foo1 . "<br/>";
 
+$bar = 'OLA MUNDO';
+$bar = lcfirst($bar);
+$bar = lcfirst(strtoupper($bar));  // oLLa MUNDO;
 // Strtoupper() Transforma uma String em Maiuscula:
 
 $str = "Hoje estou super feliz com minha compra!";
