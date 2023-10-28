@@ -158,6 +158,24 @@ echo "<hr>";
 
 // parsestr() - Converte Strings:
 // Nota: Se o segundo parametro result for informado, as variaveis serão gravadas como elementos de array
+/*  Exemplo pratico utilizando parsestr() */
+
+// Recomendado:
+$str_10 = "primeiro=valor&arr[]=foo+bar&arr[]=baz";
+parse_str($str_10, $saida); //note que a variavel saida, será usada pra chamar as strings:
+echo $saida['primeiro']; // retorna valor;
+echo $saida['arr'][0]; // retorna foo bar;
+echo $saida['arr'][1]; // retorna baz
+
+// Descontinuado ou DISCOURAGED:
+// parse_str($str_10);
+echo $first; // valor;
+echo $arr[0];  //  foo bar;
+echo $arr[1];  //   baz;
+
+// Nota Importante: Important Notice: 
+
+
 
 
 // Strtoupper() Transforma uma String em Maiuscula:
