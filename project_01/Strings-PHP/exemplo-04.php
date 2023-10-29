@@ -47,14 +47,16 @@
     {
         if($loc === false) return (strpos($mainStr, $str) !== false);
         /* a function strpos()
-        se o parametro $loc for falso, ira retornar:
+        se o parametro $loc for falso (comparador de identidade e valor), ira retornar:
         Na sintaxe demonstrada acima, temos “mainStr” como a string
         que será pesquisada. O “str” é o termo que será procurado 
         na string que determinamos previamente.
         -> esses valores serão passados por parametro quando chamarmos a function contains_substr();
-         
-        
-        */ 
+        */
+        if(strlen($mainStr) < strlen($str)) return false;
+        /* Se o tamanho do parâmetro #mainStr o tamanho for menor que $str retorna falso pra mim!*/
+        if($loc + strlen($str) );
+        /*         */ 
 
 
     }
