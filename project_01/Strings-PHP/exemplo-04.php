@@ -39,7 +39,25 @@
     echo substr_compare("abcdefg","abc",5, 1); //retorna warning;
     
     // como exemplo vamos criar uma functions para melhor entendimento:
-    
+    function contains_substr($mainStr, $str, $loc = false)
+    /* Passando 02 parametros:
+       $mainStr: A string principal a ser comparada;
+       $str: A segunda String a ser comparada;
+       $loc: A posição inicial para comparação. Se negativo, inicia contanto da final string */
+    {
+        if($loc === false) return (strpos($mainStr, $str) !== false);
+        /* a function strpos()
+        se o parametro $loc for falso, ira retornar:
+        Na sintaxe demonstrada acima, temos “mainStr” como a string
+        que será pesquisada. O “str” é o termo que será procurado 
+        na string que determinamos previamente.
+        -> esses valores serão passados por parametro quando chamarmos a function contains_substr();
+         
+        
+        */ 
+
+
+    }
 
     
 
