@@ -89,8 +89,27 @@
     $b = [3, 4, array("d", "e", "f")];
     #export 2;
     $export1 = var_export($b);
+
+    /* 
+    No primeiro exemplo ira retornar:
+    array (
+  0 => 1,
+  1 => 2,
+  2 =>
+  array (
+    0 => 'a',
+    1 => 'b',
+    2 => 'c',
+  ),
+)   */
+
+/* Immportante este exemplo de var_export, pois tem um exemplo
+ da function substr, que utiliza uma class apple, com um metodo ;
+ */
     echo "<br/>";
-    
+    echo "<hr>";
+
+
 
     ?>
     <!-- Fim do Arquivo -->
