@@ -58,11 +58,15 @@
         if($loc + strlen($str)  > strlen($mainStr)) return false;
         /* Se o parâmetro que ja e falso $loc, tamanho da String $str for Maior que o tamanho
            do parametro $mainStr, retorna falso pra mmim!;*/
-        return (strcmp()) 
+        return (strcmp(substr($mainStr,$loc, strlen($str)), $str) == 0); 
         // nota do strcmp: Comapração de strings binarias seguras:
         /*'$var1 não é igual a $var2 em uma comparação de strings
-           com distinção entre maiúsculas e minúsculas';    */
-    }
+           com distinção entre maiúsculas e minúsculas';
+           -> substr(): retorna parte de uma string
+           */
+    } // Fim da function:
+
+
 
     
 
