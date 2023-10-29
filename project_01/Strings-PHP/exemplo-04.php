@@ -35,7 +35,8 @@
     echo substr_compare("abcdef","bcg",1 , 2) . "<br/>"; // retorna: 0;
     echo substr_compare("abcdef","BC", 1, 2, true) . "<br/>"; // retorna: 0;
     echo substr_compare("abcdef","bc",1, 3); // retorna 1;
-    echo 
+    echo substr_compare("abcdef","cd", 1, 2); // retorna: -1;
+    
     
 
 
