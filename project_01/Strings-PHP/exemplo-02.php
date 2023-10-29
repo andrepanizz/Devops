@@ -211,7 +211,9 @@ echo "<hr>";
 # needle - A substring para ser buscada:
 # Valor retornado: Retorna true se needle esta em haystack, false caso contrario;
 
-
+if(str_contains('abc', '')):
+    echo "Verificando a existencia de uma string vazia sempre retornar true";
+endif;
 
 
 
