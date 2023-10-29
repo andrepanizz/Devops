@@ -196,10 +196,17 @@ echo $result['My Value']; // Somethings;
 
 // str_repeat - Repete uma String:
 
-// Primeiro parametro("A string que será repetida"), segundo parametro ("input")
+// Primeiro parametro("A string que será repetida"), segundo parametro ("input") numero de vezes que sera repetida:
+// exemplo:
 
+echo str_repeat("-=",10); // será repetida 10 vezes;
+echo "<br/>";
 
+echo str_repeat("Andre", 2); //será repetida 2 vezes
+echo "<br/>";
+echo "<hr>";
 
+//str_contains() - Determina se uma string contém 
 
 
 // Strtoupper() Transforma uma String em Maiuscula:
