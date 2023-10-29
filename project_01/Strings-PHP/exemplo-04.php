@@ -29,6 +29,7 @@
         O comprimento da comparação. O valor padrão e maior comprimento entre o comprimento
         de str comparado com o comprimento de main_str menos o Offset */
         
+    # a comparação e case_sensitive();
     
     
 
