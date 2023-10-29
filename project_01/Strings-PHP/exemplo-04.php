@@ -66,14 +66,10 @@
            */
     } // Fim da function:
 
-
-
+    echo "<br/>";
+    echo "<hr>";
     
-
-
-
-
-?>
+    ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
 </body>
