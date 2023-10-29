@@ -82,7 +82,16 @@
     true. Caso o contrario, esta function retornara Null;  */
 
     //Exemplo de utilização:
+
+    $a = array(1, 2, array("a", "b", "c"));
+    $export = var_export($a);
+
+    $b = [3, 4, array("d", "e", "f")];
+    #export 2;
+    $export1 = var_export($b);
+    echo "<br/>";
     
+
     ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
