@@ -222,10 +222,6 @@ endif;
 echo "<br/>";
 echo "<hr>";
 
-
-
-
-
 // Strtoupper() Transforma uma String em Maiuscula:
 $str = "Hoje estou super feliz com minha compra!";
 $str = strtoupper($str);
