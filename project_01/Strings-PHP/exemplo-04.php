@@ -55,10 +55,13 @@
         */
         if(strlen($mainStr) < strlen($str)) return false;
         /* Se o tamanho do parâmetro #mainStr o tamanho for menor que $str retorna falso pra mim!*/
-        if($loc + strlen($str) );
-        /*         */ 
-
-
+        if($loc + strlen($str)  > strlen($mainStr)) return false;
+        /* Se o parâmetro que ja e falso $loc, tamanho da String $str for Maior que o tamanho
+           do parametro $mainStr, retorna falso pra mmim!;*/
+        return (strcmp()) 
+        // nota do strcmp: Comapração de strings binarias seguras:
+        /*'$var1 não é igual a $var2 em uma comparação de strings
+           com distinção entre maiúsculas e minúsculas';    */
     }
 
     
