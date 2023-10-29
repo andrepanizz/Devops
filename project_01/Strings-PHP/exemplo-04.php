@@ -30,7 +30,8 @@
         de str comparado com o comprimento de main_str menos o Offset */
         
     # a comparação e case_sensitive();
-    
+    echo substr_compare('abcdef','bc',1, 2); // retorna: 0;
+    echo substr_compare(); // retorna: 
     
 
 
