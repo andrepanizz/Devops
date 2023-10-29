@@ -193,6 +193,15 @@ echo $result['My Value']; // Somethings;
   Para obter a query_string em si, você pode utilizar a variavel, $_SERVER['QUERY_STRING]. Além disso
   ler a sections sobre variaveis de fontes externas;
 */
+
+// str_repeat - Repete uma String:
+
+// Primeiro parametro("A string que será repetida"), segundo parametro ("input")
+
+
+
+
+
 // Strtoupper() Transforma uma String em Maiuscula:
 $str = "Hoje estou super feliz com minha compra!";
 $str = strtoupper($str);
