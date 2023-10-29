@@ -219,6 +219,10 @@ $haystack = 'e';
 if(str_contains($nome,$haystack)):
     echo trim(strtoupper("Verificando a existencia de uma string sempre com a letra 'e' ##"));
 endif;
+echo "<br/>";
+echo "<hr>";
+
+
 
 
 
