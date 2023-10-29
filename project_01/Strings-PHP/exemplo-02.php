@@ -214,6 +214,11 @@ echo "<hr>";
 if(str_contains('abc', '')):
     echo "Verificando a existencia de uma string vazia sempre retornar true";
 endif;
+$nome = "andre";
+$haystack = 'e';
+if(str_contains($nome,$haystack)):
+    echo trim(strtoupper("Verificando a existencia de uma string sempre com a letra 'e' ##"));
+endif;
 
 
 
