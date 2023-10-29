@@ -68,6 +68,20 @@
 
     echo "<br/>";
     echo "<hr>";
+
+    // var_export - Mostra ou retorna uma representação estruturada de uma variavel:
+
+    # parametros:
+    /*  -> Value - A variavel que você quer exportar;
+    
+        -> return - Se usado e definido para true, var_export(), irá retornar  a representação 
+        da variavel ao invés de exibi-lá 
+        */
+    // valor retornado:
+    /* return: retorna  a representação da variavel quando o parametro return  e usado e avaliado para
+    true. Caso o contrario, esta function retornara Null;  */
+
+    //Exemplo de utilização:
     
     ?>
     <!-- Fim do Arquivo -->
