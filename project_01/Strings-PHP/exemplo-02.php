@@ -206,7 +206,11 @@ echo str_repeat("Andre", 2); //será repetida 2 vezes
 echo "<br/>";
 echo "<hr>";
 
-//str_contains() - Determina se uma string contém 
+//str_contains() - Determina se uma string contém uma substring fornecida:
+# haystack - A string onde será feita a busca.
+# needle - A substring para ser buscada:
+
+
 
 
 // Strtoupper() Transforma uma String em Maiuscula:
