@@ -209,6 +209,8 @@ echo "<hr>";
 //str_contains() - Determina se uma string contém uma substring fornecida:
 # haystack - A string onde será feita a busca.
 # needle - A substring para ser buscada:
+# Valor retornado: Retorna true se needle esta em haystack, false caso contrario;
+
 
 
 
