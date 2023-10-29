@@ -104,7 +104,8 @@
 )   */
 
 /* Immportante este exemplo de var_export, pois tem um exemplo
- da function substr, que utiliza uma class apple, com um metodo ;
+ da function substr, que utiliza uma class apple, com um metodo magico toString
+ que passa var_export no echo, o exemplo deste substr, sera mostrado abaixo: ;
  */
     echo "<br/>";
     echo "<hr>";
