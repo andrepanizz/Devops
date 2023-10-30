@@ -10,8 +10,18 @@
     <h2> Exemplo de Strings em PHP </h2>
     <!-- exemplo de arquivo de Strings em PHP -->
     <?php
-    // Exemplos de Strings em PHP:
-    // exemplo-04.php:
+    /* Aqui estão exemplos de functions de tipos de dados
+    -> arrays
+    -> strings
+    -> variaveis
+    -> objetos
+
+    Veremos tambem um pouco de funções de validação de variaveis;
+        
+    */
+
+    // is_array - Verifica se a variavel e um array();
+    
 
     ?>
     <!-- Fim do Arquivo -->

@@ -135,7 +135,8 @@ echo "9) ".var_export(substr("pear_much", 0, 2), true).PHP_EOL;
 
 //formatar $data usando RFC 2045 semantica:
     $new_string1 = chunk_split(base64_encode($data));
-    // estamos convertendo 
+    // estamos convertendo a saida em base64_encode();
+    
 
 
 
