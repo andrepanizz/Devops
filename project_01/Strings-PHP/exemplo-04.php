@@ -109,6 +109,13 @@
  
  
  */
+class maca {
+    // aqui esta um metodo magico ToString:
+    public function __toString()
+    {
+        
+    }
+}
     echo "<br/>";
     echo "<hr>";
 // 
