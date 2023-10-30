@@ -120,7 +120,7 @@ class maca {
 echo "1)" . var_export(substr("pear",0,2), true).PHP_EOL;
 echo "2)" . var_export(substr(35447, 0, 2), true).PHP_EOL;
 echo "3"  . var_export(substr(new maca(),0, 2 ), true).PHP_EOL;
-
+echo "4) ".var_export(substr(true, 0, 1), true).PHP_EOL;
     echo "<br/>";
     echo "<hr>";
 // 
