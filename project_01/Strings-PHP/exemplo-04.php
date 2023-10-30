@@ -123,6 +123,7 @@ echo "3"  . var_export(substr(new maca(),0, 2 ), true).PHP_EOL;
 echo "4) ".var_export(substr(true, 0, 1), true).PHP_EOL;
 echo "5) ".var_export(substr(false, 0, 1), true).PHP_EOL;
 echo "6) ".var_export(substr("", 0, 1), true).PHP_EOL;
+echo "7) ".var_export(substr(1.2e3, 0, 4), true).PHP_EOL;
     echo "<br/>";
     echo "<hr>";
 // 
