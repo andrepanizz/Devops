@@ -116,6 +116,9 @@ class maca {
         return "green" . "<br/>"; // retorna: "verde";
     }
 }
+
+echo "1)" . var_export(substr("pear",0,2), true).PHP_EOL;
+
     echo "<br/>";
     echo "<hr>";
 // 
