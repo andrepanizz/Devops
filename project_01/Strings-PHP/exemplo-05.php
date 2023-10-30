@@ -30,6 +30,12 @@
     echo is_array($not_garafa) ? 'Array' : 'Não e um Array';
     echo "\n" . PHP_EOL;
 
+    $objeto = array("objeto1","objeto2","objeto3");
+    echo is_array($objeto) ? 'Array' : 'Não e um array';
+    echo "\n";
+
+    
+
 
     ?>
     <!-- Fim do Arquivo -->
