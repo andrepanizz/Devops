@@ -113,7 +113,7 @@ class maca {
     // aqui esta um metodo magico ToString:
     public function __toString()
     {
-        
+        return "green" . "<br/>"; // retorna: 
     }
 }
     echo "<br/>";
