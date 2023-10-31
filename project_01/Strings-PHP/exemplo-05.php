@@ -91,6 +91,10 @@
     $text2 = 'gcdgcdgcd';
     echo substr_count($text2, 'gcdgcd');
 
+    // Count_chars - retorna informação sobre caracteres usados em uma string;
+
+    
+
     ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
