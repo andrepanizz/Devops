@@ -34,6 +34,12 @@
     echo is_array($objeto) ? 'Array' : 'Não e um array';
     echo "\n";
 
+    $objeto2 = "this is string";
+    echo is_array($objeto2) ? 'Array' : 'Não e um array';
+    echo "\n" . PHP_EOL;
+
+    
+
     
 
 
