@@ -59,7 +59,9 @@
             echo "is it a String" . "<br/>";
         else:
             echo "is not an String" . "<br/>";
-            
+        endif;
+    
+    
 
 
 
