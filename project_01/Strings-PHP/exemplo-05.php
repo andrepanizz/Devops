@@ -144,7 +144,7 @@
   da codificação de caracteres interna será usada.
 
   -> mb_substr($input, $i, 1, 'UTF-8);
-  -> usamos um for()
+  -> usamos um for():
   */
 
 
