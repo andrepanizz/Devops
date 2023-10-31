@@ -137,7 +137,11 @@
 // analisando esta function mb_count_chars($input):
 /* O que sabemos referente a o que esta function faz que ela passa um parametro;
   -> criamos uma variavel $l, que passa a function mb_strlen();
-  -> sobre mb_strlen(): 
+  -> sobre mb_strlen():  Obtem o valor da string:
+  parametros que esta função espera:
+  string: A string inicia checando  para o tamanho,
+  encoding: O parametro e a codigicação de caracteres. Se for omitido ou Null, o valor
+  da codificação de caracteres
 
 */
 
