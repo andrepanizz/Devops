@@ -70,23 +70,13 @@
     else:
         echo lcfirst("A variavel não e valida, e não e do tipo especificado! o tipo e: ") . gettype($text0);
     endif;
-        
-
-
-
-    // Second example:
-    //exemplo de Basic_str_decrement:
-    $str = 'ABC';
-    // var_dump(str_decrement($str));
     
+    // substr_count — Conta o número de ocorrências de uma substring:
 
+    $texto3 = "This is a test";
+    echo strlen($texto3) //retorna 14;
 
-
-
-
-
-
-    
+  
 
 
     ?>
