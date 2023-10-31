@@ -78,7 +78,7 @@
 
     echo substr_count($texto3, 'is'); // retorna 2;
 
-    // the string is reduce to 's is a test', 
+    // the string is reduce to 's is a test', so it prints 1
   
 
 
