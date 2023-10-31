@@ -60,6 +60,15 @@
         else:
             echo "is not an String" . "<br/>";
         endif;
+
+    // verificação se a varivel existe e se e uma string:
+    $text0 = "String";
+    $text1 = array("um","dois","tres");
+    // validação:
+        
+
+
+
     // Second example:
     //exemplo de Basic_str_decrement:
     $str = 'ABC';
