@@ -60,7 +60,10 @@
         else:
             echo "is not an String" . "<br/>";
         endif;
-    
+    // Second example:
+    //exemplo de Basic_str_decrement:
+    $str = 'ABC';
+    // var_dump(str_decrement($str));
     
 
 
