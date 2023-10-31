@@ -137,7 +137,7 @@
 // analisando esta function mb_count_chars($input):
 /* O que sabemos referente a o que esta function faz que ela passa um parametro;
   -> criamos uma variavel $l, que passa a function mb_strlen();
-  
+  -> sobre mb_strlen(): 
 
 */
 
