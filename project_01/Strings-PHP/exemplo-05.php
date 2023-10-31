@@ -124,9 +124,9 @@
  * @return array array associativo de caracteres.   */
     
  function mb_count_chars($input) {
-    $l = mb_strlen($input, 'UTF-8');
-    $unique = array();
-    for($i = 0; $i < $l; $i++) {
+    $l = mb_strlen($input, 'UTF-8'); // usamos mb_strlen() passando o parametro e o encoding.
+    $unique = array(); // vazio se dermos um vardump.
+    for($i = 0; $i < $l; $i++) { // usamos um for
         $char = mb_substr($input, $i, 1, 'UTF-8');
         if(!array_key_exists($char, $unique))
             $unique[$char] = 0;
@@ -143,7 +143,10 @@
   encoding: O parametro e a codigicação de caracteres. Se for omitido ou Null, o valor
   da codificação de caracteres interna será usada.
 
-*/
+  -> mb_substr($input, $i, 1, 'UTF-8);
+  -> usamos um for()
+  */
+
 
     ?>
     <!-- Fim do Arquivo -->
