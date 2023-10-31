@@ -81,9 +81,6 @@
     // the string is reduce to 's is a test', so it prints 1;
     echo substr_count($texto3, 'is', 3);
     
-  
-
-
     ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
