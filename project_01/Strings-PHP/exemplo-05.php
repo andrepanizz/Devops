@@ -55,7 +55,9 @@
            var_dump(is_int(true));
     
     // is_string - Informa se a variavel e do tipo String;
+    //////////////////////////////////////////////////////////
     
+
 
 
     
