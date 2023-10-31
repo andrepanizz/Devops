@@ -55,8 +55,13 @@
            var_dump(is_int(true));
     
     // is_string - Informa se a variavel e do tipo String;
-
+        if(is_string("meu nome e andre")):
+            echo "is it a String" . "<br/>";
             
+
+
+
+
 
 
 
