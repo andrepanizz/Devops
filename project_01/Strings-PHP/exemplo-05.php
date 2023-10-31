@@ -126,7 +126,7 @@
  function mb_count_chars($input) {
     $l = mb_strlen($input, 'UTF-8'); // usamos mb_strlen() passando o parametro e o encoding.
     $unique = array(); // vazio se dermos um vardump.
-    for($i = 0; $i < $l; $i++) { // usamos um for
+    for($i = 0; $i < $l; $i++) { // usamos um for incremental.
         $char = mb_substr($input, $i, 1, 'UTF-8');
         if(!array_key_exists($char, $unique))
             $unique[$char] = 0;
