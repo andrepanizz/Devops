@@ -117,8 +117,25 @@
     echo "<hr>";
 
     // outro exemplo de utilização:
-    /* Agora utilizando uma função especifica:   */
-
+    /* Agora utilizando uma função especifica:
+        
+        Conta ocorrências de caracteres em uma string multibyte
+ * @param string $input dados UTF-8
+ * @return array array associativo de caracteres.   */
+    
+ function mb_count_chars($input) {
+    $l = mb_strlen($input, 'UTF-8');
+    $unique = array();
+    for($i = 0; $i < $l; $i++) {
+        $char = mb_substr($input, $i, 1, 'UTF-8');
+        if(!array_key_exists($char, $unique))
+            $unique[$char] = 0;
+        $unique[$char]++;
+    }
+    return $unique;
+}
+// analisando esta function mb_count_chars($input):
+/* O que sabemos referente a o que esta function faz   */
 
     ?>
     <!-- Fim do Arquivo -->
