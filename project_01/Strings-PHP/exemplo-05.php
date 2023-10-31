@@ -141,7 +141,7 @@
   parametros que esta função espera:
   string: A string inicia checando  para o tamanho,
   encoding: O parametro e a codigicação de caracteres. Se for omitido ou Null, o valor
-  da codificação de caracteres
+  da codificação de caracteres interna será usada.
 
 */
 
