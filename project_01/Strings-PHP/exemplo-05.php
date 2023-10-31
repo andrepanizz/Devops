@@ -38,6 +38,9 @@
     echo is_array($objeto2) ? 'Array' : 'Não e um array';
     echo "\n" . PHP_EOL;
 
+    // is_resource — Informa se a variável é um resource:
+    function isResource ($possibleResource) { return !is_null(@get_resource_type($possibleResource)); }
+    
     
 
     
