@@ -87,7 +87,10 @@
     // generates a warning because 5+10 > 14
     echo substr_count($text, 'is', 5, 10);
 
-    
+    // prints only 1, because it doesn't count overlapped subtrings
+    $text2 = 'gcdgcdgcd';
+    echo substr_count($text2, 'gcdgcd');
+
     ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
