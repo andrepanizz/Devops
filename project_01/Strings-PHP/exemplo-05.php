@@ -93,7 +93,15 @@
 
     // Count_chars - retorna informação sobre caracteres usados em uma string;
 
-    
+    // exemplo pratico de sua utilização:
+
+    $data = "Two Ts and one F.";
+
+    foreach (count_chars($data, 1) as $i => $val) {
+    echo "There were $val instance(s) of \"" , chr($i) , "\" in the string.\n";
+    }
+    echo "<br>";
+    echo "<hr>";
 
     ?>
     <!-- Fim do Arquivo -->
