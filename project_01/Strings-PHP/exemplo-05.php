@@ -57,6 +57,8 @@
     // is_string - Informa se a variavel e do tipo String;
         if(is_string("meu nome e andre")):
             echo "is it a String" . "<br/>";
+        else:
+            echo "is not an String" . "<br/>";
             
 
 
