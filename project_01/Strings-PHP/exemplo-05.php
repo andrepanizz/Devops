@@ -132,10 +132,12 @@
             $unique[$char] = 0;
         $unique[$char]++;
     }
-    return $unique;
+    return $unique; // retorna a variavel $unique
 }
 // analisando esta function mb_count_chars($input):
-/* O que sabemos referente a o que esta function faz   */
+/* O que sabemos referente a o que esta function faz
+    
+*/
 
     ?>
     <!-- Fim do Arquivo -->
