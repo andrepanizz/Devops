@@ -74,7 +74,9 @@
     // substr_count — Conta o número de ocorrências de uma substring:
 
     $texto3 = "This is a test";
-    echo strlen($texto3) //retorna 14;
+    echo strlen($texto3); //retorna 14;
+
+    echo substr_count($texto3, 'is'); // retorna 2;
 
   
 
