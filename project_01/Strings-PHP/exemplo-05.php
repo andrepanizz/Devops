@@ -41,7 +41,19 @@
     // is_resource — Informa se a variável é um resource:
     function isResource ($possibleResource) { return !is_null(@get_resource_type($possibleResource)); }
     
+    // is_int  - Informa se a variavel e do tipo inteiro:
     
+        if (is_int(23)) :
+            echo "is integer\n";
+            else :
+            echo "is not an integer\n";
+            endif;
+            
+           var_dump(is_int(23));
+           var_dump(is_int("23"));
+           var_dump(is_int(23.5));
+           var_dump(is_int(true));
+
 
     
 
