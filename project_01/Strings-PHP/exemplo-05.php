@@ -100,8 +100,22 @@
     foreach (count_chars($data, 1) as $i => $val) {
     echo "There were $val instance(s) of \"" , chr($i) , "\" in the string.\n";
     }
+    /* There were 4 instance(s) of " " in the string.
+There were 1 instance(s) of "." in the string.
+There were 1 instance(s) of "F" in the string.
+There were 2 instance(s) of "T" in the string.
+There were 1 instance(s) of "a" in the string.
+There were 1 instance(s) of "d" in the string.
+There were 1 instance(s) of "e" in the string.
+There were 2 instance(s) of "n" in the string.
+There were 2 instance(s) of "o" in the string.
+There were 1 instance(s) of "s" in the string.
+There were 1 instance(s) of "w" in the string.   */
     echo "<br>";
     echo "<hr>";
+
+    // outro exemplo de utilização:
+
 
     ?>
     <!-- Fim do Arquivo -->
