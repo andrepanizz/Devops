@@ -84,6 +84,9 @@
     // the text is reduced to 's i', so it prints 0
     echo substr_count($text, 'is', 3, 3);
 
+    // generates a warning because 5+10 > 14
+    echo substr_count($text, 'is', 5, 10);
+
     
     ?>
     <!-- Fim do Arquivo -->
