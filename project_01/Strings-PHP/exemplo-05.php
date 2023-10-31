@@ -65,6 +65,11 @@
     $text0 = "String";
     $text1 = array("um","dois","tres");
     // validação:
+    if(isset($text0) && is_string($text0)):
+        echo strtoupper("A o conteudo da variavel e:  {$text0} e se trata de um texto");
+    else:
+        echo lcfirst("A variavel não e valida, e não e do tipo especificado! o tipo e: ") . gettype($text0);
+    endif;
         
 
 
