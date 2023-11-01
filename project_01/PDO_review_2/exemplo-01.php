@@ -24,7 +24,21 @@ $senha = "";
 
 //Connections:
 $conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
+
+function viewAcess()
+{
+   $array = array("mysql:","host=localhost;","dbname=dbphp7","root"," Blank");
+   foreach($array as $value){
+    echo " " . $value . "<br/>";
+
+   }
+
+}
+
 var_dump($conn);
+echo "<br/>";
+echo viewAcess();
+
 
 
 
