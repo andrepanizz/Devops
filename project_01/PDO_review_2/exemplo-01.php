@@ -9,17 +9,22 @@
 <body>
 <?php
 // Parameters:
-$host = trim(strtolower("mysql:host=localhost;"));
-$db = trim(strtolower("dbname=dbphp7"));
-$user = trim(strtolower("root"));
-$password = trim(strtolower(""));
+/*
+$host = "mysql:host=localhost;";
+$db = "dbname=dbphp7";
+$user = "root";
+$password = "";
+$port = "3306";
 //Parameters 2:
-$hos = strtolower("mysql:host=localhost;");
-$dbname = strtolower("dbname=dbloja");
-$users = strtolower("root");
-$senha = trim(strtolower(""));
-//Connections:
+$hos = "mysql:host=localhost;";
+$dbname = "dbname=dbloja";
+$users = "root";
+$senha = "";
+*/
 
+//Connections:
+$conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
+var_dump($conn);
 
 
 
