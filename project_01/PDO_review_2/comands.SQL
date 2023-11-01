@@ -13,6 +13,8 @@ UPDATE tb_usuarios SET dessenha = '123456' WHERE idusuario = 1;
 /* Fazendo um Alter table: */
 
 /* fazendo um Delete: */
+DELETE tb_usuarios WHERE idusuario = 1;
+
 
 CREATE DATABASE dbloja;
 USE dbloja;
@@ -37,3 +39,4 @@ UPDATE funcionarios SET cargo = 'Vendedor Junior' WHERE idfunc = 1;
 /* fazendo um alter Table: */
 
 /* fazendo um delete no  banco: */
+DELETE funcionarios WHERE idfunc = 1;
