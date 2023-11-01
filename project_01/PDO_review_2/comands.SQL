@@ -50,6 +50,6 @@ TRUNCATE TABLE funcionarios;
 /*Apagando o banco de dados: */
 
 DROP DATABASE dbphp7;
-DROP DATABASE ;
+DROP DATABASE dbloja;
 
 /*fim dos comandos SQL.*/
