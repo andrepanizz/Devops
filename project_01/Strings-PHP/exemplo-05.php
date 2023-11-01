@@ -166,7 +166,18 @@
 
     // declarando variaveis com os valores e condicionais:
 
-    /////////////////////////////////////////////////////
+    $value1  = 0;
+    $value2 = false;
+    global $value1, $value2;
+
+    if(isset($value1) && is_bool($value1)):
+        return lcfirst("<center>Yes, this is a Bollean characters! </center>");
+    elseif(isset($value2) && is_bool($value2)):
+        return strtoupper("No it is Bollean characters! ");
+    else:
+        printf("A variavel não foi definida nem e valida!");
+    endif;
+//
 
     ?>
     <!-- Fim do Arquivo -->
