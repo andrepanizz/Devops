@@ -10,7 +10,9 @@ CREATE TABLE tb_usuarios (
 INSERT INTO tb_usuarios (deslogin, dessenha) VALUES ('root','!@#$%');
 /* Fazendo um Update: */
 UPDATE tb_usuarios SET dessenha = '123456' WHERE idusuario = 1;
+UPDATE tb_usuarios SET deslogin = '!@#$###' WHERE idusuario = 2;
 /* Fazendo um Alter table: */
+
 
 /* fazendo um Delete: */
 DELETE tb_usuarios WHERE idusuario = 1;
@@ -35,7 +37,7 @@ SELECT * FROM tb_usuarios;
 SELECT * FROM funcionarios;
 /*fazendo um update: */
 UPDATE funcionarios SET salario_total = 3000 WHERE idfunc = 1;
-UPDATE funcionarios SET cargo = 'Vendedor Junior' WHERE idfunc = 1;
+UPDATE funcionarios SET cargo = 'Motorista' WHERE idfunc = 1;
 /* fazendo um alter Table: */
 
 /* fazendo um delete no  banco: */
