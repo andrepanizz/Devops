@@ -56,7 +56,6 @@ DROP DATABASE dbloja;
 /*---------------------------------------------------------------------------------------------------*/
 
 /*Criando uma nova Tabela Vendedor, clientes e Pedidos:*/
-
 /* VENDEDOR: */
 CREATE TABLE vendedor (
 codigo_vendedor INT NOT NULL PRIMARY KEY,
@@ -65,6 +64,7 @@ idade CHAR(3),
 sexo CHAR(1),
 salario DECIMAL (10,2)
 );
+
 /*CLIENTE: */ 
 CREATE TABLE cliente (
 codigo_cliente INT NOT NULL PRIMARY KEY,
@@ -72,6 +72,7 @@ nome VARCHAR(50),
 cidade VARCHAR(10),
 tipo_industria CHAR(1)
 );
+
  /*PEDIDO: */
 create table pedido (
 numero_pedido INT NOT NULL PRIMARY KEY,
