@@ -79,6 +79,11 @@ codigo_vendedor INT,
 valor_pedido DECIMAL(10,2)
 );
 
+/*realizando o insert nas tabelas:
+
+*/
+
+
 /*NOTA IMPORTANTE:
     Os comandos ON UPDATE CASCADE e ON DELETE CASCADE servem para que,
     no momento que eu for utilizar meus comandos UPDATE ou DELETE para modificar
