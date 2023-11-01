@@ -16,7 +16,7 @@ $hostname = "host=localhost";
 $user = "root";
 $password = "";
 # preenchendo:
-$conn = new PDO("$db;$hostname,$user,$password");
+$conn = new PDO("$db;$hostname , $user,$password");
 
 if(isset($conn)){
     echo "<center> Conexão feita com o banco de Dados </center><br/>";
