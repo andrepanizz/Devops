@@ -8,6 +8,19 @@
 </head>
 <body>
 <?php
+// Parameters:
+$host = trim(strtolower("mysql:host=localhost;"));
+$db = trim(strtolower("dbname=dbphp7"));
+$user = trim(strtolower("root"));
+$password = trim(strtolower(""));
+//Parameters 2:
+$hos = strtolower("mysql:host=localhost;");
+$dbname = strtolower("dbname=dbloja");
+$users = strtolower("root");
+$senha = trim(strtolower(""));
+//Connections:
+
+
 
 
 
