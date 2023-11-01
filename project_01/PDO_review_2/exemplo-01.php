@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../logo/php.png"/>
-    <title> PDO_reviEw </title>
+    <title> PDO_review connected </title>
 </head>
 <body>
 <?php
-//conexão com o banco de dados:
+
+
+
 
 
 
 ?>
+<script src=""></script>
 </body>
 </html>

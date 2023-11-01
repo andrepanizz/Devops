@@ -49,5 +49,7 @@ TRUNCATE TABLE funcionarios;
 
 /*Apagando o banco de dados: */
 
-DROP DATABASE tb_usuarios;
-DROP DATABASE funcionarios;
+DROP DATABASE dbphp7;
+DROP DATABASE ;
+
+/*fim dos comandos SQL.*/
