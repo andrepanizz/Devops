@@ -145,9 +145,27 @@
 
   -> mb_substr($input, $i, 1, 'UTF-8);
   -> usamos um for():
+   
   */
 
+  // is_bool - verifica se a variavel e do tipo bolleano.
 
+    $a = false;
+    $b = 0;
+
+    // como $a e bolleano retornará true;
+    if(isset($a)):
+        if(is_bool($a) === true):
+            echo lcfirst("Sim, isto e um Bolleano e retorna verdadeiro <br/>");
+        else:
+            echo strtoupper("Não, isto não e um boleano e a variavel ainda e valida");
+        endif;
+    else:
+        echo ucwords(" A variavel não existe, e não e valida");
+    endif;
+
+    // declarando variaveis com os valores e condicionais:
+    
     ?>
     <!-- Fim do Arquivo -->
 <script src=""></script>    
