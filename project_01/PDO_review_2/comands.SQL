@@ -50,4 +50,4 @@ TRUNCATE TABLE funcionarios;
 /*Apagando o banco de dados: */
 
 DROP DATABASE tb_usuarios;
-DROP DATABASE 
+DROP DATABASE funcionarios;
