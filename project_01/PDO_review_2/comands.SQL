@@ -26,3 +26,6 @@ INSERT INTO funcionarios (cargo,salario_total) VALUES ('Vendedor Senior', 1000);
 /*Fazendo um Select nas tabelas: */
 SELECT * FROM tb_usuarios;
 SELECT * FROM funcionarios;
+/*fazendo um update:*/
+UPDATE funcionarios SET salario_total = 3000 WHERE idfunc = 1;
+UPDATE funcionarios SET cargo = 'Vendedor Junior' WHERE idfunc = 1;
