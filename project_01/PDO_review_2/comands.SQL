@@ -13,7 +13,6 @@ UPDATE tb_usuarios SET dessenha = '123456' WHERE idusuario = 1;
 UPDATE tb_usuarios SET deslogin = '!@#$###' WHERE idusuario = 2;
 /* Fazendo um Alter table: */
 
-
 /* fazendo um Delete: */
 DELETE tb_usuarios WHERE idusuario = 1;
 
