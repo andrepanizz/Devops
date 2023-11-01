@@ -85,7 +85,6 @@ valor_pedido DECIMAL(10,2)
     no momento que eu for utilizar meus comandos UPDATE ou DELETE para modificar
     os campos ou registros da minha tabela, todos as PRIMARY KEY e FOREIGN KEY sejam modificadas, também.
 */
-
 ALTER TABLE pedido
 ADD CONSTRAINT fk_pedido_cliente FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente) ON UPDATE cascade ON DELETE CASCADE
  
