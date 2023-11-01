@@ -81,8 +81,8 @@ valor_pedido DECIMAL(10,2)
 );
 
 ALTER TABLE pedido
-ADD CONSTRAINT fk_pedido_cliente FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente) on update cascade on delete cascade
+ADD CONSTRAINT fk_pedido_cliente FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente) ON UPDATE cascade ON DELETE CASCADE
  
 ALTER TABLE pedido
-ADD CONSTRAINT fk_pedido_vendedor FOREIGN KEY (codigo_vendedor) REFERENCES vendedor (codigo_vendedor) on update cascade on delete cascade
+ADD CONSTRAINT fk_pedido_vendedor FOREIGN KEY (codigo_vendedor) REFERENCES vendedor (codigo_vendedor) ON UPDATE cascade on delete cascade
 
