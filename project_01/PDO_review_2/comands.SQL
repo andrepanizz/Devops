@@ -84,5 +84,5 @@ ALTER TABLE pedido
 ADD CONSTRAINT fk_pedido_cliente FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente) on update cascade on delete cascade
  
 ALTER TABLE pedido
-ADD CONSTRAINT fk_pedido_vendedor FOREIGN KEY (codigo_vendedor) vendedor (codigo_vendedor) on update cascade on delete cascade
+ADD CONSTRAINT fk_pedido_vendedor FOREIGN KEY (codigo_vendedor) REFERENCES vendedor (codigo_vendedor) on update cascade on delete cascade
 
