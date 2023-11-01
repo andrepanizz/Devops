@@ -17,7 +17,6 @@ UPDATE tb_usuarios SET deslogin = '!@#$###' WHERE idusuario = 2;
 /* fazendo um Delete: */
 DELETE tb_usuarios WHERE idusuario = 1;
 
-
 CREATE DATABASE dbloja;
 USE dbloja;
 CREATE TABLE funcionarios (
