@@ -22,7 +22,7 @@ CREATE TABLE funcionarios (
 
 );
 
-INSERT INTO funcionarios () VALUES ();
-
+INSERT INTO funcionarios (cargo,salario_total) VALUES ('Vendedor Senior', 1000);
+/*Fazendo um Select nas tabelas: */
 SELECT * FROM tb_usuarios;
 SELECT * FROM funcionarios;
