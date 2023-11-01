@@ -53,5 +53,8 @@ TRUNCATE TABLE funcionarios;
 
 DROP DATABASE dbphp7;
 DROP DATABASE dbloja;
+/*---------------------------------------------------------------------------------------------------*/
 
-/*fim dos comandos SQL.*/
+/*Criando uma nova Tabela Vendedor, clientes e Pedidos:*/
+
+
