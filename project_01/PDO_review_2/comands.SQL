@@ -24,7 +24,7 @@ CREATE TABLE funcionarios (
     idfunc INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(64) NOT NULL,
     sobrenome VARCHAR(64) NOT NULL,
-    dtadmissao DATE(8) NOT NULL,
+    dtadmissao VARCHAR(8) NOT NULL,
     cargo VARCHAR(80) NOT NULL,
     salario_total FLOAT(12) NOT NULL,
     dtcadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP()
@@ -57,4 +57,26 @@ DROP DATABASE dbloja;
 
 /*Criando uma nova Tabela Vendedor, clientes e Pedidos:*/
 
+/* VENDEDOR: */
+CREATE TABLE vendedor (
+codigo_vendedor INT NOT NULL PRIMARY KEY,
+nome VARCHAR(50),
+idade CHAR(3),
+sexo CHAR(1),
+salario DECIMAL (10,2)
+);
+/*CLIENTE: */ 
+CREATE TABLE cliente (
+codigo_cliente INT NOT NULL PRIMARY KEY,
+nome VARCHAR(50),
+cidade VARCHAR(10),
+tipo_industria CHAR(1)
+);
+ /*PEDIDO: */
+create table pedido (
+numero_pedido INT NOT NULL PRIMARY KEY,
+codigo_cliente INT,
+codigo_vendedor INT,
+valor_pedido DECIMAL(10,2)
+);
 
