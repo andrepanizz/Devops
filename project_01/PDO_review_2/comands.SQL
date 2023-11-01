@@ -80,6 +80,11 @@ codigo_vendedor INT,
 valor_pedido DECIMAL(10,2)
 );
 
+/*NOTA:
+    Os comandos ON UPDATE CASCADE e ON DELETE CASCADE servem para que,
+    no momento que eu for utilizar meus comandos UPDATE ou DELETE para modificar
+    os campos ou registros da minha tabela, todos as PK e FK sejam modificadas, também.
+*/
 ALTER TABLE pedido
 ADD CONSTRAINT fk_pedido_cliente FOREIGN KEY (codigo_cliente) REFERENCES cliente (codigo_cliente) ON UPDATE cascade ON DELETE CASCADE
  
