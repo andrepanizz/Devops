@@ -41,3 +41,13 @@ UPDATE funcionarios SET cargo = 'Vendedor Junior' WHERE idfunc = 1;
 /* fazendo um delete no  banco: */
 DELETE funcionarios WHERE idfunc = 1;
 /* Fim dos comandos SQL */
+
+/*Apagando as tabelas: */
+
+TRUNCATE TABLE tb_usuarios;
+TRUNCATE TABLE funcionarios;
+
+/*Apagando o banco de dados: */
+
+DROP DATABASE tb_usuarios;
+DROP DATABASE 
