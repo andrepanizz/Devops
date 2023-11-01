@@ -8,12 +8,10 @@
 </head>
 <body>
 <?php
-
 //conexão com o banco de dados:
-//$conn = new PDO(""); //
+
 
 
 ?>
-    
 </body>
 </html>
