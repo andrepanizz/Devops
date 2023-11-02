@@ -9,7 +9,7 @@
 <body>
     <!-- Inicio do arquivo -->
 <?php
-// arquivo de conexão:
+
 
 
 
@@ -18,6 +18,6 @@
 
 ?>
 <script src=""></script> 
-   
+
 </body>
 </html>
