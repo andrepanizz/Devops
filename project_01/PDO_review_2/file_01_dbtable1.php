@@ -25,7 +25,8 @@
     
     */
 //Connection
-$conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","") . PHP_EOL;
+$conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
+
 
 ?>
 <script src=""></script>
