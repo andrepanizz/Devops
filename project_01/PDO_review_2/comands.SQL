@@ -79,10 +79,14 @@ codigo_vendedor INT,
 valor_pedido DECIMAL(10,2)
 );
 
-/*realizando o insert nas tabelas:
+/*realizando o insert nas tabelas:*/
+INSERT INTO vendedor (nome, idade, sexo) VALUES ("Ricardo",20,"M");
+INSERT INTO cliente  (nome, cidade, tipo_industria) VALUES ('Alberto','São Paulo','Alimenticia');
+INSERT INTO pedido   (codigo_cliente, codigo_vendedor, valor_pedido) VALUES (01152,058,2.000,00);
 
-*/
-
+UPDATE vendedor SET nome =  'Anderson' WHERE codigo_vendedor = 1;
+UPDATE cliente  SET cidade =  'Guarulhos' WHERE codigo_cliente = 1;
+UPDATE pedido   SET valor_pedido = 3.000,00 WHERE valor_pedido > 2.000,00; 
 
 /*NOTA IMPORTANTE:
     Os comandos ON UPDATE CASCADE e ON DELETE CASCADE servem para que,
