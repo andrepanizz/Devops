@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo-02 DAO - )</title>
+    <title>Exemplo-02 DAO - Data Acess Object</title>
 </head>
 <body>
-    
-</body>
-</html>
 <?php
 // arquivo 02:
 
@@ -18,3 +15,6 @@
 
 
 ?>
+    
+</body>
+</html>
