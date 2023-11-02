@@ -27,8 +27,7 @@
 //Connection:
 $conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
 $conn->query("SELECT * FROM tb_usuarios ORDER BY idusuario = 1");
-$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES ()");
-
+$stmt = $conn->prepare("INSERT INTO tb_usuarios ('deslogin', 'dessenha') VALUES ()");
 
 ?>
 <script src=""></script>
