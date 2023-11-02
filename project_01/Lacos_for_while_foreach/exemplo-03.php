@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/> 
     <title>Exemplo de Laço While </title>
 </head>
+    <!-- Inicio do arquivo -->
 <body>
     <h2><center><strong><i> Exemplo de Laço While() </i></strong></center></h2>
     <br><br>
