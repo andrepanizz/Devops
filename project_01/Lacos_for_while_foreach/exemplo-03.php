@@ -39,12 +39,6 @@
        
 
     ?>
-    
-</body>
-</html>
-
-
-    ?>
-    
+<!-- Fim do Arquivo -->    
 </body>
 </html>
