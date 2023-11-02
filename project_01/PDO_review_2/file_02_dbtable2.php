@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-// arquivo 02:
+// arquivo de conexão:
 
 
 
