@@ -7,6 +7,7 @@
     <link rel="icon" href="../logo//php.png">
 </head>
 <body>
+    <!-- Inicio do arquivo -->
 <?php
 // arquivo de conexão:
 
@@ -16,6 +17,7 @@
 
 
 ?>
-<script src=""></script>    
+<script src=""></script> 
+   
 </body>
 </html>
