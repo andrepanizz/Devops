@@ -83,6 +83,19 @@ Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition
 
 Target State:
 
+
+Como os recursos deveriam ser implementados, o que esta no Git.
+
+- O estado desejado de um aplicativo, conforme
+ representado por arquivos em um repositorio git.
+
+- O ArgoCD compara o estado atual dos recursos implantados
+ no cluster com o estado de destino (target state)
+
+ Live State:
+
+
+
     
 
 
