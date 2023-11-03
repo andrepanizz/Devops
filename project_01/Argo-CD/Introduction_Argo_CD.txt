@@ -60,7 +60,7 @@ Ferramentas do GitOps:
 Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition (CRD) - Grupo de recursos do kubernetes definidos por manifesto.
 É um objeto do kubernetes que representa uma instancia da sua aplicação sendo implementada no ambiente.
 
-        
+    
 
 
 
