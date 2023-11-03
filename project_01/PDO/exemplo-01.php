@@ -3,6 +3,8 @@
 //PDO - PHP Data Object();
 
 //informamos o DSN - ou Data Search name;
+// exemplo:
+
 $conn  = new PDO("mysql:dbname=dbphp7;host=localhost", "root", ""); //o tipo de banco, o nome do banco, e onde ele esta, "usuario", "senha";
 
 // begin transaction = inicia uma transação, podemos trabalhar direto com transações;
