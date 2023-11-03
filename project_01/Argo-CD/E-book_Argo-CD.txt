@@ -1,0 +1,118 @@
+À medida que os aplicativos de software se tornam mais sofisticados,
+as demandas por infraestrutura aumentam. A infraestrutura
+as equipes precisam dar suporte a implantações complexas em
+imensa escala e velocidade. Embora grande parte da aplicação
+o desenvolvimento foi automatizado, a infraestrutura
+permaneceu em grande parte um processo manual que exige
+equipes especializadas. Em vez de processos manuais, é
+existe uma maneira repetível e confiável de projetar, alterar,
+e implantar ambientes de software? Ferramentas de infraestrutura como código (IaC), como Ansible e Terraform, são
+um bom começo, mas não resolvem todo o problema.
+As equipes precisam de um fluxo de trabalho prescritivo que coloque a IaC em
+ação automaticamente
+
+Este e-book apresentará a automação da infraestrutura
+processo de GitOps e como ele oferece uma solução ponta a ponta
+solução para projetar, alterar e implantar
+a infraestrutura. Neste e-book, você também aprenderá:
+
+-> Como o GitOps funciona com processos que você já usa
+no desenvolvimento de aplicativos
+
+-> Os três componentes que as equipes precisam para começar
+com GitOpOs três componentes que as equipes precisam para começar
+com GitOps
+
+->Práticas recomendadas e fluxo de trabalho do GitOps
+
+----------------------------------------------------------------------------------------------------------------------
+Organizações com uma cultura DevOps madura podem implantar código na produção
+centenas de vezes por dia. Embora o ciclo de vida de desenvolvimento de software tenha
+automatizado, a implantação da infraestrutura ainda é, em grande parte, um processo manual.
+As equipes de TI que lutam para acompanhar implantações mais frequentes não é uma
+novo problema.
+Quando o hardware físico era necessário, a automação da infraestrutura
+era praticamente impossível. Com a virtualização, as coisas ficaram um pouco mais fáceis.
+Só quando a nuvem se tornou pública é que as grandes infraestruturas puderam
+ser completamente automatizado com relativa facilidade. A nuvem não exige
+hardware e, ao contrário de servidores "tradicionais" e máquinas virtuais (VMs),
+os serviços nativos da nuvem podem ser criados e gerenciados de forma independente, sem
+ter que provisionar uma VM ou sistema operacional (SO).
+Ao usar linguagens de script como PowerShell e Bash, as equipes de TI estão
+capaz de implantar vários serviços na nuvem. O escalonamento automatizado é frequentemente
+incluídos em serviços em nuvem, como ofertas sem servidor. Quando a escala é
+não automático, sendo capaz de implantar outra instância do seu serviço
+instantaneamente é importante.
+Só porque esses serviços estão disponíveis não significa que as equipes sejam capazes de
+usá-los de forma eficaz. Só a AWS tem mais de 200 serviços e muitas empresas
+confie em dezenas deles. Esses serviços geralmente têm muitas configurações. Usando
+o portal AWS para implantar todos os serviços manualmente é demorado, erro
+propenso e não realista para grandes organizações.
+GitOps oferece uma maneira de automatizar e gerenciar infraestrutura, e faz isso
+isso usando as melhores práticas de DevOps que muitas organizações já
+uso, como controle de versão, revisão de código e pipelines de CI/CD. Tendo
+infraestrutura descrita como código permite implantar o mesmo serviço
+de novo e de novo. Usando a parametrização, é possível implantar o
+mesmo serviço, mas para ambientes diferentes e com nomes diferentes
+e configurações.
+------------------------------------------------------------------------------------------------------------
+
+O caminho para o GitOps:
+
+A AWS está disponível publicamente desde 2006, mas mesmo antes disso, a infraestrutura local
+o gerenciamento pode ser uma tarefa difícil para as equipes de TI. Vários servidores rodaram vários aplicativos e
+serviços e a expansão exigiram que a TI configurasse manualmente um servidor inteiro e reinstalasse o mesmo
+aplicativos com as mesmas configurações. Felizmente, foram desenvolvidas ferramentas para facilitar um pouco essa tarefa.
+A primeira geração de ferramentas de gerenciamento de configuração (CM), como Puppet e Chef, tornou
+fácil de configurar servidores existentes. A TI poderia ativar um servidor ou VM, instalar o agente Puppet ou Chef,
+e deixe a ferramenta estabelecer tudo o que é necessário para executar aplicativos no servidor. Essas ferramentas rodaram
+em servidores locais, bem como em servidores em nuvem.
+As ferramentas CM de primeira geração foram uma forma eficiente de replicar todas as etapas para configurar uma nova produção
+servidores. Com essas etapas agora automatizadas, a configuração de novos servidores ficou muito mais fácil. No entanto,
+eles ainda não provisionavam novas VMs e não funcionavam bem com a infraestrutura nativa da nuvem.
+Em seguida vieram as ferramentas CM de segunda geração, como Ansible e SaltStack. Essas ferramentas podem instalar software
+em servidores individuais, assim como as ferramentas CM de primeira geração, mas também pode provisionar VMs antes de configurá-las
+acima. Por exemplo, eles podem criar dez instâncias EC2 e depois instalar todo o software necessário em cada uma delas.
+essas instâncias.
+
+Uma desvantagem importante dessas ferramentas CM é que elas apenas provisionam e configuram servidores
+e VMs. Eles não oferecem soluções para serviços nativos da nuvem.
+O Amazon CloudFormation apareceu da mesma forma que as ferramentas CM de segunda geração. Não
+lidar com a configuração do servidor, mas oferece a capacidade de usar código declarativo para provisionar um AWS inteiro
+arquitetura de aplicativos. Não havia mais a necessidade de clicar no console de gerenciamento
+para criar recursos manualmente. Você poderia simplesmente descrever sua infraestrutura como JSON ou YAML
+e implantá-lo usando o Console de gerenciamento da AWS, a interface de linha de comando (CLI) ou o
+SDK da AWS. Mas, como serviço da Amazon, só funciona na AWS.
+O Microsoft Azure oferece uma ferramenta semelhante, o Azure Resource Manager (ARM), que permite
+descreva sua infraestrutura em modelos JSON. Mas assim como Amazon CloudFormation e AWS,
+ARM só funciona com serviços do Azure.
+Quando as nuvens privadas e outras nuvens públicas, como Azure e Google Cloud, ganharam força,
+muitas empresas mudaram para outra nuvem ou adotaram multicloud para não depender de um
+plataforma de nuvem única. Para atender a esse novo requisito, surgiram ferramentas de CM multicloud, como
+como Terraforma. Basta descrever seus serviços e implantá-los em várias nuvens/provedores/
+serviços na nuvem.
+Uma vantagem dessas ferramentas é que elas desbloqueiam a capacidade de fazer coisas como controle de versão, código
+revisão e integração contínua/entrega contínua (CI/CD) no código de infraestrutura.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+-> Como usar o GitOps trabalho:
+
+GitOps pega processos DevOps testados e comprovados e os aplica ao código de infraestrutura.
+Como o nome sugere, ele combina Git e operações, ou gerenciamento de recursos. Git é um
+sistema de controle de versão de código aberto que rastreia alterações de gerenciamento de código. Assim como DevOps,
+o objetivo do GitOps é usar CI/CD para implantar automaticamente seus recursos usando código armazenado
+em seus repositórios Git.
+Com GitOps, seu código de definição de infraestrutura, definido como JSON ou YAML e armazenado em um arquivo .git
+pasta em um projeto, reside em um repositório Git que serve como uma única fonte de verdade. Usando Git's
+recursos permitem ver o histórico completo de alterações da infraestrutura da organização
+código, e as equipes podem reverter para uma versão anterior, se necessário.
+O Git também possibilita fazer revisões de código em sua infraestrutura. A revisão de código é um DevOps chave
+prática usada para garantir que códigos de aplicativos incorretos não cheguem à produção. Isto é tão
+importante para o código de infraestrutura. Código de infraestrutura ruim pode acidentalmente gerar nuvens caras
+infraestrutura e custa à empresa milhares de dólares por hora. Da mesma forma, um script ruim poderia
+desative seu aplicativo, resultando em tempo de inatividade para seus serviços. As revisões de código evitam isso
+erros, garantindo que várias pessoas vejam todas as alterações antes de serem aprovadas.
+
+
+

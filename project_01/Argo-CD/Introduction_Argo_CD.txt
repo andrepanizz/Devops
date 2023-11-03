@@ -1,0 +1,63 @@
+// o que e GitOps:
+
+ - GitOps é uma abordagem para o gerenciamento de infrastrutura e aplicativos
+ baseada no uso do Git como fonte única e de verdade (single source of truth)
+ para definir e controlar o estado desejado do sistema.
+ -> Principios do GitOps:
+ -Fonte Unica de Verdade.
+    O repositorio Git é a unica fonte de verdade
+    para o estado desejado do sistema. todas as 
+    alterações devem ser refletidas nos arquivos
+    YAML do repositorio Git
+
+ -Automação.
+    Qual a ideia da Automação!
+    O estado do sistema e mantido automaticamente em conformidade com o estado desejado
+    definido nos arquivos YAML do repositorio GIT. As ferramentas de automação monitoram
+    continuamente o repositorio Git e aplicam alterações necessarias no sistema.
+
+ -Sincronização Continua
+    O estado atual do sistema sincronizado continuamente com o estado
+    desejado do repositorio Git. Qualquer desvio entre  os dois e detectado e corrigido
+    automaticamente.
+
+ -Revisão de Codigo e Elaboração:
+
+    A partir do momento que esta tudo dentro do Git, vamos trabalhar com algumas Branchs.
+    - Se alguem fizer alguma alteração, eu posso habilitar o recurso de aprovação:
+    Por exemplo: fiz uma alteração em uma branch, ai vou fazer um merge para
+     uma branch de Dev por exemplo.
+     - Esse merge será aplicado apos a Aprovação.
+     - garante a transparencia e a colaboração dentro do Ambiente (enviroment);
+     As alterações nos arquivos YAML passam por revisões de codigo, e são 
+     colaborativamente revisadas pela equipe antes de serem mescladas no repositorio
+     Git. Isso garante uma abordagem baseada em praticas de DevOps e promove a 
+     transparencia e a colaboração.
+
+ -Observabilidade:
+    O GitOps enfatiza a Observabilidade do sistema, permitindo monitorar e registrar o estado atual
+    do sistema, bem como as alterações aplicadas. Isso facilita a solução de problemas e a auditoria
+    das alterações realizadas.
+
+Ferramentas do GitOps:
+
+    -> ArgoCD
+    -> FluxX
+    -> Jenkings X 
+    -> etc
+
+ // O que e Argo CD:
+
+    O Argo CD, nada mais e que uma ferramenta de entrega continua para o Kubernetes.
+    - O CI faremos em outra ferramenta, e elas vão se integrar através dos repositorios.
+    Utiliza um repositorio Git como fonte de configuração e gerencia o ciclo de vida
+    das aplicações de forma declarativa, garantindo que o estado atual do cluster corresponda
+    ao estado atual desejado definido nos arquivos YAML.
+
+ // Conceitos Principais do Argo CD:
+    ->Aplications, o que seria:
+    
+
+
+
+ //Boas Praticas:
