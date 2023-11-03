@@ -62,8 +62,27 @@ Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition
 
 - Application Source Type:
    O argo suporta diferentes tipos de origem para buscar os arquivos YAML e
-   configurar o deploy.
-   
+   configurar o deploy. podemos buscar outras fontes:
+   tools:
+      -> Kustomaze
+
+      -> Helm
+
+      -> Directory  (.repositorio/arquivos/cruze);
+            - YAML
+            - JSON
+            - Jsonet
+      Plugins:
+         Temos a opção de instalar alguns plugins no ArgoCD, qualquer ferramenta de 
+         gerenciamento de configuração. configurações como um plugin;
+
+         -> Configuration management Plugins.
+         -> Configuration management Tools.
+
+-> Iremos falar de 02 (Target State, Live State):
+
+Target State:
+
     
 
 
