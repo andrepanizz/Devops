@@ -134,7 +134,9 @@ function OpenConnection()
 
 
 ?>
-<!-- Fim do Arquivo de ! -->
+<!-- Fim do Arquivo de exemplo!! -->
+
+
 <script src="../JavaScript-Model/model.js"></script>
 </body>
 </html>
