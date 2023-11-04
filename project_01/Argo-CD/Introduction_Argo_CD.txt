@@ -9,7 +9,7 @@
     O repositorio Git é a unica fonte de verdade
     para o estado desejado do sistema. todas as 
     alterações devem ser refletidas nos arquivos
-    YAML do repositorio Git
+    YAML do repositorio Git.
 
  -Automação.
     Qual a ideia da Automação!
@@ -17,7 +17,7 @@
     definido nos arquivos YAML do repositorio GIT. As ferramentas de automação monitoram
     continuamente o repositorio Git e aplicam alterações necessarias no sistema.
 
- -Sincronização Continua
+ -Sincronização Continua:
     O estado atual do sistema sincronizado continuamente com o estado
     desejado do repositorio Git. Qualquer desvio entre  os dois e detectado e corrigido
     automaticamente.
