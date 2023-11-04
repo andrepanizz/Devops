@@ -1,9 +1,9 @@
-# file Replication-controller.yml 
+# File Replication-controller.yml 
 apiVersion:
-kind:
+kind: "Application"
 metadata:
     name: 
-    namespace: 
+    namespace: "Default"
     spec:
       project: 
       source:

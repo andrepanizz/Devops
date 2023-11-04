@@ -1,10 +1,10 @@
 # File Basic Pods
 
 apiVersion:
-kind:
+kind: "Application"
 metadata:
     name: 
-    namespace: 
+    namespace: "Default"
     spec:
       project: 
       source:
