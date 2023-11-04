@@ -20,11 +20,11 @@ class carros {
     
     #atribute
     
-    private $motor; 
-    private $portas;
-    private $placa;
-    private $placa_preta;
-    private $ano;
+    private string $motor; 
+    private string $portas;
+    private string $placa;
+    private string $placa_preta;
+    private int $ano;
 
     #methods getters and setters;
     public function getMotor():string
