@@ -6,13 +6,14 @@
  para definir e controlar o estado desejado do sistema.
  -> Principios do GitOps:
  -Fonte Unica de Verdade:
-      
+
     O repositorio Git é a unica fonte de verdade
     para o estado desejado do sistema. todas as 
     alterações devem ser refletidas nos arquivos
     YAML do repositorio Git.
 
  -Automação:
+
     Qual a ideia da Automação!
     O estado do sistema e mantido automaticamente em conformidade com o estado desejado
     definido nos arquivos YAML do repositorio GIT. As ferramentas de automação monitoram
@@ -23,12 +24,13 @@
     desejado do repositorio Git. Qualquer desvio entre  os dois e detectado e corrigido
     automaticamente.
 
- -Revisão de Codigo e Elaboração:
+ -Revisão de CÓdigo e Elaboração:
 
     A partir do momento que esta tudo dentro do Git, vamos trabalhar com algumas Branchs.
     - Se alguem fizer alguma alteração, eu posso habilitar o recurso de aprovação:
     Por exemplo: fiz uma alteração em uma branch, ai vou fazer um merge para
      uma branch de Dev por exemplo.
+     
      - Esse merge será aplicado apos a Aprovação.
      - garante a transparencia e a colaboração dentro do Ambiente (enviroment);
      As alterações nos arquivos YAML passam por revisões de codigo, e são 
