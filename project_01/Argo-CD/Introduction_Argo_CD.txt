@@ -30,7 +30,7 @@
     - Se alguem fizer alguma alteração, eu posso habilitar o recurso de aprovação:
     Por exemplo: fiz uma alteração em uma branch, ai vou fazer um merge para
      uma branch de Dev por exemplo.
-     
+
      - Esse merge será aplicado apos a Aprovação.
      - garante a transparencia e a colaboração dentro do Ambiente (enviroment);
      As alterações nos arquivos YAML passam por revisões de codigo, e são 
@@ -73,10 +73,11 @@ Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition
       -> Helm.
 
       -> Directory:  (.repositorio/arquivos/cruze);
-            -> YAML
-            -> JSON
-            -> Jsonet
-      Plugins:
+            -> YAML.
+            -> JSON.
+            -> Jsonet.
+
+         Plugins:
          Temos a opção de instalar alguns plugins no ArgoCD, qualquer ferramenta de 
          gerenciamento de configuração. configurações como um plugin;
 
