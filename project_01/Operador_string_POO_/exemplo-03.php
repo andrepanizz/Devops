@@ -76,6 +76,7 @@ if($FileType::isImage($a)){
 /** @param finalizamos a aplicação!! */
 ?>
 <!-- Fim do arquivo HTML -->
-<script src=""></script>    
+<script src="../JavaScript-Model/model.js"></script>    
 </body>
 </html>
+
