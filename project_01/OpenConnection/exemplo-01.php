@@ -22,7 +22,7 @@ function OpenConnection()
 
         return $conn;
     }
-
+    /////////////////////////////////////////////
     //Executando uma consulta:
     /** @param A função sqlsrv_query() pode ser usada para recuperar um conjunto de resultados de uma consulta
      * no banco de dados SQL. Essencialmente, essa função aceita qualquer consulta e o objeto de conexão e retorna 
