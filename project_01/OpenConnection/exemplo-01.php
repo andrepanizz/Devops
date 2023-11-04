@@ -7,7 +7,7 @@
     <title> Exemplo de Trasactions </title>
 </head>
 <body>
-
+<!-- inicio do arquivo de exemplo -->
 <?php
 /** @param function Esta função OpenConnection e a parte superior de todas as funções a seguir*/
 /*
@@ -134,7 +134,7 @@ function OpenConnection()
 
 
 ?>
-<!-- Fim do Arquivo da web! -->
+<!-- Fim do Arquivo de ! -->
 <script src="../JavaScript-Model/model.js"></script>
 </body>
 </html>
