@@ -70,7 +70,7 @@ if($FileType::isImage($a)){
     echo strtoupper("<b> E uma imagem valida </b>");
 }else{
 
-         throw new Exception("Não e possivel Processar!!");
+         throw new Exception("Não e possivel Processar a imagem!!");
     
 } 
 /** @param finalizamos a aplicação!! */
