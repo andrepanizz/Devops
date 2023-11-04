@@ -73,11 +73,9 @@ if($FileType::isImage($a)){
          throw new Exception("Não e possivel Processar!!");
     
 } 
-/** @param finalizamos a aplicação */
-
-
+/** @param finalizamos a aplicação!! */
 ?>
-
+<!-- Fim do arquivo HTML -->
 <script src=""></script>    
 </body>
 </html>
