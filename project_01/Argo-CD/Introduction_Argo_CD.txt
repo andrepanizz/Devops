@@ -95,10 +95,4 @@ Como os recursos deveriam ser implementados, o que esta no Git.
 
  Live State:
 ---------------------------------------------------------------------------------------------------
-
-
-    
-
-
-
  //Boas Praticas:
