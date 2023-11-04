@@ -45,7 +45,7 @@ Ferramentas do GitOps:
     -> FluxX
     -> Jenkings X 
     -> etc
-
+--------------------------------------------------------------------------------------------------------
  // O que e Argo CD:
 
     O Argo CD, nada mais e que uma ferramenta de entrega continua para o Kubernetes.
