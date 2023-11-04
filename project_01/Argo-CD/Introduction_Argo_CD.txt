@@ -103,5 +103,5 @@ Como os recursos deveriam ser implementados, o que esta no Git.
 ---------------------------------------------------------------------------------------------------
 -> Boas Praticas:
 
-CONTINUANDO NO DIA 04-11-2023
+CONTINUANDO NO DIA 04-11-2023...
 ---------------------------------- End File Introduction ArgoCD and GitOps ------------------------
