@@ -65,11 +65,11 @@ Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition
    O argo suporta diferentes tipos de origem para buscar os arquivos YAML e
    configurar o deploy. podemos buscar outras fontes:
    tools:
-      -> Kustomaze
+      -> Kustomaze.
 
-      -> Helm
+      -> Helm.
 
-      -> Directory  (.repositorio/arquivos/cruze);
+      -> Directory:  (.repositorio/arquivos/cruze);
             - YAML
             - JSON
             - Jsonet
