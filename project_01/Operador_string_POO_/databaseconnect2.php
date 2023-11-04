@@ -16,7 +16,7 @@ try {
     $conn = new PDO("mysqli:host=$host;dbname=$dbname;
     $username,
     $password");
-
+# fim do exemplo de conexão!
 }
 */
 ?>

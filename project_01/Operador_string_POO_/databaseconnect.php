@@ -36,7 +36,7 @@ mysqli_close($conn);
 /** @param  Utilizando PDO para conexão com o banco de dados */
 /**
  * Criando um arquivo chamado pdoconfig.php
- *  require_once 'pdoconfig..php';
+ *  require_once 'pdoconfig.php';
  *  try{
  *      $conn = new PDO(mysql:host=$host;dbname=$dbname
  *      $username,
