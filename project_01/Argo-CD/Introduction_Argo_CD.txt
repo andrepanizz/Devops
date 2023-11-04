@@ -89,7 +89,7 @@ Como os recursos deveriam ser implementados, o que esta no Git.
  representado por arquivos em um repositorio git.
 
 - O ArgoCD compara o estado atual dos recursos implantados
- no cluster com o estado de destino (target state)
+ no cluster com o estado de destino (target state).
 
  Live State:
 
