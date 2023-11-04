@@ -1,0 +1,13 @@
+apiVersion:
+kind:
+metadata:
+    name: 
+    namespace: 
+    spec:
+      project: 
+      source:
+        repoURL: 
+        path: 
+        destination: 
+          server: 
+          namespace: 
