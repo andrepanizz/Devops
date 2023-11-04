@@ -48,6 +48,7 @@ class carros {
 
         }else{
             return "Não e possivel adicionar o valor ao atributo";
+            exit();
 
         }
         
@@ -99,7 +100,7 @@ $veiculo->setPortas("4 Portas");
 $veiculo->setPlaca("AZI-9987");
 print_r($veiculo->exibe());
 echo "<br>";
-
+exit();
 
 ?>
 <script src=""></script>    
