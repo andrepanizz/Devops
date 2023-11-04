@@ -11,7 +11,7 @@
     alterações devem ser refletidas nos arquivos
     YAML do repositorio Git.
 
- -Automação.
+ -Automação:
     Qual a ideia da Automação!
     O estado do sistema e mantido automaticamente em conformidade com o estado desejado
     definido nos arquivos YAML do repositorio GIT. As ferramentas de automação monitoram
