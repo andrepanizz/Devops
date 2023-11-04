@@ -80,7 +80,7 @@ Os Applications dentro do Argo CD, nada mais e que um Custom Resource Definition
          -> Configuration management Tools.
 
 -> Iremos falar de 02 (Target State, Live State):
-
+-------------------------------------------------------------------------------------------------
 Target State:
 
 
