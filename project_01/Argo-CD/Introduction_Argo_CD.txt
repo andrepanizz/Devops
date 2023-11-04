@@ -102,5 +102,4 @@ Como os recursos deveriam ser implementados, o que esta no Git.
 
 ---------------------------------------------------------------------------------------------------
 -> Boas Praticas:
-
 ---------------------------------- End File Introduction ArgoCD and GitOps ------------------------
