@@ -94,5 +94,8 @@ Como os recursos deveriam ser implementados, o que esta no Git.
  no cluster com o estado de destino (target state)
 
  Live State:
+
+ O que e o Live State:
+ 
 ---------------------------------------------------------------------------------------------------
- //Boas Praticas:
+-- Boas Praticas:

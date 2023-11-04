@@ -1,4 +1,5 @@
 # File ReplicaSet.yml
+
 apiVersion:
 kind: "Application"
 metadata:
@@ -12,3 +13,4 @@ metadata:
         destination: 
           server: 
           namespace: 
+# End of Yaml
