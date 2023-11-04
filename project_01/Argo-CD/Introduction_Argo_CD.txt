@@ -5,7 +5,8 @@
  baseada no uso do Git como fonte única e de verdade (single source of truth)
  para definir e controlar o estado desejado do sistema.
  -> Principios do GitOps:
- -Fonte Unica de Verdade.
+ -Fonte Unica de Verdade:
+      
     O repositorio Git é a unica fonte de verdade
     para o estado desejado do sistema. todas as 
     alterações devem ser refletidas nos arquivos
