@@ -10,10 +10,10 @@
 <body>
 <center> <h3>Exemplo da aula 01 em PHP: </h3></center>
 <br>
-<!-- Estrutura de orientação a objetos -->
+<!-- Estrutura de orientação a objetos POO - -->
 <?php 
 # init class:
-// inicialização da classe:
+// inicialização da classe carros();
 
 
 class carros {
