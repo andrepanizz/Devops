@@ -1,4 +1,5 @@
 # File Basic Pods:
+# Arquivo de configuração para criação de um POD
 apiVersion: 'v1'
 kind: 'Pod'
 metadata:
