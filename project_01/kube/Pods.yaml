@@ -1,4 +1,4 @@
-# File Basic Pods
+# File Basic Pods:
 
 apiVersion:
 kind: "Application"
