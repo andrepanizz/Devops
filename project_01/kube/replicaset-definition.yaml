@@ -1,4 +1,6 @@
 # File Replication-controller.yml
+# Arquivo de configuração:
+
 apiVersion: apps/v1
 kind: Replicaset
 metadata:
