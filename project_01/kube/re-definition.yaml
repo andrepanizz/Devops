@@ -2,9 +2,9 @@
 apiVersion: 'v1'
 kind: 'ReplicationControler'
 metadata:
-  name: myapp-rc
+  name: 'myapp-rc'
   labels:
-    app: myapp-rc
+    app: 'myapp-rc'
     type: 'front-end'
 spec:
   templates:
