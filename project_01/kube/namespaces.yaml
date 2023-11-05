@@ -8,3 +8,4 @@ metadata:
 # kubectl get pods --namespace=prod
 # kubectl config set-context $(kubectl config current-context) --namespace=dev
 # kubectl get pods --namespace=default
+# kubectl get pods --all-namespaces
