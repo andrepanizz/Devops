@@ -1,4 +1,4 @@
-# Arquivo de configuração de um namespace
+# Arquivo de configuração de um namespace;
 apiversion: 'v1'
 kind: 'Namespace'
 metadata:
