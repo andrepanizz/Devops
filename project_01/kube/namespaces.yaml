@@ -4,7 +4,6 @@ kind: 'Namespace'
 metadata:
     name: 'dev'
 # Comandos:
-
 # Comandos: kubectl get pods --namespace=dev.
 # Kubectl get pods.
 # kubectl get pods --namespace=prod.
