@@ -1,17 +1,1 @@
 # File Basic Pods:
-
-apiVersion:
-kind: "Application"
-metadata:
-    name: 
-    namespace: "Default"
-    spec:
-      project: 
-      source:
-        repoURL: 
-        path: 
-        destination: 
-          server: 
-          namespace: 
-# End of Yaml....
-#end of file.
