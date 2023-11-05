@@ -6,4 +6,14 @@ metadata:
   labels:
     app: myapp-rc
     type: 'front-end'
-    
+spec:
+  templates:
+      metadata:
+        name: 'myapp-pod'
+        labels:
+          app: myapp 
+          type: frony-end
+        spec:
+          containers:
+            - name: 'nginx-container'
+              image: 'nginx'
