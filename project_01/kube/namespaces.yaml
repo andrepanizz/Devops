@@ -1,0 +1,10 @@
+apiversion: 'v1'
+kind: 'Namespace'
+metadata:
+    name: 'dev'
+
+# Comandos: kubectl get pods --namespace=dev
+# Kubectl get pods
+# kubectl get pods --namespace=prod
+# kubectl config set-context $(kubectl config current-context) --namespace=dev
+# kubectl get pods --namespace=default
