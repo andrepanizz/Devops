@@ -1,5 +1,5 @@
 # File ReplicaSet.yml
-# 
+# Arquivo de configuração para criação de um replica
 apiVersion: 'v1'
 kind: 'ReplicationControler'
 metadata:
