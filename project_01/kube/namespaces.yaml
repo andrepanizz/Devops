@@ -3,6 +3,7 @@ apiversion: 'v1'
 kind: 'Namespace'
 metadata:
     name: 'dev'
+# Comandos:
 
 # Comandos: kubectl get pods --namespace=dev
 # Kubectl get pods
