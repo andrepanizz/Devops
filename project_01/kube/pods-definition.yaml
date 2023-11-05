@@ -1,1 +1,13 @@
 # File Basic Pods:
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 'myapp-pod'
+  label:
+        app: 'myapp'
+        type: 'front-end'
+
+spec:
+  containers:
+    - name: 'nginx-container'
+      image: 'nginx'
