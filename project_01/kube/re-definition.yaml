@@ -1,0 +1,9 @@
+# File ReplicaSet.yml
+apiVersion: 'v1'
+kind: 'ReplicationControler'
+metadata:
+  name: myapp-rc
+  labels:
+    app: myapp-rc
+    type: 'front-end'
+    
