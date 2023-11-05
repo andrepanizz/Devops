@@ -11,8 +11,8 @@ spec:
       metadata:
         name: 'myapp-pod'
         labels:
-          app: myapp 
-          type: frony-end
+          app: 'myapp'
+          type: 'frony-end'
         spec:
           containers:
             - name: 'nginx-container'
