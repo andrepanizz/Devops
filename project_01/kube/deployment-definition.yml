@@ -1,4 +1,5 @@
 # Deployment Definition.Yaml
+# Arquivo de configuração para fazer um deployment
 apiVersion: apps/v1
 kind: deployment
 metadata:
