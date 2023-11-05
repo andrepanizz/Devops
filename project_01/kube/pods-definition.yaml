@@ -1,6 +1,6 @@
 # File Basic Pods:
-apiVersion: v1
-kind: Pod
+apiVersion: 'v1'
+kind: 'Pod'
 metadata:
   name: 'myapp-pod'
   label:
