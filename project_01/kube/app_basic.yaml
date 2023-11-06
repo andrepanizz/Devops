@@ -1,0 +1,14 @@
+# estrutura basica de um arquivo Yaml: Argo CD inside repository GitOps
+apiVersion:
+kind:
+metadata:
+    name: 
+    namespace: 
+    spec:
+      project: 
+      source:
+        repoURL: 
+        path: 
+        destination: 
+          server: 
+          namespace: 
