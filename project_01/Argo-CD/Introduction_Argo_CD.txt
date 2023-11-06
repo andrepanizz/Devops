@@ -6,3 +6,4 @@ GitOps e a unica fonte de verdade, vamos utilizar sempre um repositorio que esta
 minha infra-estrutura de forma declarativa, Como que eu quero que meus componentes do kubernetes
 sejam criados.
 
+
