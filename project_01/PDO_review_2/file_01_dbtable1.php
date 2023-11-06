@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php
+
 /* you have two forms of connection with database:
     step 1:
     using the function native php for make connection in Database:
