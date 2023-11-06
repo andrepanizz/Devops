@@ -98,8 +98,6 @@ Como os recursos deveriam ser implementados, o que esta no Git.
 
  Live State:
 
- O que e o Live State:
-
 ---------------------------------------------------------------------------------------------------
 -> Boas Praticas:
 
