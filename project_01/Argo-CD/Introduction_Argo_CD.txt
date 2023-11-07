@@ -11,7 +11,13 @@ vai ser a fonte de verdade, onde estará minha infra-estrutura baseado de forma 
 E com isso o gitops trabalha dessa forma!
 
 -> Principios do GitOps:
-- Temos a fonte unica de verdade.
-- Automação
-- Sincronização Continua
-- observability e coperação
+
+- Temos a fonte unica de verdade:
+
+- Automação:
+
+- Sincronização Continua:
+
+- observability e cooperação:
+
+
