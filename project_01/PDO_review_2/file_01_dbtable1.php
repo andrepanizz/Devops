@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../logo/php.png"/>
     <title> File 01 - attached from dbtable1 </title>
+    <!-- inicio do arquivo -->
 </head>
 <body>
 <?php
@@ -40,6 +41,7 @@ $conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
 
 
 ?>
+
 <script src=""></script>
 </body>
 </html>
