@@ -17,6 +17,7 @@
 
 
 ?>
+<!-- fim do arquivo HTML -->
 <script src=""></script> 
 
 </body>
