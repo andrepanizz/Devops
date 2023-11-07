@@ -1,0 +1,9 @@
+// Recap - Application Kubernetes Overview:
+Um nó e uma Maquina, fisica ou Virtual, na Qual a Kubernetes esta instalada.
+O Node, e uma maquina operaria e ai que os recipientes containers são lançados pelo kubernetes.
+Um Cluster e um conjunto de Nodes agrupados, desta forma mesmo que um Nó falhe, você ainda tem a sua aplicação acessivel
+apartir de outros Nodes.
+
+Os nós ajudam no compartilhamento de carga.
+Comandos importantes a serem lembrados:
+
