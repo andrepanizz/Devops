@@ -26,5 +26,18 @@ Por exemplo, neste cenario simples, temos um Unico POD atendendo um conjunto de 
 Quando o numero de usuarios aumenta, implantamos POD adicionais para equilibrar  a carga 
 entre os dois PODs.
 
+Se a Demanda aumentar ainda mais e ficarmos sem recursos, no primeiro nó (Node) perderemos
+implantar peças adicionais nos outros (Nodes) do Cluster.
+-> O replication Controller se estende por varios Nodes do Cluster, isto nos ajuda a equilibrar a
+carga em varios PODs em Nodes diferentes, bem como dimensionar nosso aplicativo (App) Quando a 
+demanda Aumentar.
+
+Principais diferenças entre um:
+
+Replication Controller       |         ReplicaSet
+
+Vamos agora ver como criamos um controlador de replicação (ReplicationController)
+chamaremos este arquivo de: re-definition.yml
+estrutura do arquivo:
 
 
