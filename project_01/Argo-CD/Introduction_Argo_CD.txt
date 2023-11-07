@@ -14,3 +14,4 @@ E com isso o gitops trabalha dessa forma!
 - Temos a fonte unica de verdade.
 - Automação
 - Sincronização Continua
+- observability e coperação
