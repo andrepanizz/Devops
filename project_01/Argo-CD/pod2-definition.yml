@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myapp-pod
+  name: myapp2-pod
   labels:
     app: myapp
     constcenter: amer
