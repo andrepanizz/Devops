@@ -1,1 +1,26 @@
 
+apiVersion: v1
+
+kind: Pod
+
+
+metadata:
+      name: myapp-pod
+      labels: 
+        name: myapp
+        constcenter: amer
+        location: NA
+        type: frony-end
+Spec:
+    containers:
+    # aqui e seguido por uma lista, que representa um traço /array
+    # Temos que colocar um nome do meu container dentro do POD.
+    # E depois temos que colocar a imagem, que e o nome da propria imagem que Nginx
+    - name:  nginx-container
+      image: nginx
+
+    # da mesma forma podemos ter mais containers adicionais em um POD.
+    # se tivessemos containers adicionais e assim que nós o definiriamos:
+
+    - name: backend-container
+      image: redis
