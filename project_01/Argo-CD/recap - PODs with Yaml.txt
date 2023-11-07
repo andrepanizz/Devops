@@ -8,4 +8,29 @@ O kubernetes utiliza arquivos Yaml como entradas para criação de objetos como:
 -> Services
 -> Etc....
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+todos eles seguem uma estrutura semelhante, um arquivo de definição Kubernetes sempre contem quatro campos de nivel superior:
+ApiVersion:
+Kind:
+Metadata:
+Spec:
+OBS: estas são as propriedades de nivel superior ou de nivel Raiz, e elas tambem são campos obrigatorios!
+Depois que nosso arquivo estiver criado desta forma:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+      app: mypod
+      type: front-end
+spec:
+    containers:
+          -name: nginx-container
+           image: nginx
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+utilizaremos o comando para criar:
+kubectl create -f pod-definition.yml
+kubectl get nodes - listaremos os Nós (nodes)
+kubectl describe pod myapp-pod - descreve o modulo, isto lhe dara informações sobre o POD.
+
 
