@@ -16,5 +16,15 @@ um unico POD?
 Não...
 Mesmo se você tivet um unico POD (single POD), o controlador de replicação pode
 ajudar trazendo automaticamente um novo POD, quando existem falha. O controlador de replicação
-garante que o numero especificado de pods esteja em execução.
+garante que o numero especificado de pods esteja em execução, o tempo todo, mesmo que seja apenas 1
+ou 100 PODs.
+
+-> Load Balancer & Scaling:
+Outro motivo pela qual precisamos do controlador de replicação é criar varias partes para 
+compartilhar a carga entre elas.
+Por exemplo, neste cenario simples, temos um Unico POD atendendo um conjunto de usuarios.
+Quando o numero de usuarios aumenta, implantamos POD adicionais para equilibrar  a carga 
+entre os dois PODs.
+
+
 
