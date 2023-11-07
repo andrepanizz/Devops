@@ -7,3 +7,6 @@ apartir de outros Nodes.
 Os nós ajudam no compartilhamento de carga.
 Comandos importantes a serem lembrados:
 
+kubectl run hello-world - usado para implantar uma aplicação no cluster
+kubectl cluster-info - e usado para visualizar as informações sobre o cluster
+kubectl get nodes -  e usado para listar os nodes, todos os nós que fazem parte do cluster
