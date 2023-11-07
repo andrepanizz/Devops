@@ -12,3 +12,4 @@ containers:
     - name: "backend-container"
       image: "redis"
 
+# Image Pull BackOff!

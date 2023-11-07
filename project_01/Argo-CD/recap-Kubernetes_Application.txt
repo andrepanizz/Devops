@@ -1,0 +1,73 @@
+// Recap - Application Kubernetes Overview:
+Um nó e uma Maquina, fisica ou Virtual, na Qual a Kubernetes esta instalada.
+O Node, e uma maquina operaria e ai que os recipientes containers são lançados pelo kubernetes.
+Um Cluster e um conjunto de Nodes agrupados, desta forma mesmo que um Nó falhe, você ainda tem a sua aplicação acessivel
+apartir de outros Nodes.
+
+Os nós ajudam no compartilhamento de carga.
+Comandos importantes a serem lembrados:
+
+kubectl run hello-world - usado para implantar uma aplicação no cluster
+kubectl cluster-info - e usado para visualizar as informações sobre o cluster
+kubectl get nodes -  e usado para listar os nodes, todos os nós que fazem parte do cluster
+
+// Recap - Concepts the a Pod (components, actions and tools)
+Como discutimos anteriormente, com o Kubernetes, nosso objetivo final e implantar nossa aplicação na forma
+de containers em um conjunto de maquinas que são configuradas como nodes de trabalhadores em um cluster.
+No entanto, o Kubernetes não distribui containers diretamente sobre os Nodes de trabalho.
+
+-> os containers são emcapsulados em um objeto kubernetes conhecido como Pods! Um Pod e uma unica instancia de Aplicação
+- Um Pod e o menor objeto que se pode criar em Kubernetes.
+Neste exemplo:
+
+  -> Temos um unico Nó (Node) kubernetes com uma unica instancia, de sua aplicação rodando em um unico container, Docker emcapsulado
+em um Pod.
+-> Se tivermos uma gama muito grande de usuarios acessando nosso Kubernetes Cluster, o recomendado não e criar um outro Node, dentro do
+mesmo Pod, e sim criar um Novo Pod com o mesmo cluster, assim e garantido.
+- E esse acontecer se o usuarios que acessam a aplicação, crescer ainda mais, podemos criar novos Pods adicionais  em um novo Nó (Node) no aglomerado.!
+Você terá um novo nó (Node) Adicionado ao aglomerado.
+- para aumentar - criamos novos Pods.
+- para diminuir - deletamos os Pods existentes.
+
+Pods Again:
+-Estamos trabalhando em um processo, onde temos que criar 4 Pods com aplicações Python num projeto simples;
+Dentro do nosso Node, temos que criar 4 Pods: using Docker:
+docker run python-app
+docker run python-app
+docker run python-app
+docker run python-app
+-> Isto funciona bem, e todos nos estamos felizes com isso, porem, em algum momento no futuro, nossa aplicação e mais desenvolvida e passa por mudanças
+arquitetonicas e cresce e se torna complexa.
+agora temos um novo contentor auxiliar (help Container)m que ajuda nossa aplicação web, processando ou buscando dados de outros lugares.
+Estes help containers, nos ajudam a manter uma relação de um pra um com nosso Container de Aplicação (Application Container) e portanto precisam
+se comunicar diretamente com os recipientes de aplicação  e acessar os dados desses Containers.
+Ficaria desta forma:
+
+docker run helper -link app1
+docker run helper -link app2
+docker run helper -link app3
+docker run helper -link app4
+
+-> Para isso precisamos manter um mapa dos Helper  Containers e estão conectados uns aos outros:
+Nota: Nos mesmo precisaremos estabelecer a conectividade de rede entre esses containers usando links e redes personalizadas (precisamos criar volumes compartilhados)
+e compartilha-los entre os containers. também precisariamos manter um mapa disto!
+  APP   | HELPER
+Python1 |  App1
+Python2 |  App2
+Python3 |  App3
+Python4 |  App4
+E O MAIS IMPORTANTE, PRECISAMOS MONITORAR O ESTADO DO CONTAINER DE APLICAÇÃO: e quando ele morrer, matar tambem o container de Helper, pois ele não será mais necessario!!
+Com os Pods, o kubernetes faz tudo isto para nós automaticamente!
+So precisamos definir em que containers consiste um  POD e os containers de um POD, por padrão, terão acesso ao mesmo armazenamento, ao mesmo espaço de nomes de redes, e ao mesmo
+destino, eles serão criados juntos, e destruidos juntos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Anteriormente aprendemos sobre o comando de execução Kubectl:
+Ele cria um POD automaticamente e depois implementa uma imagem Nginx Docker. a imagem vem do DockerHUb repository.
+Podemos configurar o kubernetes, para puxar de um repositorio Publico ou um privado de nossa organização.
+
+-> kubectl run nginx
+-> kubectl cluster-info
+-> kubectl get nodes
+
+
+
