@@ -7,7 +7,7 @@
     <link rel="icon" href="../logo//php.png">
 </head>
 <body>
-    <!-- Inicio do arquivo -->
+    <!-- Inicio do arquivo html -->
 <?php
 
 
