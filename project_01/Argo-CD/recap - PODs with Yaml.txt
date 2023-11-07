@@ -32,5 +32,5 @@ utilizaremos o comando para criar:
 kubectl create -f pod-definition.yml
 kubectl get nodes - listaremos os Nós (nodes)
 kubectl describe pod myapp-pod - descreve o modulo, isto lhe dara informações sobre o POD.
-
+kubectl edit pod <podname> - Modifica as propriedades do POD.
 
