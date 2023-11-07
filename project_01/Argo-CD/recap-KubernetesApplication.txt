@@ -10,3 +10,7 @@ Comandos importantes a serem lembrados:
 kubectl run hello-world - usado para implantar uma aplicação no cluster
 kubectl cluster-info - e usado para visualizar as informações sobre o cluster
 kubectl get nodes -  e usado para listar os nodes, todos os nós que fazem parte do cluster
+
+// Recap - Concepts the a Pod (components, actions and tools)
+Como discutimos anteriormente, com o Kubernetes, nosso objetivo final e implantar nossa aplicação na forma
+de containers em um conjunto de maquinas que são configuradas como nodes de trabalhadores em um cluster.
