@@ -1,1 +1,14 @@
-metadata: 
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    constcenter: amer
+    location: nort-America
+    type: front-end
+spec:
+  containers:
+    - name: nginx-container
+      
