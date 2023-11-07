@@ -2,6 +2,15 @@
 Conceitos:
 O que e GitOps:
 
-GitOps e a unica fonte de verdade, vamos utilizar sempre um repositorio que esta o meu codigo,
-minha infra-estrutura de forma declarativa, Como que eu quero que meus componentes do kubernetes
-sejam criados.
+// Gitops: Introduction Overview
+
+A ideia do GitOps e a seguinte, eu tenho uma unica fonte de verdade,
+então eu vou utilizar sempre um repositorio git, esse repositorio
+vai ser a fonte de verdade, onde estará minha infra-estrutura baseado de forma declarativa.
+-- Como eu quero que meus componentes do Kubernetes eles sejam criados e isso vai ser o (estado desejado).
+E com isso o gitops trabalha dessa forma!
+
+-> Principios do GitOps:
+- Temos a fonte unica de verdade.
+- Automação
+- Sincronização Continua
