@@ -10,10 +10,12 @@
 <?php
 
 /* you have two forms of connection with database:
+
     step 1:
     using the function native php for make connection in Database:
         function name: mysqli(); 
     step 2:
+    
     or together others functions must populary as PDO (or PHP Data Object)
         function name: PDO();
     
@@ -25,10 +27,11 @@
     $port = "optional" . 3306;
     
     */
-//Connection:
+//Connection database data:
 $conn = new PDO("mysql:host=localhost;dbname=dbphp7","root","");
 
  $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES ('user','gfdgs')");
+// statement variables
 
 
 
