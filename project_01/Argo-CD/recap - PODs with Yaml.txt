@@ -1,0 +1,11 @@
+Criaremos um arquivo de configuração baseado em Yaml:
+Yaml em Kubernetes:
+- file name: pod-definition.yml
+O kubernetes utiliza arquivos Yaml como entradas para criação de objetos como:
+-> PODS
+-> ReplicaSets
+-> Deployments
+-> Services
+-> Etc....
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
