@@ -49,5 +49,25 @@ docker run helper -link app3
 docker run helper -link app4
 
 -> Para isso precisamos manter um mapa dos Helper  Containers e estão conectados uns aos outros:
+Nota: Nos mesmo precisaremos estabelecer a conectividade de rede entre esses containers usando links e redes personalizadas (precisamos criar volumes compartilhados)
+e compartilha-los entre os containers. também precisariamos manter um mapa disto!
+  APP   | HELPER
+Python1 |  App1
+Python2 |  App2
+Python3 |  App3
+Python4 |  App4
+E O MAIS IMPORTANTE, PRECISAMOS MONITORAR O ESTADO DO CONTAINER DE APLICAÇÃO: e quando ele morrer, matar tambem o container de Helper, pois ele não será mais necessario!!
+Com os Pods, o kubernetes faz tudo isto para nós automaticamente!
+So precisamos definir em que containers consiste um  POD e os containers de um POD, por padrão, terão acesso ao mesmo armazenamento, ao mesmo espaço de nomes de redes, e ao mesmo
+destino, eles serão criados juntos, e destruidos juntos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Anteriormente aprendemos sobre o comando de execução Kubectl:
+Ele cria um POD automaticamente e depois implementa uma imagem Nginx Docker. a imagem vem do DockerHUb repository.
+Podemos configurar o kubernetes, para puxar de um repositorio Publico ou um privado de nossa organização.
+
+-> kubectl run nginx
+-> kubectl cluster-info
+-> kubectl get nodes
+
 
 
