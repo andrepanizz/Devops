@@ -1,0 +1,20 @@
+ - ReplicaSet introduction:
+
+Nesta aula discutiremos sobre um controlador em particular o controlador de replicação,
+Então, o que é uma replica e porque precisamos de um controlador de replicação?
+- E se por algum motivo nosso aplicativo travar e o pod Falhar - "Pod Fail"!,
+ Os usuarios não poderão mais acessar nosso aplicativo para evitar que percam
+ o acesso ao nosso aplicativo? 
+
+Gostariamos de ter mais de uma instancia ou pod em execução ao mesmo tempo,
+Dessa forma se falhar, ainda teremos nosso aplicativo em execução.
+Por outro lado, o controlador de replicação nos ajuda a funcionar varias instancias de
+um unico POD no Kubernetes Cluster proporcionando alta disponibilidade (high availability)
+
+-> Então isto significa que você não pode usar um controlador de replicação se planeja ter 
+um unico POD?
+Não...
+Mesmo se você tivet um unico POD (single POD), o controlador de replicação pode
+ajudar trazendo automaticamente um novo POD, quando existem falha. O controlador de replicação
+garante que o numero especificado de pods esteja em execução.
+
