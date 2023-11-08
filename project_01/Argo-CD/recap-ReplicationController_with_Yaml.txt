@@ -39,6 +39,15 @@ Replication Controller       |         ReplicaSet
 Vamos agora ver como criamos um controlador de replicação (ReplicationController)
 chamaremos este arquivo de: re-definition.yml
 estrutura do arquivo:
+apiVersion: v1
+kind: ReplicationController
+metadata:
+ name: myapp-rc
+ type: front-end
+spec:
+  containers:
+    name:
+
 
 
 
