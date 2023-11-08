@@ -34,7 +34,7 @@ demanda Aumentar.
 
 Principais diferenças entre um:
 
-Replication Controller       |         ReplicaSet
+Replication Controller    |    ReplicaSet
 
 Vamos agora ver como criamos um controlador de replicação (ReplicationController)
 chamaremos este arquivo de: re-definition.yml
