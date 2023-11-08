@@ -1,8 +1,1 @@
-apiVersion:
-kind:
-metadata:
-spec:
-  containers:
-  - name:
-  image:
-  
+# deploy
