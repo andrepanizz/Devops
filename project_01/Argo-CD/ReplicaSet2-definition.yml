@@ -1,5 +1,5 @@
-apiVerison:
-kind:
+apiVerison: v1
+kind: ReplicaSet
 metadata:
 spec:
   template:
