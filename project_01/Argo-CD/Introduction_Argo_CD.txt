@@ -13,9 +13,9 @@ E com isso o gitops trabalha dessa forma!
 
 -> Principios do GitOps:
 
-- Temos a fonte unica de verdade:
+-> Temos a fonte unica de verdade:
 
-- Automação:
+-> Automação:
 
 - Sincronização Continua:
 
