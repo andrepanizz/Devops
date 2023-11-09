@@ -1,1 +1,10 @@
 # pod2-definition
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    type: font-end
+spec:
+  container:
+  - name:
+  image:
