@@ -1,5 +1,6 @@
 ----------------------------------------------------Curso 101 SRE Devops-----------------------------------------------------------
 Conceitos:
+
 O que e GitOps:
 
 // Gitops: Introduction Overview
