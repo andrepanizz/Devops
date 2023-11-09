@@ -17,7 +17,7 @@ E com isso o gitops trabalha dessa forma!
 
 -> Automação:
 
-- Sincronização Continua:
+-> Sincronização Continua:
 
 - observability e cooperação:
 
