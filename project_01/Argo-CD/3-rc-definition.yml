@@ -1,2 +1,6 @@
 # replication-controller:
+apiVersion: v1
+kind:
+metadata:
+spec:
 
