@@ -3,5 +3,6 @@ kind: ReplicaSet
 metadata:
 spec:
   template:
-  # specify file replicaset with file pod-definition.yaml below
+  # specify file replicaset with file pod-definition.yaml below:
+  
   
