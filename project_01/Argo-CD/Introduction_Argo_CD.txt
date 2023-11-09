@@ -3,7 +3,7 @@ Conceitos:
 
 O que e GitOps:
 
-// Gitops: Introduction Overview
+// Gitops: Introduction Overview:
 
 A ideia do GitOps e a seguinte, eu tenho uma unica fonte de verdade,
 então eu vou utilizar sempre um repositorio git, esse repositorio
