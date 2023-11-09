@@ -1,4 +1,4 @@
-# pod-definition
+# pod-definition:
 apiVersion: v1
 kind: ReplicationController 
 metadata:
