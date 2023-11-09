@@ -3,4 +3,4 @@ kind: ReplicaSet
 metadata:
 spec:
   template:
-  
+  # adicionar o conteudo do Pod-definition.yml
