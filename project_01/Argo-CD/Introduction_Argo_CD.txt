@@ -19,7 +19,7 @@ E com isso o gitops trabalha dessa forma!
 
 -> Sincronização Continua:
 
-- observability e cooperação:
+-> observability e cooperação:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
