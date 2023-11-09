@@ -1,6 +1,9 @@
 apiVersion: v1
 kind: ReplicaSet
 metadata:
+  labels:
+  name:
+  type: front-end
 spec:
   template:
   # adicionar o conteudo do Pod-definition.yml
