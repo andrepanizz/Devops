@@ -1,8 +1,0 @@
-apiVerison: v1
-kind: ReplicaSet
-metadata:
-spec:
-  template:
-  # specify file replicaset with file pod-definition.yaml below:
-  
-  

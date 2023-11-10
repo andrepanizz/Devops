@@ -1,5 +1,0 @@
-# deployment:
-apiVersion: v1
-kind: deployment
-metadata:
-spec:
