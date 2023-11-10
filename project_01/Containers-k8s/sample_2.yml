@@ -1,0 +1,7 @@
+apiVersion:
+kind:
+metadata:
+spec:
+  container:
+  - name:
+    image:
