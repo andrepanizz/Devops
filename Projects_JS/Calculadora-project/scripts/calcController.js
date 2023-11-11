@@ -12,7 +12,8 @@ class CalcController {
         let displayCalcEl = document.querySelector("#display");
         let dateEl = document.querySelector("#data");
         let timeEl = document.querySelector("#hora");
-        
+
+        displayCalcEl.innerHTML
     }
     
     /*Criando Getters and Setters: */
