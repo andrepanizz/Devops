@@ -6,4 +6,14 @@ class CalcController {
         this._dataAtual;
         
     }
+
+    get displayCalc(){
+
+        return this._displayCalc;
+        
+    }
+
+    set displayCalc(valor) {
+        this.displayCalc = valor
+    }
 }
