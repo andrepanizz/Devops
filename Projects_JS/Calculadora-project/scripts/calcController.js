@@ -4,8 +4,13 @@ class CalcController {
         /* $this.e comum dentro de orientação a objetos*/
         this.displayCalc = "0";
         this.currentDate;
+        this.initialize();
+      }
+    initialize(){
+     // Document object Model: or DOM
         
     }
+    
     /*Criando Getters and Setters: */
     get displayCalc(){
 
