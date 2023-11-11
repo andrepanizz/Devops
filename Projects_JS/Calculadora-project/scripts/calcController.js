@@ -7,7 +7,11 @@ class CalcController {
         this.initialize();
       }
     initialize(){
-     // Document object Model: or DOM
+     
+        // Document object Model: or DOM
+        let displayCalcEl = document.querySelector("#display");
+        let dateEl = document.querySelector("#data");
+        let timeEl = document.querySelector("#hora");
         
     }
     
