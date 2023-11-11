@@ -6,7 +6,7 @@ class CalcController {
         this.currentDate;
         
     }
-
+    /*Criando Getters and Setters: */
     get displayCalc(){
 
         return this._displayCalc;
