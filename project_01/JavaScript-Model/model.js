@@ -1,2 +1,1 @@
-addEventListener();
-getElementById();
+// javacript file
