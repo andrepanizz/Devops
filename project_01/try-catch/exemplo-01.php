@@ -11,7 +11,7 @@
     <br><br>
     <hr>
     <?php
-    /** @param Try exemplo de function com try catch */
+    /** @param Try exemplo de function com try catch: */
     function dividir($x, $y) {
         if ($y == 0) {
             throw new Exception('é uma divisão por zero.');
