@@ -13,7 +13,7 @@
 <body>
 <?php
 //Exemplo de function anoniams em PHP...
-/////////////////////////////////////////////////////
+
 
 
 ?>
