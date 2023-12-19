@@ -15,4 +15,7 @@ DELETE FROM tb_usuarios WHERE idusuario = 1;
 TRUNCATE TABLE tb_usuarios;
 USE dbphp7;
 
-/* FIM DO ARQUIVO SQL */
+/* FIM DO ARQUIVO SQL  */
+
+# Adicionando outro banco de dados chamado register_db:
+
