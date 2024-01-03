@@ -15,10 +15,10 @@
     <hr>
     <?php
   
-    /** @param Exemplo 02 de Laço While */
-///////////////////////////////////////////////////////////////////
+    /** @param Exemplo 02 de Laço While: */
+///////////////////////////////////////////////////////////////////////////////
     
-    //Neste exemplo pratico de laço:
+    // Neste exemplo pratico de laço:
     // vamos pegar os ultimos 100 anos;
     // vamos utilizar a função Date, para retornar o dia da semana;
     // Enquanto meu $i for maior que o ano atual - 100 decrementa pra mim;
